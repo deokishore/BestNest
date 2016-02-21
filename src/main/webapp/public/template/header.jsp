@@ -15,7 +15,8 @@
 	    		<li><a href="/aboutUs.htm" class="deactive" title="About Us">About Us</a></li>
 	    		<li><a href="/lZone.htm" class="deactive" title="DDA L ZONE">DDA L Zone</a></li>
 				<li><a href="/contactUs.htm" class="deactive" title="Contact Us">Contact Us</a></li>
-				<li><a href="javascript:submitForAdmin()" class="deactive" title="Login to Admin Panel">Login</a></li>
+				<!--<li><a href="javascript:submitForAdmin()" class="deactive" title="Login to Admin Panel">Login</a></li>-->
+				<li><a href="/posts.htm" class="deactive" title="Contact Us">Blogger</a></li>
 
     </ul>
     <div class="clear"></div>

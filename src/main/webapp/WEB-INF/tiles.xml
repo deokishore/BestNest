@@ -120,4 +120,19 @@
         <put-attribute name="body" value="/protected/thank-you.jsp"/>
     </definition>
 
+    <definition name="common" template="/WEB-INF/views/template.jsp">
+        <put-attribute name="specialStyleSheet" value="" />
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/views/tiles/header.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/tiles/footer.jsp" />
+        <put-attribute name="specialScriptCommon" value="/resources/js/common.js" />
+        <put-attribute name="specialScript" value="" />
+    </definition>
+
+    <definition name="common.posts" extends="common">
+        <put-attribute name="title" value="Blogger - Posts" />
+        <put-attribute name="body" value="/WEB-INF/views/tiles/body_posts.jsp" />
+    </definition>
+
 </tiles-definitions>
