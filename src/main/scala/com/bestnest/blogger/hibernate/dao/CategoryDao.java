@@ -1,6 +1,6 @@
 package com.bestnest.blogger.hibernate.dao;
 
-import com.grant.blogger.hibernate.dto.CategoryEntity;
+import com.bestnest.blogger.hibernate.dto.CategoryEntity;
 
 import java.util.List;
 

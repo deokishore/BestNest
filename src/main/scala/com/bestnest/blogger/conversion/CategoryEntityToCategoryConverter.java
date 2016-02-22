@@ -4,11 +4,13 @@ import com.bestnest.blogger.hibernate.dto.CategoryEntity;
 import com.bestnest.blogger.model.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+@Component
 public class CategoryEntityToCategoryConverter implements Converter<Collection<CategoryEntity>, Collection<Category>> {
 
 	@Autowired

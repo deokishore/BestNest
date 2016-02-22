@@ -55,7 +55,7 @@ public class NoidaCommercialProjectController {
 		request.setAttribute("endIndex", 10);
 		
 		
-		ModelAndView mv = new ModelAndView("project-grid-sort","projectSearchForm",projectSearchForm);
+		ModelAndView mv = new ModelAndView("projectGridSort","projectSearchForm",projectSearchForm);
 		
 		return mv;
 	}

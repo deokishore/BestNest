@@ -34,7 +34,7 @@
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/best-nest.css" />
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/jquery-ui.css" />
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/dropdown.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/easydropdown.css" />
+<!-- <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/easydropdown.css" /> -->
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/top-slider.css" />
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/structure.css" />
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/jquery.bxslider.css" />
@@ -53,13 +53,17 @@
 <script type="text/javascript" src="http://resources.bestnest.in/js/projectsection.js"></script>
 <script type="text/javascript" src="http://resources.bestnest.in/js/custom.js"></script>
 <script type="text/javascript" src="http://resources.bestnest.in/js/EzFade.js"></script>
+
+
+
+
 <script>
 	$(document).ready(function(){
 	  $('#fadeMe').EzFade({height: '450'});
 });
 </script>
 <script type="text/javascript" src="http://resources.bestnest.in/js/services.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.easydropdown.js"></script>
+<!-- <script type="text/javascript" src="http://resources.bestnest.in/js/jquery.easydropdown.js"></script> -->
 
 <!--Top Slider Adds-->
 <script type="text/javascript" src="http://resources.bestnest.in/js/jquery.bxslider.js"></script>

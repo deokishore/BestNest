@@ -1,7 +1,7 @@
 package com.bestnest.blogger.service;
 
-import com.grant.blogger.exception.ServiceLayerException;
-import com.grant.blogger.model.Category;
+import com.bestnest.blogger.exception.ServiceLayerException;
+import com.bestnest.blogger.model.Category;
 
 import java.util.List;
 

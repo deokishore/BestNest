@@ -1,10 +1,10 @@
 package com.bestnest.blogger.service.impl;
 
-import com.grant.blogger.conversion.CategoryEntityToCategoryConverter;
-import com.grant.blogger.exception.ServiceLayerException;
-import com.grant.blogger.hibernate.dao.CategoryDao;
-import com.grant.blogger.model.Category;
-import com.grant.blogger.service.CategoryService;
+import com.bestnest.blogger.conversion.CategoryEntityToCategoryConverter;
+import com.bestnest.blogger.exception.ServiceLayerException;
+import com.bestnest.blogger.hibernate.dao.CategoryDao;
+import com.bestnest.blogger.model.Category;
+import com.bestnest.blogger.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

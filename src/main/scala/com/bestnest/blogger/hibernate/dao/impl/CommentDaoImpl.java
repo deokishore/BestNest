@@ -1,14 +1,15 @@
 package com.bestnest.blogger.hibernate.dao.impl;
 
-import com.grant.blogger.hibernate.dao.CommentDao;
-import com.grant.blogger.hibernate.dto.CommentEntity;
-import com.grant.blogger.util.Constants;
+import com.bestnest.blogger.hibernate.dao.CommentDao;
+import com.bestnest.blogger.hibernate.dto.CommentEntity;
+import com.bestnest.blogger.util.Constants;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository
 public class CommentDaoImpl implements CommentDao {
+
 	@Autowired
 	private SessionFactory sessionFactory;
 

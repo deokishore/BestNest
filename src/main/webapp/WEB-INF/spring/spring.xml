@@ -16,6 +16,7 @@
     <context:component-scan base-package="com.bestnest.portal.web.form" />
     <context:component-scan base-package="com.bestnest.blogger" />
 
+
     <!-- SpringMVC -->
     <import resource="spring-mvc.xml"/>
 

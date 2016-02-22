@@ -5,11 +5,13 @@ import com.bestnest.blogger.model.Comment;
 import com.bestnest.blogger.model.Post;
 import org.springframework.beans.BeanUtils;
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+@Component
 public class CommentEntityToCommentConverter implements Converter<Collection<CommentEntity>, Collection<Comment>> {
 
 	@Override

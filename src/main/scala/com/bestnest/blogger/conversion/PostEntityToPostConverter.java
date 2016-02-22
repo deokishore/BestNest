@@ -7,11 +7,13 @@ import com.bestnest.blogger.model.Post;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+@Component
 public class PostEntityToPostConverter implements Converter<Collection<PostEntity>, Collection<Post>> {
 
 	@Autowired

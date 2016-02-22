@@ -83,7 +83,7 @@ public class ProjectSearchController {
 		request.setAttribute("startIndex", 0);
 		request.setAttribute("endIndex", 10);
 		
-		ModelAndView mv = new ModelAndView("project-grid-sort","projectSearchForm",projectSearchForm);
+		ModelAndView mv = new ModelAndView("projectGridSort","projectSearchForm",projectSearchForm);
 		return mv;
 	}
 
@@ -121,7 +121,7 @@ public class ProjectSearchController {
 		
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		ModelAndView mv = new ModelAndView("project-listing-sort","projectSearchForm",projectSearchForm);
+		ModelAndView mv = new ModelAndView("projectListingSort","projectSearchForm",projectSearchForm);
 		return mv;
 	}
 	
@@ -160,7 +160,7 @@ public class ProjectSearchController {
 		
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		ModelAndView mv = new ModelAndView("project-grid-sort","projectSearchForm",projectSearchForm);
+		ModelAndView mv = new ModelAndView("projectGridSort","projectSearchForm",projectSearchForm);
 		return mv;
 	}
 	
@@ -189,7 +189,7 @@ public class ProjectSearchController {
 		
 		model.addAttribute("clientInformationForm", new ClientInformationForm());
 		
-		ModelAndView mv = new ModelAndView("project-detail","projectForm",projectForm);
+		ModelAndView mv = new ModelAndView("projectDetail","projectForm",projectForm);
 		return mv;
 	}
 	

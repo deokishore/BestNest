@@ -1,9 +1,9 @@
 package com.bestnest.blogger.controller;
 
-import com.grant.blogger.exception.ServiceLayerException;
-import com.grant.blogger.service.CategoryService;
-import com.grant.blogger.service.PostService;
-import com.grant.blogger.util.Constants;
+import com.bestnest.blogger.exception.ServiceLayerException;
+import com.bestnest.blogger.service.CategoryService;
+import com.bestnest.blogger.service.PostService;
+import com.bestnest.blogger.util.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

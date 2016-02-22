@@ -1,6 +1,6 @@
 package com.bestnest.blogger.hibernate.dto;
 
-import com.grant.blogger.util.Constants;
+import com.bestnest.blogger.util.Constants;
 
 import javax.persistence.*;
 import java.util.Date;

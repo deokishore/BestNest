@@ -6,7 +6,7 @@ public class Constants {
 	 */
 	public static final String PATH_VARIABLE_POST_ID = "postId";
 	public static final String PATH_VARIABLE_COMMENT_ID = "commentId";
-	public static final String URI_HOME = "/";
+	public static final String URI_HOME = "/bloggerHome";
 	public static final String URI_POSTS = "/posts";
 	public static final String URI_AJAX_ADD_COMMENT = "/ajax/comment/add";
 	public static final String URI_AJAX_DELETE_COMMENT = "/ajax/comment/delete";
@@ -16,8 +16,8 @@ public class Constants {
 	/**
 	 * JSP/Tiles page
 	 */
-	public static final String PAGE_HOME = "common.home";
-	public static final String PAGE_POSTS = "common.posts";
+	public static final String PAGE_HOME = "bloggerHome";
+	public static final String PAGE_POSTS = "commonPosts";
 
 	/**
 	 * JSP Beans

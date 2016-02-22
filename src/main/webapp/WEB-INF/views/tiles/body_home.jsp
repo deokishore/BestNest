@@ -1,5 +1,31 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<script type="text/javascript" src="/resources/js/common.js"></script>
+<link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/home.css">
+<script src="/resources/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="/resources/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="/resources/js/common.js" type="text/javascript"></script>
+<script src="<tiles:getAsString name='specialScript'/>" type="text/javascript"></script>
+
+<div id="header" class="navbar">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/bloggerHome">Home</a></li>
+					<li><a href="/posts">Posts</a></li>
+					<li><a href="/about">About</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
 <div id="main" class="container panel panel-default">
 	<div class="page-header">
 		<h1>Blogger</h1>

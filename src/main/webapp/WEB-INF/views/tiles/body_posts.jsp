@@ -1,6 +1,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+
+<link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/home.css">
+
+<script src="/resources/js/bootstrap/bootstrap.min.js"></script>
+<script src="/resources/js/common.js"></script>
+
+
+
+<div id="header" class="navbar">
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/bloggerHome">Home</a></li>
+					<li><a href="/posts">Posts</a></li>
+					<li><a href="/about">About</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
 <div id="main" class="row">
 	<div class="container">
 		<c:forEach items="${posts}" var="post">
@@ -62,6 +90,7 @@
 											<div class="col-sm-6 who">${comment.who}</div>
 											<div class="col-sm-6 time"><fmt:formatDate value="${comment.commentTime}" pattern="MMM d, yyyy h:mm a" /></div>
 										</div>
+
 										<div class="commentText panel panel-default">
 											${comment.commentText}
 											<div class="dropdown commentMenu ">
@@ -76,6 +105,7 @@
 												</ul>
 											</div>
 										</div>
+
 										<div class="row editComment">
 											<label>Email:</label>
 											<input type="email" class="alert-info form-control" placeholder="Enter your email to be validated">

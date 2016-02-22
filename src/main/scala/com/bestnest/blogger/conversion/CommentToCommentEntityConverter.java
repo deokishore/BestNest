@@ -5,7 +5,9 @@ import com.bestnest.blogger.hibernate.dto.PostEntity;
 import com.bestnest.blogger.model.Comment;
 import org.springframework.beans.BeanUtils;
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CommentToCommentEntityConverter implements Converter<Comment, CommentEntity> {
 
 	@Override

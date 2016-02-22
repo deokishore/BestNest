@@ -2,160 +2,17 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page isELIgnored="false"%>
 
-<!DOCTYPE HTML>
-<html>
+
 <head>
 <meta charset="utf-8">
 <title>Projects in Details View by | BestNest Real Estate Services </title>
 <meta name="description" content="We provided World Class Amenities with  Buying/Selling/Renting flat in Delhi/NCR, we are channel Partner with More than 100 Top developers Across Delhi/NCR" />
-<meta name="keywords" content="World Class Amenities with bestnest, Residential Flat In Delhi/NCR, Commercial Propety in Delhi/NCR, 2BHK Flat in Noida, Noida Extension, Greater Noida West, Greater Noida, NH-24 Ghaziabad 
-." />
+<meta name="keywords" content="World Class Amenities with bestnest, Residential Flat In Delhi/NCR, Commercial Propety in Delhi/NCR, 2BHK Flat in Noida, Noida Extension, Greater Noida West, Greater Noida, NH-24 Ghaziabad." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--CSS Theme-->
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/best-nest.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/jquery-ui.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/dropdown.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/easydropdown.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/top-slider.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/structure.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/jquery.bxslider.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/flexisel.css">
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/prettyPhoto.css" />
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/video-js.css">
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/jquery.fancybox.css">
-<link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/jquery.fancybox-buttons.css">
-
-<!--CSS Theme-->
-
-<!--JS Code-->
-<script type="text/javascript" src="http://resources.bestnest.in/js/html5.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jqueryui.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.tinyscrollbar.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/projectsection.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/custom.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/EzFade.js"></script>
-<script src="http://resources.bestnest.in/js/home-page.js" type="text/javascript"></script>
-
-<script>
-	$(document).ready(function(){
-	  $('#fadeMe').EzFade({height: '450'});
-});
-</script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/services.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.easydropdown.js"></script>
-
-<!--Top Slider Adds-->
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.bxslider.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.bxslider.min.js"></script>
-<script>
-$(document).ready(function(){
-  $('.slider1').bxSlider({
-    slideWidth: 300,
-    minSlides: 3,
-    maxSlides: 6,
-    slideMargin: 4,
-	speed: 800,
-    auto:true,
-  });
-});
-</script>
-<!--End Top Slider Adds-->
-
-<!-- Developer Slider Footer -->
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.flexisel.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-    $("#flexiselDemo3").flexisel({
-        visibleItems: 5,
-        animationSpeed: 1500,
-        autoPlay: true,
-        autoPlaySpeed: 3000,            
-        pauseOnHover: true,
-        enableResponsiveBreakpoints: true,
-        responsiveBreakpoints: { 
-            portrait: { 
-                changePoint:480,
-                visibleItems: 1
-            }, 
-            landscape: { 
-                changePoint:640,
-                visibleItems: 2
-            },
-            tablet: { 
-                changePoint:768,
-                visibleItems: 3
-            }
-        }
-    });  
-});
-</script>
-<!-- End Developer Slider Footer -->
-
-<!-- Nri Slide Image Gallery -->
-<script src="http://resources.bestnest.in/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-<!-- End Nri Slide Image Gallery -->
-
-<!-- Common Js File -->
-<script type="text/javascript" src="http://resources.bestnest.in/js/common.js"></script>
-<!-- End Common Js File-->
-
-<!-- Fancy Box -->
-<script type="text/javascript" src="http://resources.bestnest.in/js/video.js"></script> 
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.fancybox-buttons.js"></script> 
-<script type="text/javascript">
-	$(document).ready(function() {
-		/*
-		 *  Simple image gallery. Uses default settings
-		 */
-	
-		$('.fancybox').fancybox();
-	
-	
-		/*
-		 *  Different effects
-		 */
-	
-		
-		/*
-		 *  Button helper. Disable animations, hide close button, change title type and content
-		 */
-	
-		$('.fancybox-buttons').fancybox({
-			openEffect  : 'elastic',
-			closeEffect : 'fade',
-	
-			prevEffect : 'none',
-			nextEffect : 'none',
-	
-			closeBtn  : false,
-	
-			helpers : {
-				title : {
-					type : 'inside'
-				},
-				buttons	: {}
-			},
-	
-			afterLoad : function() {
-				this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.	
-				title : '');
-			}
-		});	
-	});
-</script>
-<!--End Fancy Box-->
-
-<!--Project Detail Slideshow-->
-<script type="text/javascript" src="http://resources.bestnest.in/js/jssor.slider.min.js"></script>
-<!--End Project Detail Slideshow-->
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 
-<!--JS Code-->
 
 <!--Slideshow-->
 <c:set var="google_map" value="" scope="page"/>
@@ -165,7 +22,6 @@ $(window).load(function() {
 	
 	
 	$(document).ready(function(){
-		
 		<c:forEach items="${projectForm.projectDetailsFormSet}" var="listItem" varStatus="status">
 			<c:set var="google_map" value="${listItem.projectImageForm.googleMap}" scope="page" />
 			<c:set var="googleMapLatlang" value="${listItem.projectImageForm.googleMapLatlang}" scope="page"/>					
@@ -199,74 +55,6 @@ $(window).load(function() {
 		}
 </script>
 	
-<script>
-
-function submitForAdmin() {
-	document.getElementById('clientInformationForm').action = "admin.htm";
-	document.getElementById('clientInformationForm').submit();
-}
-
-		jssor_slider2_starter = function (containerId) {
-		var options = {
-			$AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-			$AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
-			$AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-			$PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
-
-			$ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-			$SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-			$MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-			//$SlideWidth: 680,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-			//$SlideHeight: 432,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-			$SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
-			$DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
-			$ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
-			$UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
-			$PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
-			$DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-
-			$ArrowNavigatorOptions: {
-				$Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
-				$ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-				$AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-				$Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
-			},
-
-			$ThumbnailNavigatorOptions: {
-				$Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
-				$ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-
-				$ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
-				$AutoCenter: 3,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
-				$Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
-				$SpacingX: 3,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
-				$SpacingY: 3,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
-				$DisplayPieces: 9,                              //[Optional] Number of pieces to display, default value is 1
-				$ParkingPosition: 260,                          //[Optional] The offset position to park thumbnail
-				$Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
-				$DisableDrag: false                            //[Optional] Disable drag or not, default value is false
-			}
-		};
-
-		var jssor_slider2 = new $JssorSlider$(containerId, options);
-		//responsive code begin
-		//you can remove responsive code if you don't want the slider scales while window resizes
-		function ScaleSlider() {
-			var parentWidth = jssor_slider2.$Elmt.parentNode.clientWidth;
-			if (parentWidth)
-				jssor_slider2.$ScaleWidth(Math.min(parentWidth));
-			else
-				$Jssor$.$Delay(ScaleSlider, 30);
-		}
-
-		ScaleSlider();
-		$Jssor$.$AddEvent(window, "load", ScaleSlider);
-
-		$Jssor$.$AddEvent(window, "resize", $Jssor$.$WindowResizeFilter(window, ScaleSlider));
-		$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-		//responsive code end
-	};
-</script>
 
 <script type="text/javascript">
 
@@ -585,57 +373,7 @@ function nFormatter2(val) {
 </script>
 <!-- End Google Analytics Code -->
 
-
-<style>
-.hidefilter {display:none;}
-.showfilter {display:block;}
-</style>
-<link rel="shortcut icon" type="image/ico" href="http://images.bestnest.in/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://images.bestnest.in/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://images.bestnest.in/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://images.bestnest.in/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="http://images.bestnest.in/ico/apple-touch-icon-57-precomposed.png">
-
 </head>
-<body>
-<!-- Facebook Like Plugin -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- End Facebook Plugin -->
-	<!--Header Section-->
-	<header>
-		<div class="head">
-			<div class="logo">
-				<a href="/"><img src="http://images.bestnest.in/best-nest.png" alt="BestNest Real Estate Services Pvt. Ltd." /></a>
-				<div class="clear"></div>
-			</div>
-			<a class="toggleMenu" href="#"><img src="http://images.bestnest.in/nav-icon.png"
-				alt="Menu Items" border="0" /></a>
-			<ul class="nav">
-				<li><a href="${pageContext.request.contextPath}/nriServices.htm" class="deactive" title="NRI Services">NRI Services</a></li>
-				<li><a href="${pageContext.request.contextPath}/aboutUs.htm" class="deactive" title="About Us">About Us</a></li>
-				<li><a href="${pageContext.request.contextPath}/lZone.htm" class="deactive" title="DDA L ZONE">DDA L Zone</a></li>
-				<li><a href="${pageContext.request.contextPath}/contactUs.htm" class="deactive" title="Contact Us">Contact Us</a></li>
-				<li><a href="javascript:submitForAdmin()" class="deactive" title="Login to Admin Panel">Login</a></li>
-			</ul>
-			<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-	</header>
-	<!--Header Section-->
-
-	<!--Search Section-->
-	<div class="inner-form">
-		<div class="clear"></div>
-	</div>
-	<!--End Search Section-->
-
 	<!--Wrapper-->
 	<div class="wrapper">
 
@@ -1180,101 +918,6 @@ function nFormatter2(val) {
 	</div>
 	<!--End of Wrapper -->
 
-<!--Footer Section-->
-<footer>
-	<!--Social Links Starts -->
-		<div class="socialicn" style="float:left; width:120px;">
-		<div class="marginL10 marginT10" style="margin-bottom:10px;">
-			<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-color="red" data-pin-height="28">
-				<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" />
-			</a>
-			<!-- Please call pinit.js only once per page -->
-			<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
-		</div>
-		<div class="marginL10  marginT10" style="margin-bottom:10px;">
-			<div class="fb-like" data-href="https://www.facebook.com/bestnestrealestate" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
-		</div>
-		<div class="marginL10  marginT10" style="margin-bottom:10px;">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/BestNestRealEst" data-text="BestNest Real Estate Services Pvtt.ltd." data-via="BestNestRealEst" data-related="BestNestRealEstate" data-hashtags="BNest">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		</div>
-		</div>
-		<!--End Social Links -->
-		<div class="context">
-			<div class="sections">
-				<h3>Residential</h3>
-				<ul>
-					<li><a href="/noida-residential-projects" target="_blank">Noida Residential Projects</a></li>
-					<li><a href="/delhi-residential-projects" target="_blank">Delhi Residential Projects</a></li>
-					<li><a href="/antrikshurbangreek" target="_blank">Antriksh Urban Greek</a></li>
-					<li><a href="/antrikshgalaxy" target="_blank">Antriksh Galaxy</a></li>
-					<li><a href="/revantasmartresidency" target="_blank">Revanta Smart Residency</a></li>
-					<li><a href="/gaurproject" target="_blank">Gaur Projects</a></li>
-					<li><a href="/mahagunproject" target="_blank">Mahagun Projects</a></li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-			<div class="sections">
-				<h3>Commercial</h3>
-				<ul>
-					<li><a href="/noida-commercial-projects" target="_blank">Commercial Projects in Noida</a></li>
-					<li><a href="/aarzasquare1" target="_blank">Aarza Square</a></li>
-					<li><a href="/bandhan" target="_blank">Bandhan</a></li>
-					<li><a href="/cybercity" target="_blank">Cyber City</a></li>
-					<li><a href="/goldeni" target="_blank">Golden I</a></li>
-					<li><a href="/neotowncommercial" target="_blank">Neo Town</a></li>
-					<li><a href="/trinitynx" target="_blank">Trinity NX</a></li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-            <div class="sections">
-				<h3>New Projects</h3>
-				<ul>
-					<li><a href="/bullandcalisto" target="_blank">Bulland Calisto</a></li>
-                    <li><a href="/damontepic" target="_blank">Damont Epic</a></li>
-                    <li><a href="/shivalikhomes" target="_blank">Shivalik Homes 2</a></li>
-                    <li><a href="/riseorganicghar" target="_blank">Rise Organic Ghar</a></li>
-                    <li><a href="/europiapark" target="_blank">Europia Park</a></li>
-                    <li><a href="/neotown" target="_blank">Neo Town</a></li>
-                    <li><a href="/fragrance" target="_blank">Fragrance</a></li>
-                    <li><a href="/trinitynxresidential" target="_blank">Trinity Nx</a></li>
-                    <li><a href="/amaatrahomes" target="_blank">Amaatra Homes</a></li>
-                    <li><a href="/acecity" target="_blank">Ace City</a></li>
-                    
-				</ul>
-				<div class="clear"></div>
-			</div>
-			<div class="sections last">
-				<h3>Contact us</h3>
-				<ul>
-					<li><a href="/aboutUs.htm">About Us</a></li>
-					<li><a href="/nriServices.htm">NRI Services</a></li>
-					<li><a href="/contactUs.htm">Contact Us</a></li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-		<div class="copyright">
-			<div class="main-text">
-				<div class="rights">
-					&copy; 2014 Best Nest. All Rights Reserved
-					<div class="clear"></div>
-				</div>
-				<div class="poweredby">
-					Powered by <a href="/" style="color:#ffc211;">BestNest Real Estate Services Pvt. Ltd.</span>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-	</footer>
-	<!--End Footer Section-->
-
-<!--Footer Section-->
 
 
 	
@@ -1296,5 +939,4 @@ function nFormatter2(val) {
 		
 	
 
-</body>
-</html>
+
