@@ -1,0 +1,99 @@
+#header {
+	margin-bottom: 0px;
+}
+
+#header .navbar {
+	margin-bottom: 0px;
+}
+
+#footer {
+	background-color: #f5f5f5;
+	display: block;
+}
+
+#wrapper {
+	height: 100%;
+}
+
+.post {
+	margin: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.alert, .add_comment, .comment, .sub_add_comment, .editComment {
+	display: none;
+}
+
+.post_header>div, h3 {
+	display: block;
+}
+
+.comment, .add_comment {
+	display: none;
+}
+
+.comment .commentHeader {
+	width: 100%;
+	position: relative;
+}
+
+.comment .commentText {
+	margin: 10px 0px;
+	width: 100%;
+	padding: 10px;
+}
+
+.comment .editIcon {
+	cursor: pointer;
+}
+
+.editIcon {
+	opacity: 0.25;
+}
+
+.comment .editComment input {
+	margin: 0px 5px 10px 0px;
+}
+
+.comment div .time {
+	text-align: right;
+}
+
+.commentText {
+	background-color: #f5f5f5 !important;
+}
+
+textarea {
+	resize: none;
+}
+
+.comment .commentMenu {
+	float: right;
+}
+
+.timePosted {
+	text-align: right;
+}
+
+.category {
+	
+}
+
+.error {
+	margin: 10px 0px 0px 0px;
+}
+
+#footer .container {
+	max-width: 1048px;
+}
+
+#footer .container p {
+	padding-top: 20px;
+	color: #777;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .timePosted{text-align:left;}
+    .comment div .time {text-align: left;}
+}
