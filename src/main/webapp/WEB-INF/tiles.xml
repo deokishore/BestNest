@@ -602,6 +602,65 @@
     <!-- riseorganicghar End-->
 
 
+    <!-- europiapark Start-->
+
+
+
+    <definition name="europiapark" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/europiapark.jsp"/>
+    </definition>
+
+    <!--  europiapark priceList -->
+    <definition name="europiapark.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/pricelist.jsp"/>
+    </definition>
+
+    <!--  europiapark specification -->
+    <definition name="europiapark.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/specification.jsp"/>
+    </definition>
+
+    <!--  europiapark floorplan -->
+    <definition name="europiapark.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/floorplan.jsp"/>
+    </definition>
+
+    <!--  europiapark sitePlan -->
+    <definition name="europiapark.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/siteplan.jsp"/>
+    </definition>
+
+    <!-- europiapark paymentPlan -->
+    <definition name="europiapark.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/paymentplan.jsp"/>
+    </definition>
+
+    <!--  europiapark locationMap -->
+    <definition name="europiapark.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/locationmap.jsp"/>
+    </definition>
+
+    <!--  europiapark about -->
+    <definition name="europiapark.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/about.jsp"/>
+    </definition>
+
+    <!--  europiapark contact -->
+    <definition name="europiapark.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/contact.jsp"/>
+    </definition>
+
+    <!--  europiapark siteVisit -->
+    <definition name="europiapark.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/europiapark/sitevisit.jsp"/>
+    </definition>
+
+
+
+
+    <!-- europiapark End-->
+
+
 
 
 
