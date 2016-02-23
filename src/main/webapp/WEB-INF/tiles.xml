@@ -1050,7 +1050,60 @@
     <!-- antrikshgalaxy End -->
 
 
+    <!-- antrikshurbangreek Start -->
 
+    <definition name="antrikshurbangreek" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/antrikshurbangreek.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek priceList -->
+    <definition name="antrikshurbangreek.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/pricelist.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek specification -->
+    <definition name="antrikshgalaxy.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/specification.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek floorplan -->
+    <definition name="antrikshurbangreek.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/floorplan.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek sitePlan -->
+    <definition name="antrikshurbangreek.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/siteplan.jsp"/>
+    </definition>
+
+    <!-- antrikshurbangreek paymentPlan -->
+    <definition name="antrikshurbangreek.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/paymentplan.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek locationMap -->
+    <definition name="antrikshurbangreek.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/locationmap.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek about -->
+    <definition name="antrikshurbangreek.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/about.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek contact -->
+    <definition name="antrikshurbangreek.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/contact.jsp"/>
+    </definition>
+
+    <!--  antrikshurbangreek siteVisit -->
+    <definition name="antrikshurbangreek.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshurbangreek/sitevisit.jsp"/>
+    </definition>
+
+
+
+    <!-- antrikshurbangreek End -->
 
 
 
