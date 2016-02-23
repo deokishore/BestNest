@@ -20,61 +20,61 @@ public class ShivalikHomesController {
 	@RequestMapping(method = RequestMethod.GET)
 	public ModelAndView mahagunProject(HttpServletRequest request) {
 		logger.info("  Mahagun Project Microsite Called : ");
-		return new ModelAndView("shivalikhomes/shivalikhomes");
+		return new ModelAndView("shivalikhomes");
  	}
 	
 	@RequestMapping(value="/priceList", method = RequestMethod.GET)
 	public ModelAndView priceList() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/pricelist");
+		ModelAndView mv = new ModelAndView("shivalikhomes.priceList");
 		return mv;
  	}
 	
 	@RequestMapping(value="/specification", method = RequestMethod.GET)
 	public ModelAndView specification() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/specification");
+		ModelAndView mv = new ModelAndView("shivalikhomes.specification");
 		return mv;
  	}
 	
 	@RequestMapping(value="/floorPlan", method = RequestMethod.GET)
 	public ModelAndView floorPlan() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/floorplan");
+		ModelAndView mv = new ModelAndView("shivalikhomes.floorPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/sitePlan", method = RequestMethod.GET)
 	public ModelAndView sitePlan() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/siteplan");
+		ModelAndView mv = new ModelAndView("shivalikhomes.sitePlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/paymentPlan", method = RequestMethod.GET)
 	public ModelAndView paymentPlan() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/paymentplan");
+		ModelAndView mv = new ModelAndView("shivalikhomes.paymentPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/locationMap", method = RequestMethod.GET)
 	public ModelAndView locationMap() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/locationmap");
+		ModelAndView mv = new ModelAndView("shivalikhomes.locationMap");
 		return mv;
  	}
 	
 	
 	@RequestMapping(value="/about", method = RequestMethod.GET)
 	public ModelAndView about() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/about");
+		ModelAndView mv = new ModelAndView("shivalikhomes.about");
 		return mv;
  	}
 	
 	@RequestMapping(value="/contact", method = RequestMethod.GET)
 	public ModelAndView contact() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/contact");
+		ModelAndView mv = new ModelAndView("shivalikhomes.contact");
 		return mv;
  	}
 	
 	@RequestMapping(value="/siteVisit", method = RequestMethod.GET)
 	public ModelAndView siteVisit() {
-		ModelAndView mv = new ModelAndView("shivalikhomes/sitevisit");
+		ModelAndView mv = new ModelAndView("shivalikhomes.siteVisit");
 		return mv;
  	}
 	

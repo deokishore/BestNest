@@ -490,6 +490,65 @@
 
 
 
+    <!-- shivalikhomes Start-->
+
+
+
+    <definition name="shivalikhomes" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/shivalikhomes.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes priceList -->
+    <definition name="shivalikhomes.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/pricelist.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes specification -->
+    <definition name="shivalikhomes.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/specification.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes floorplan -->
+    <definition name="shivalikhomes.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/floorplan.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes sitePlan -->
+    <definition name="shivalikhomes.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/siteplan.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes paymentPlan -->
+    <definition name="shivalikhomes.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/paymentplan.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes locationMap -->
+    <definition name="shivalikhomes.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/locationmap.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes about -->
+    <definition name="shivalikhomes.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/about.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes contact -->
+    <definition name="shivalikhomes.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/contact.jsp"/>
+    </definition>
+
+    <!--  shivalikhomes siteVisit -->
+    <definition name="shivalikhomes.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/shivalikhomes/sitevisit.jsp"/>
+    </definition>
+
+
+
+    <!-- shivalikhomes End-->
+
+
+
 
 
 
