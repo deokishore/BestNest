@@ -319,6 +319,66 @@
 
 
 
+    <!-- trinitynx Start-->
+
+
+
+    <definition name="trinitynx" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/trinitynx.jsp"/>
+    </definition>
+
+    <!--  trinitynx priceList -->
+    <definition name="trinitynx.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/pricelist.jsp"/>
+    </definition>
+
+    <!--  trinitynx specification -->
+    <definition name="trinitynx.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/specification.jsp"/>
+    </definition>
+
+    <!--  trinitynx floorplan -->
+    <definition name="trinitynx.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/floorplan.jsp"/>
+    </definition>
+
+    <!--  trinitynx sitePlan -->
+    <definition name="trinitynx.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/siteplan.jsp"/>
+    </definition>
+
+    <!--  trinitynx paymentPlan -->
+    <definition name="trinitynx.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/paymentplan.jsp"/>
+    </definition>
+
+    <!--  trinitynx locationMap -->
+    <definition name="trinitynx.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/locationmap.jsp"/>
+    </definition>
+
+    <!--  trinitynx about -->
+    <definition name="trinitynx.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/about.jsp"/>
+    </definition>
+
+    <!--  trinitynx contact -->
+    <definition name="trinitynx.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/contact.jsp"/>
+    </definition>
+
+    <!--  trinitynx siteVisit -->
+    <definition name="trinitynx.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynx/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- trinitynx End-->
+
+
+
+
+
 
 
 
