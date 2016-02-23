@@ -144,9 +144,9 @@
         <put-attribute name="body" value="/protected/bandhan/siteVisit.jsp"/>
     </definition>
 
-
-
     <!-- Bandhan End -->
+
+
 
     <!-- cybercity Start -->
 
@@ -201,6 +201,67 @@
 
 
     <!-- cybercity End -->
+
+
+
+
+    <!-- goldeni Start-->
+
+
+    <definition name="goldeni" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/goldeni.jsp"/>
+    </definition>
+
+    <!--  goldeni priceList -->
+    <definition name="goldeni.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/pricelist.jsp"/>
+    </definition>
+
+    <!--  goldeni specification -->
+    <definition name="goldeni.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/specification.jsp"/>
+    </definition>
+
+    <!--  goldeni floorplan -->
+    <definition name="goldeni.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/floorplan.jsp"/>
+    </definition>
+
+    <!--  goldeni sitePlan -->
+    <definition name="goldeni.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/siteplan.jsp"/>
+    </definition>
+
+    <!--  goldeni paymentPlan -->
+    <definition name="goldeni.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/paymentplan.jsp"/>
+    </definition>
+
+    <!--  goldeni locationMap -->
+    <definition name="goldeni.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/locationmap.jsp"/>
+    </definition>
+
+    <!--  goldeni about -->
+    <definition name="goldeni.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/about.jsp"/>
+    </definition>
+
+    <!--  goldeni contact -->
+    <definition name="goldeni.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/contact.jsp"/>
+    </definition>
+
+    <!--  goldeni siteVisit -->
+    <definition name="goldeni.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/goldeni/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- goldeni End-->
+
+
+
 
 
 
