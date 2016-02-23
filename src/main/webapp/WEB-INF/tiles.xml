@@ -262,6 +262,63 @@
 
 
 
+    <!-- neotowncommercial Start -->
+
+
+    <definition name="neotowncommercial" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/neotowncommercial.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial priceList -->
+    <definition name="neotowncommercial.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/pricelist.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial specification -->
+    <definition name="neotowncommercial.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/specification.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial floorplan -->
+    <definition name="neotowncommercial.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/floorplan.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial sitePlan -->
+    <definition name="neotowncommercial.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/siteplan.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial paymentPlan -->
+    <definition name="neotowncommercial.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/paymentplan.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial locationMap -->
+    <definition name="neotowncommercial.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/locationmap.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial about -->
+    <definition name="neotowncommercial.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/about.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial contact -->
+    <definition name="neotowncommercial.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/contact.jsp"/>
+    </definition>
+
+    <!--  neotowncommercial siteVisit -->
+    <definition name="neotowncommercial.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotowncommercial/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- neotowncommercial End -->
+
+
+
 
 
 
