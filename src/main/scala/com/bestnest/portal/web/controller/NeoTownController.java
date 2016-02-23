@@ -20,61 +20,61 @@ public class NeoTownController {
 	@RequestMapping(method = RequestMethod.GET)
 	public ModelAndView mahagunProject(HttpServletRequest request) {
 		logger.info("  Mahagun Project Microsite Called : ");
-		return new ModelAndView("neotown/neotown");
+		return new ModelAndView("neotown");
  	}
 	
 	@RequestMapping(value="/priceList", method = RequestMethod.GET)
 	public ModelAndView priceList() {
-		ModelAndView mv = new ModelAndView("neotown/pricelist");
+		ModelAndView mv = new ModelAndView("neotown.priceList");
 		return mv;
  	}
 	
 	@RequestMapping(value="/specification", method = RequestMethod.GET)
 	public ModelAndView specification() {
-		ModelAndView mv = new ModelAndView("neotown/specification");
+		ModelAndView mv = new ModelAndView("neotown.specification");
 		return mv;
  	}
 	
 	@RequestMapping(value="/floorPlan", method = RequestMethod.GET)
 	public ModelAndView floorPlan() {
-		ModelAndView mv = new ModelAndView("neotown/floorplan");
+		ModelAndView mv = new ModelAndView("neotown.floorPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/sitePlan", method = RequestMethod.GET)
 	public ModelAndView sitePlan() {
-		ModelAndView mv = new ModelAndView("neotown/siteplan");
+		ModelAndView mv = new ModelAndView("neotown.sitePlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/paymentPlan", method = RequestMethod.GET)
 	public ModelAndView paymentPlan() {
-		ModelAndView mv = new ModelAndView("neotown/paymentplan");
+		ModelAndView mv = new ModelAndView("neotown.paymentPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/locationMap", method = RequestMethod.GET)
 	public ModelAndView locationMap() {
-		ModelAndView mv = new ModelAndView("neotown/locationmap");
+		ModelAndView mv = new ModelAndView("neotown.locationMap");
 		return mv;
  	}
 	
 	
 	@RequestMapping(value="/about", method = RequestMethod.GET)
 	public ModelAndView about() {
-		ModelAndView mv = new ModelAndView("neotown/about");
+		ModelAndView mv = new ModelAndView("neotown.about");
 		return mv;
  	}
 	
 	@RequestMapping(value="/contact", method = RequestMethod.GET)
 	public ModelAndView contact() {
-		ModelAndView mv = new ModelAndView("neotown/contact");
+		ModelAndView mv = new ModelAndView("neotown.contact");
 		return mv;
  	}
 	
 	@RequestMapping(value="/siteVisit", method = RequestMethod.GET)
 	public ModelAndView siteVisit() {
-		ModelAndView mv = new ModelAndView("neotown/sitevisit");
+		ModelAndView mv = new ModelAndView("neotown.siteVisit");
 		return mv;
  	}
 	

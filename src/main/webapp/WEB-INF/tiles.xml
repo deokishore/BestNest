@@ -662,6 +662,63 @@
 
 
 
+    <!-- neotown Start-->
+
+
+    <definition name="neotown" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/neotown.jsp"/>
+    </definition>
+
+    <!--  neotown priceList -->
+    <definition name="neotown.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/pricelist.jsp"/>
+    </definition>
+
+    <!--  neotown specification -->
+    <definition name="neotown.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/specification.jsp"/>
+    </definition>
+
+    <!--  neotown floorplan -->
+    <definition name="neotown.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/floorplan.jsp"/>
+    </definition>
+
+    <!--  neotown sitePlan -->
+    <definition name="neotown.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/siteplan.jsp"/>
+    </definition>
+
+    <!-- neotown paymentPlan -->
+    <definition name="neotown.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/paymentplan.jsp"/>
+    </definition>
+
+    <!--  neotown locationMap -->
+    <definition name="neotown.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/locationmap.jsp"/>
+    </definition>
+
+    <!--  neotown about -->
+    <definition name="neotown.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/about.jsp"/>
+    </definition>
+
+    <!--  neotown contact -->
+    <definition name="neotown.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/contact.jsp"/>
+    </definition>
+
+    <!--  neotown siteVisit -->
+    <definition name="neotown.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/neotown/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- neotown End-->
+
+
+
 
 
 
