@@ -717,10 +717,59 @@
 
     <!-- neotown End-->
 
+    <!-- fragrance Start-->
+
+    <definition name="fragrance" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/fragrance.jsp"/>
+    </definition>
+
+    <!--  fragrance priceList -->
+    <definition name="fragrance.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/pricelist.jsp"/>
+    </definition>
+
+    <!--  fragrance specification -->
+    <definition name="fragrance.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/specification.jsp"/>
+    </definition>
+
+    <!--  fragrance floorplan -->
+    <definition name="fragrance.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/floorplan.jsp"/>
+    </definition>
+
+    <!--  fragrance sitePlan -->
+    <definition name="fragrance.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/siteplan.jsp"/>
+    </definition>
+
+    <!-- fragrance paymentPlan -->
+    <definition name="fragrance.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/paymentplan.jsp"/>
+    </definition>
+
+    <!--  fragrance locationMap -->
+    <definition name="fragrance.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/locationmap.jsp"/>
+    </definition>
+
+    <!--  fragrance about -->
+    <definition name="fragrance.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/about.jsp"/>
+    </definition>
+
+    <!--  fragrance contact -->
+    <definition name="fragrance.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/contact.jsp"/>
+    </definition>
+
+    <!--  fragrance siteVisit -->
+    <definition name="fragrance.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/sitevisit.jsp"/>
+    </definition>
 
 
-
-
+    <!-- fragrance End -->
 
 
 

@@ -20,61 +20,61 @@ public class FragranceController {
 	@RequestMapping(method = RequestMethod.GET)
 	public ModelAndView mahagunProject(HttpServletRequest request) {
 		logger.info("Mahagun Project Microsite Called : ");
-		return new ModelAndView("fragrance/fragrance");
+		return new ModelAndView("fragrance");
  	}
 	
 	@RequestMapping(value="/priceList", method = RequestMethod.GET)
 	public ModelAndView priceList() {
-		ModelAndView mv = new ModelAndView("fragrance/pricelist");
+		ModelAndView mv = new ModelAndView("fragrance.priceList");
 		return mv;
  	}
 	
 	@RequestMapping(value="/specification", method = RequestMethod.GET)
 	public ModelAndView specification() {
-		ModelAndView mv = new ModelAndView("fragrance/specification");
+		ModelAndView mv = new ModelAndView("fragrance.specification");
 		return mv;
  	}
 	
 	@RequestMapping(value="/floorPlan", method = RequestMethod.GET)
 	public ModelAndView floorPlan() {
-		ModelAndView mv = new ModelAndView("fragrance/floorplan");
+		ModelAndView mv = new ModelAndView("fragrance.floorPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/sitePlan", method = RequestMethod.GET)
 	public ModelAndView sitePlan() {
-		ModelAndView mv = new ModelAndView("fragrance/siteplan");
+		ModelAndView mv = new ModelAndView("fragrance.sitePlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/paymentPlan", method = RequestMethod.GET)
 	public ModelAndView paymentPlan() {
-		ModelAndView mv = new ModelAndView("fragrance/paymentplan");
+		ModelAndView mv = new ModelAndView("fragrance.paymentPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/locationMap", method = RequestMethod.GET)
 	public ModelAndView locationMap() {
-		ModelAndView mv = new ModelAndView("fragrance/locationmap");
+		ModelAndView mv = new ModelAndView("fragrance.locationMap");
 		return mv;
  	}
 	
 	
 	@RequestMapping(value="/about", method = RequestMethod.GET)
 	public ModelAndView about() {
-		ModelAndView mv = new ModelAndView("fragrance/about");
+		ModelAndView mv = new ModelAndView("fragrance.about");
 		return mv;
  	}
 	
 	@RequestMapping(value="/contact", method = RequestMethod.GET)
 	public ModelAndView contact() {
-		ModelAndView mv = new ModelAndView("fragrance/contact");
+		ModelAndView mv = new ModelAndView("fragrance.contact");
 		return mv;
  	}
 	
 	@RequestMapping(value="/siteVisit", method = RequestMethod.GET)
 	public ModelAndView siteVisit() {
-		ModelAndView mv = new ModelAndView("fragrance/sitevisit");
+		ModelAndView mv = new ModelAndView("fragrance.siteVisit");
 		return mv;
  	}
 	
