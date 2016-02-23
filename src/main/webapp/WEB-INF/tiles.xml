@@ -148,6 +148,61 @@
 
     <!-- Bandhan End -->
 
+    <!-- cybercity Start -->
+
+    <definition name="cybercity" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/cybercity.jsp"/>
+    </definition>
+
+    <!--  cybercity priceList -->
+    <definition name="cybercity.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/pricelist.jsp"/>
+    </definition>
+
+    <!--  cybercity specification -->
+    <definition name="cybercity.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/specification.jsp"/>
+    </definition>
+
+    <!--  cybercity floorplan -->
+    <definition name="cybercity.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/floorplan.jsp"/>
+    </definition>
+
+    <!--  cybercity sitePlan -->
+    <definition name="cybercity.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/siteplan.jsp"/>
+    </definition>
+
+    <!--  cybercity paymentPlan -->
+    <definition name="cybercity.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/paymentplan.jsp"/>
+    </definition>
+
+    <!--  cybercity locationMap -->
+    <definition name="cybercity.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/locationmap.jsp"/>
+    </definition>
+
+    <!--  cybercity about -->
+    <definition name="cybercity.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/about.jsp"/>
+    </definition>
+
+    <!--  cybercity contact -->
+    <definition name="cybercity.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/contact.jsp"/>
+    </definition>
+
+    <!--  cybercity siteVisit -->
+    <definition name="cybercity.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/cybercity/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- cybercity End -->
+
+
 
     <!-- Blogger Section Start -->
     <definition name="common" template="/public/template/master.jsp">
