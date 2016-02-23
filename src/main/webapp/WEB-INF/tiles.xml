@@ -548,6 +548,60 @@
     <!-- shivalikhomes End-->
 
 
+    <!-- riseorganicghar Start-->
+
+    <definition name="riseorganicghar" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/riseorganicghar.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar priceList -->
+    <definition name="riseorganicghar.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/pricelist.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar specification -->
+    <definition name="riseorganicghar.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/specification.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar floorplan -->
+    <definition name="riseorganicghar.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/floorplan.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar sitePlan -->
+    <definition name="riseorganicghar.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/siteplan.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar paymentPlan -->
+    <definition name="riseorganicghar.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/paymentplan.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar locationMap -->
+    <definition name="riseorganicghar.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/locationmap.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar about -->
+    <definition name="riseorganicghar.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/about.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar contact -->
+    <definition name="riseorganicghar.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/contact.jsp"/>
+    </definition>
+
+    <!--  riseorganicghar siteVisit -->
+    <definition name="riseorganicghar.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/riseorganicghar/sitevisit.jsp"/>
+    </definition>
+
+    <!-- riseorganicghar End-->
+
+
 
 
 
