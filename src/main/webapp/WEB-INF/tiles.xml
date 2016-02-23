@@ -829,6 +829,119 @@
 
 
 
+    <!-- amaatrahomes Start -->
+
+    <definition name="amaatrahomes" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/amaatrahomes.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes priceList -->
+    <definition name="trinitynxresidential.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/pricelist.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes specification -->
+    <definition name="amaatrahomes.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/specification.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes floorplan -->
+    <definition name="amaatrahomes.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/floorplan.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes sitePlan -->
+    <definition name="amaatrahomes.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/siteplan.jsp"/>
+    </definition>
+
+    <!-- amaatrahomes paymentPlan -->
+    <definition name="amaatrahomes.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/paymentplan.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes locationMap -->
+    <definition name="amaatrahomes.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/locationmap.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes about -->
+    <definition name="amaatrahomes.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/about.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes contact -->
+    <definition name="amaatrahomes.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/contact.jsp"/>
+    </definition>
+
+    <!--  amaatrahomes siteVisit -->
+    <definition name="amaatrahomes.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/amaatrahomes/sitevisit.jsp"/>
+    </definition>
+
+
+
+
+    <!-- amaatrahomes End -->
+
+
+    <!-- acecity Start-->
+
+    <definition name="acecity" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/acecity.jsp"/>
+    </definition>
+
+    <!--  acecity priceList -->
+    <definition name="acecity.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/pricelist.jsp"/>
+    </definition>
+
+    <!--  acecity specification -->
+    <definition name="acecity.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/specification.jsp"/>
+    </definition>
+
+    <!--  acecity floorplan -->
+    <definition name="acecity.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/floorplan.jsp"/>
+    </definition>
+
+    <!--  acecity sitePlan -->
+    <definition name="acecity.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/siteplan.jsp"/>
+    </definition>
+
+    <!-- acecity paymentPlan -->
+    <definition name="acecity.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/paymentplan.jsp"/>
+    </definition>
+
+    <!--  acecity locationMap -->
+    <definition name="acecity.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/locationmap.jsp"/>
+    </definition>
+
+    <!--  acecity about -->
+    <definition name="acecity.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/about.jsp"/>
+    </definition>
+
+    <!--  acecity contact -->
+    <definition name="acecity.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/contact.jsp"/>
+    </definition>
+
+    <!--  acecity siteVisit -->
+    <definition name="acecity.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/acecity/sitevisit.jsp"/>
+    </definition>
+    <!--acecity End -->
+
+
+
+
+
 
 
 
