@@ -20,61 +20,61 @@ public class AntrikshGalaxyController {
 	@RequestMapping(method = RequestMethod.GET)
 	public ModelAndView mahagunProject(HttpServletRequest request) {
 		logger.info("  Mahagun Project Microsite Called : ");
-		return new ModelAndView("antrikshgalaxy/antrikshgalaxy");
+		return new ModelAndView("antrikshgalaxy");
  	}
 	
 	@RequestMapping(value="/priceList", method = RequestMethod.GET)
 	public ModelAndView priceList() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/pricelist");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.priceList");
 		return mv;
  	}
 	
 	@RequestMapping(value="/specification", method = RequestMethod.GET)
 	public ModelAndView specification() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/specification");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.specification");
 		return mv;
  	}
 	
 	@RequestMapping(value="/floorPlan", method = RequestMethod.GET)
 	public ModelAndView floorPlan() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/floorplan");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.floorPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/sitePlan", method = RequestMethod.GET)
 	public ModelAndView sitePlan() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/siteplan");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.sitePlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/paymentPlan", method = RequestMethod.GET)
 	public ModelAndView paymentPlan() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/paymentplan");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.paymentPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/locationMap", method = RequestMethod.GET)
 	public ModelAndView locationMap() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/locationmap");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.locationMap");
 		return mv;
  	}
 	
 	
 	@RequestMapping(value="/about", method = RequestMethod.GET)
 	public ModelAndView about() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/about");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.about");
 		return mv;
  	}
 	
 	@RequestMapping(value="/contact", method = RequestMethod.GET)
 	public ModelAndView contact() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/contact");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.contact");
 		return mv;
  	}
 	
 	@RequestMapping(value="/siteVisit", method = RequestMethod.GET)
 	public ModelAndView siteVisit() {
-		ModelAndView mv = new ModelAndView("antrikshgalaxy/sitevisit");
+		ModelAndView mv = new ModelAndView("antrikshgalaxy.siteVisit");
 		return mv;
  	}
 	

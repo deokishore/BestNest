@@ -995,6 +995,62 @@
     <!-- revantasmartresidency End -->
 
 
+    <!-- antrikshgalaxy start -->
+
+    <definition name="antrikshgalaxy" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/antrikshgalaxy.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy priceList -->
+    <definition name="antrikshgalaxy.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/pricelist.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy specification -->
+    <definition name="antrikshgalaxy.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/specification.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy floorplan -->
+    <definition name="antrikshgalaxy.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/floorplan.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy sitePlan -->
+    <definition name="antrikshgalaxy.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/siteplan.jsp"/>
+    </definition>
+
+    <!-- antrikshgalaxy paymentPlan -->
+    <definition name="antrikshgalaxy.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/paymentplan.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy locationMap -->
+    <definition name="antrikshgalaxy.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/locationmap.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy about -->
+    <definition name="antrikshgalaxy.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/about.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy contact -->
+    <definition name="antrikshgalaxy.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/contact.jsp"/>
+    </definition>
+
+    <!--  antrikshgalaxy siteVisit -->
+    <definition name="antrikshgalaxy.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/antrikshgalaxy/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- antrikshgalaxy End -->
+
+
+
 
 
 
