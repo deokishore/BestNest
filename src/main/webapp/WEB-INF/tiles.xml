@@ -433,6 +433,65 @@
     <!-- bullandcalisto End-->
 
 
+    <!-- damontepic Start-->
+
+
+    <definition name="damontepic" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/damontepic.jsp"/>
+    </definition>
+
+    <!--  damontepic priceList -->
+    <definition name="damontepic.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/pricelist.jsp"/>
+    </definition>
+
+    <!--  damontepic specification -->
+    <definition name="damontepic.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/specification.jsp"/>
+    </definition>
+
+    <!--  damontepic floorplan -->
+    <definition name="damontepic.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/floorplan.jsp"/>
+    </definition>
+
+    <!--  damontepic sitePlan -->
+    <definition name="damontepic.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/siteplan.jsp"/>
+    </definition>
+
+    <!--  damontepic paymentPlan -->
+    <definition name="damontepic.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/paymentplan.jsp"/>
+    </definition>
+
+    <!--  damontepic locationMap -->
+    <definition name="damontepic.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/locationmap.jsp"/>
+    </definition>
+
+    <!--  damontepic about -->
+    <definition name="damontepic.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/about.jsp"/>
+    </definition>
+
+    <!--  damontepic contact -->
+    <definition name="damontepic.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/contact.jsp"/>
+    </definition>
+
+    <!--  damontepic siteVisit -->
+    <definition name="damontepic.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/damontepic/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- damontepic End-->
+
+
+
+
+
 
 
 

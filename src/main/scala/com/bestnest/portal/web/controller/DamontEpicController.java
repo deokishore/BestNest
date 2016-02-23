@@ -20,61 +20,61 @@ public class DamontEpicController {
 	@RequestMapping(method = RequestMethod.GET)
 	public ModelAndView mahagunProject(HttpServletRequest request) {
 		logger.info("  Damont Epic Project Microsite Called : ");
-		return new ModelAndView("damontepic/damontepic");
+		return new ModelAndView("damontepic");
  	}
 	
 	@RequestMapping(value="/priceList", method = RequestMethod.GET)
 	public ModelAndView priceList() {
-		ModelAndView mv = new ModelAndView("damontepic/pricelist");
+		ModelAndView mv = new ModelAndView("damontepic.priceList");
 		return mv;
  	}
 	
 	@RequestMapping(value="/specification", method = RequestMethod.GET)
 	public ModelAndView specification() {
-		ModelAndView mv = new ModelAndView("damontepic/specification");
+		ModelAndView mv = new ModelAndView("damontepic.specification");
 		return mv;
  	}
 	
 	@RequestMapping(value="/floorPlan", method = RequestMethod.GET)
 	public ModelAndView floorPlan() {
-		ModelAndView mv = new ModelAndView("damontepic/floorplan");
+		ModelAndView mv = new ModelAndView("damontepic.floorPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/sitePlan", method = RequestMethod.GET)
 	public ModelAndView sitePlan() {
-		ModelAndView mv = new ModelAndView("damontepic/siteplan");
+		ModelAndView mv = new ModelAndView("damontepic.sitePlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/paymentPlan", method = RequestMethod.GET)
 	public ModelAndView paymentPlan() {
-		ModelAndView mv = new ModelAndView("damontepic/paymentplan");
+		ModelAndView mv = new ModelAndView("damontepic.paymentPlan");
 		return mv;
  	}
 	
 	@RequestMapping(value="/locationMap", method = RequestMethod.GET)
 	public ModelAndView locationMap() {
-		ModelAndView mv = new ModelAndView("damontepic/locationmap");
+		ModelAndView mv = new ModelAndView("damontepic.locationMap");
 		return mv;
  	}
 	
 	
 	@RequestMapping(value="/about", method = RequestMethod.GET)
 	public ModelAndView about() {
-		ModelAndView mv = new ModelAndView("damontepic/about");
+		ModelAndView mv = new ModelAndView("damontepic.about");
 		return mv;
  	}
 	
 	@RequestMapping(value="/contact", method = RequestMethod.GET)
 	public ModelAndView contact() {
-		ModelAndView mv = new ModelAndView("damontepic/contact");
+		ModelAndView mv = new ModelAndView("damontepic.contact");
 		return mv;
  	}
 	
 	@RequestMapping(value="/siteVisit", method = RequestMethod.GET)
 	public ModelAndView siteVisit() {
-		ModelAndView mv = new ModelAndView("damontepic/sitevisit");
+		ModelAndView mv = new ModelAndView("damontepic.siteVisit");
 		return mv;
  	}
 	
