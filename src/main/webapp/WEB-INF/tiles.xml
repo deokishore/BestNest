@@ -772,6 +772,62 @@
     <!-- fragrance End -->
 
 
+    <!-- trinitynxresidential Start -->
+
+    <definition name="trinitynxresidential" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/trinitynxresidential.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential priceList -->
+    <definition name="trinitynxresidential.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/fragrance/pricelist.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential specification -->
+    <definition name="trinitynxresidential.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/specification.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential floorplan -->
+    <definition name="trinitynxresidential.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/floorplan.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential sitePlan -->
+    <definition name="trinitynxresidential.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/siteplan.jsp"/>
+    </definition>
+
+    <!-- trinitynxresidential paymentPlan -->
+    <definition name="trinitynxresidential.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/paymentplan.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential locationMap -->
+    <definition name="trinitynxresidential.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/locationmap.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential about -->
+    <definition name="trinitynxresidential.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/about.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential contact -->
+    <definition name="trinitynxresidential.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/contact.jsp"/>
+    </definition>
+
+    <!--  trinitynxresidential siteVisit -->
+    <definition name="trinitynxresidential.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/trinitynxresidential/sitevisit.jsp"/>
+    </definition>
+
+
+
+    <!-- trinitynxresidential End -->
+
+
 
 
 
