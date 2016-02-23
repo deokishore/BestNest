@@ -1106,6 +1106,59 @@
     <!-- antrikshurbangreek End -->
 
 
+    <!-- gulshan-botnia-sector144-noida Start-->
+
+    <definition name="gulshan-botnia-sector144-noida" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/gulshan-botnia-sector144-noida.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida priceList -->
+    <definition name="gulshan-botnia-sector144-noida.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/pricelist.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida specification -->
+    <definition name="gulshan-botnia-sector144-noida.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/specification.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida floorplan -->
+    <definition name="gulshan-botnia-sector144-noida.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/floorplan.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida sitePlan -->
+    <definition name="antrikshurbangreek.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/siteplan.jsp"/>
+    </definition>
+
+    <!-- gulshan-botnia-sector144-noida paymentPlan -->
+    <definition name="gulshan-botnia-sector144-noida.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/paymentplan.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida locationMap -->
+    <definition name="gulshan-botnia-sector144-noida.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/locationmap.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida about -->
+    <definition name="gulshan-botnia-sector144-noida.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/about.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida contact -->
+    <definition name="gulshan-botnia-sector144-noida.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/contact.jsp"/>
+    </definition>
+
+    <!--  gulshan-botnia-sector144-noida siteVisit -->
+    <definition name="gulshan-botnia-sector144-noida.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- gulshan-botnia-sector144-noida End-->
 
 
 
