@@ -936,8 +936,63 @@
     <definition name="acecity.siteVisit" extends="microsite.master">
         <put-attribute name="body" value="/protected/acecity/sitevisit.jsp"/>
     </definition>
+
     <!--acecity End -->
 
+
+    <!-- revantasmartresidency Start -->
+
+    <definition name="revantasmartresidency" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/revantasmartresidency.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency priceList -->
+    <definition name="revantasmartresidency.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/pricelist.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency specification -->
+    <definition name="revantasmartresidency.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/specification.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency floorplan -->
+    <definition name="revantasmartresidency.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/floorplan.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency sitePlan -->
+    <definition name="revantasmartresidency.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/siteplan.jsp"/>
+    </definition>
+
+    <!-- revantasmartresidency paymentPlan -->
+    <definition name="revantasmartresidency.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/paymentplan.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency locationMap -->
+    <definition name="revantasmartresidency.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/locationmap.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency about -->
+    <definition name="revantasmartresidency.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/about.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency contact -->
+    <definition name="revantasmartresidency.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/contact.jsp"/>
+    </definition>
+
+    <!--  revantasmartresidency siteVisit -->
+    <definition name="revantasmartresidency.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/revantasmartresidency/sitevisit.jsp"/>
+    </definition>
+
+
+    <!-- revantasmartresidency End -->
 
 
 
