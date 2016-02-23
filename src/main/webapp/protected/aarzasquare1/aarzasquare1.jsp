@@ -23,89 +23,89 @@
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/tooltip.css" />
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/micro-site/aarzasquare1/jquery-ui.css" />
 <link rel="stylesheet" type="text/css" href="http://resources.bestnest.in/css/micro-site/aarzasquare1/jquery-fancybox.css" />
-<!-- End Css Files -->
-<!--Fav Icon -->
-<link rel="shortcut icon" type="image/ico" href="http://images.bestnest.in/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://images.bestnest.in/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://images.bestnest.in/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://images.bestnest.in/ico/apple-touch-icon-72-precomposed.png">
-<!-- End Fav Icon -->
-<script type="text/javascript" src="http://resources.bestnest.in/js/less.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery-ui.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/scripts.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/micro-site/aarzasquare1/custom.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/micro-site/aarzasquare1/slider_script.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/coin-slider.min.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery-fancybox-pack.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.colorbox.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){$(".example7").colorbox({width:"600px",height:"400px",iframe:true});});
-</script>
-<script type="text/javascript">
-	$(document).ready(function(){$(".example8").colorbox({width:"600px",height:"400px",iframe:true});});
-</script>
-<script>
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-   return false;
-}
-</script>
-<script>
-  $(function() {
-    var icons = {
-      header: "ui-icon-circle-arrow-e",
-      activeHeader: "ui-icon-circle-arrow-s"
-    };
-    $( "#accordion" ).accordion({
-      icons: icons
+    <!-- End Css Files -->
+    <!--Fav Icon -->
+    <link rel="shortcut icon" type="image/ico" href="http://images.bestnest.in/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://images.bestnest.in/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://images.bestnest.in/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://images.bestnest.in/ico/apple-touch-icon-72-precomposed.png">
+    <!-- End Fav Icon -->
+    <script type="text/javascript" src="http://resources.bestnest.in/js/less.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/jquery.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/scripts.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/micro-site/aarzasquare1/custom.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/micro-site/aarzasquare1/slider_script.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/coin-slider.min.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/jquery-fancybox-pack.js"></script>
+    <script type="text/javascript" src="http://resources.bestnest.in/js/jquery.colorbox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){$(".example7").colorbox({width:"600px",height:"400px",iframe:true});});
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){$(".example8").colorbox({width:"600px",height:"400px",iframe:true});});
+    </script>
+    <script>
+    function toggleDiv(divId) {
+       $("#"+divId).toggle();
+       return false;
+    }
+    </script>
+    <script>
+      $(function() {
+        var icons = {
+          header: "ui-icon-circle-arrow-e",
+          activeHeader: "ui-icon-circle-arrow-s"
+        };
+        $( "#accordion" ).accordion({
+          icons: icons
+        });
+        $( "#toggle" ).button().click(function() {
+          if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+            $( "#accordion" ).accordion( "option", "icons", null );
+          } else {
+            $( "#accordion" ).accordion( "option", "icons", icons );
+          }
+        });
+      });
+     </script>
+    <script>
+    $('a > img').each(function(){
+      var $this = $(this);
+      $this.parent('a').attr('href', $this.attr('src'));
     });
-    $( "#toggle" ).button().click(function() {
-      if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
-        $( "#accordion" ).accordion( "option", "icons", null );
-      } else {
-        $( "#accordion" ).accordion( "option", "icons", icons );
-      }
-    });
-  });
- </script>
-<script>
-$('a > img').each(function(){
-  var $this = $(this);
-  $this.parent('a').attr('href', $this.attr('src'));
-});
-</script>
-<!--Starting Analytics code for Aarza Square 1 -->  
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    </script>
+    <!--Starting Analytics code for Aarza Square 1 -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-59446819-1', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-59446819-1', 'auto');
+      ga('send', 'pageview');
 
-</script>
-<!--Ending Analytics code for Aarza Square 1 --> 
-</head>
-<body>
-<div id="outer-container"> 
-  <!--Header Section-->
-  <header role="banner" id="header">
-    <div class="container group">
-      <div class="logo left s-cf"> <a title="Buy 2/3 BHK Apartments - Aarza Square 1" href="/aarzasquare1"></a></div>
-      <div class="txtleft">
-		<div style="margin:10px 0 0 0;">
-				<p>
-					<span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
-				    <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png"> 
-				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9278399399 (IND)</span>
-				</p>
-				<p class="contactno" style="margin-top:5px; margin-left:47%">
-					<img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">
-					<span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">+44 7561420709 (UK)</span>
-				</p>
-				<div class="clear clearfix"></div>
+    </script>
+    <!--Ending Analytics code for Aarza Square 1 -->
+    </head>
+    <body>
+    <div id="outer-container">
+      <!--Header Section-->
+      <header role="banner" id="header">
+        <div class="container group">
+          <div class="logo left s-cf"> <a title="Buy 2/3 BHK Apartments - Aarza Square 1" href="/aarzasquare1"></a></div>
+          <div class="txtleft">
+            <div style="margin:10px 0 0 0;">
+                    <p>
+                        <span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
+                        <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png">
+                        <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9278399399 (IND)</span>
+                    </p>
+                    <p class="contactno" style="margin-top:5px; margin-left:47%">
+                        <img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">
+                        <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">+44 7561420709 (UK)</span>
+                    </p>
+                    <div class="clear clearfix"></div>
 			</div>
 			<div class="clear clearfix"></div>
 		</div>

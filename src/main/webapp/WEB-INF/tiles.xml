@@ -30,6 +30,69 @@
         <put-attribute name="body" value="/protected/project-detail.jsp"/>
     </definition>
 
+
+    <!--  Microsite Master Start -->
+    <definition name="microsite.master" template="/public/template/master.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="" />
+    </definition>
+    <!--  Master End -->
+
+    <!--  aarzasquare1 Page -->
+    <definition name="aarzasquare1" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/aarzasquare1.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 priceList -->
+    <definition name="priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/pricelist.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 specification -->
+    <definition name="specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/specification.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 floorplan -->
+    <definition name="floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/floorplan.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 sitePlan -->
+    <definition name="sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/siteplan.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 paymentPlan -->
+    <definition name="paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/paymentplan.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 locationMap -->
+    <definition name="locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/locationmap.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 about -->
+    <definition name="about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/about.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 contact -->
+    <definition name="contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/contact.jsp"/>
+    </definition>
+
+    <!--  aarzasquare1 siteVisit -->
+    <definition name="siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/aarzasquare1/sitevisit.jsp"/>
+    </definition>
+
+    <!-- aarzasquare1 finished -->
+
+
     <!-- Blogger Section Start -->
     <definition name="common" template="/public/template/master.jsp">
         <put-attribute name="title" value="" />
