@@ -46,51 +46,107 @@
     </definition>
 
     <!--  aarzasquare1 priceList -->
-    <definition name="priceList" extends="microsite.master">
+    <definition name="aarzasquare1.priceList" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/pricelist.jsp"/>
     </definition>
 
     <!--  aarzasquare1 specification -->
-    <definition name="specification" extends="microsite.master">
+    <definition name="aarzasquare1.specification" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/specification.jsp"/>
     </definition>
 
     <!--  aarzasquare1 floorplan -->
-    <definition name="floorPlan" extends="microsite.master">
+    <definition name="aarzasquare1.floorPlan" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/floorplan.jsp"/>
     </definition>
 
     <!--  aarzasquare1 sitePlan -->
-    <definition name="sitePlan" extends="microsite.master">
+    <definition name="aarzasquare1.sitePlan" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/siteplan.jsp"/>
     </definition>
 
     <!--  aarzasquare1 paymentPlan -->
-    <definition name="paymentPlan" extends="microsite.master">
+    <definition name="aarzasquare1.paymentPlan" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/paymentplan.jsp"/>
     </definition>
 
     <!--  aarzasquare1 locationMap -->
-    <definition name="locationMap" extends="microsite.master">
+    <definition name="aarzasquare1.locationMap" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/locationmap.jsp"/>
     </definition>
 
     <!--  aarzasquare1 about -->
-    <definition name="about" extends="microsite.master">
+    <definition name="aarzasquare1.about" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/about.jsp"/>
     </definition>
 
     <!--  aarzasquare1 contact -->
-    <definition name="contact" extends="microsite.master">
+    <definition name="aarzasquare1.contact" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/contact.jsp"/>
     </definition>
 
     <!--  aarzasquare1 siteVisit -->
-    <definition name="siteVisit" extends="microsite.master">
+    <definition name="aarzasquare1.siteVisit" extends="microsite.master">
         <put-attribute name="body" value="/protected/aarzasquare1/sitevisit.jsp"/>
     </definition>
 
     <!-- aarzasquare1 finished -->
+
+
+    <!-- Bandhan Start -->
+
+    <definition name="bandhan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/bandhan.jsp"/>
+    </definition>
+
+    <!--  bandhan priceList -->
+    <definition name="bandhan.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/pricelist.jsp"/>
+    </definition>
+
+    <!--  bandhan specification -->
+    <definition name="bandhan.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/specification.jsp"/>
+    </definition>
+
+    <!--  bandhan floorplan -->
+    <definition name="bandhan.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/floorplan.jsp"/>
+    </definition>
+
+    <!--  bandhan sitePlan -->
+    <definition name="bandhan.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/siteplan.jsp"/>
+    </definition>
+
+    <!--  bandhan paymentPlan -->
+    <definition name="bandhan.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/paymentplan.jsp"/>
+    </definition>
+
+    <!--  bandhan locationMap -->
+    <definition name="bandhan.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/locationmap.jsp"/>
+    </definition>
+
+    <!--  bandhan about -->
+    <definition name="bandhan.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/about.jsp"/>
+    </definition>
+
+    <!--  bandhan contact -->
+    <definition name="bandhan.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/contact.jsp"/>
+    </definition>
+
+    <!--  bandhan siteVisit -->
+    <definition name="bandhan.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bandhan/siteVisit.jsp"/>
+    </definition>
+
+
+
+    <!-- Bandhan End -->
 
 
     <!-- Blogger Section Start -->
