@@ -376,6 +376,63 @@
     <!-- trinitynx End-->
 
 
+    <!-- bullandcalisto Start-->
+
+
+    <definition name="bullandcalisto" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/bullandcalisto.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto priceList -->
+    <definition name="bullandcalisto.priceList" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/pricelist.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto specification -->
+    <definition name="bullandcalisto.specification" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/specification.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto floorplan -->
+    <definition name="bullandcalisto.floorPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/floorplan.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto sitePlan -->
+    <definition name="bullandcalisto.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/siteplan.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto paymentPlan -->
+    <definition name="bullandcalisto.paymentPlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/paymentplan.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto locationMap -->
+    <definition name="bullandcalisto.locationMap" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/locationmap.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto about -->
+    <definition name="bullandcalisto.about" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/about.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto contact -->
+    <definition name="bullandcalisto.contact" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/contact.jsp"/>
+    </definition>
+
+    <!--  bullandcalisto siteVisit -->
+    <definition name="bullandcalisto.siteVisit" extends="microsite.master">
+        <put-attribute name="body" value="/protected/bullandcalisto/sitevisit.jsp"/>
+    </definition>
+
+
+
+    <!-- bullandcalisto End-->
+
+
 
 
 
