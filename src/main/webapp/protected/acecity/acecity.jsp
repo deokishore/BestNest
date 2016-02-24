@@ -116,8 +116,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
         <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01"><a href="/acecity/about.htm">About</a></li>
-          <li id="top-menu-item-02"><a href="/acecity/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01"><a href="/acecity/about">About</a></li>
+          <li id="top-menu-item-02"><a href="/acecity/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -127,36 +127,36 @@ $('a > img').each(function(){
       <div class="group">
        <ul class="menu" id="menu-main-menu">
           <li id="main-menu-01" class="first"><span class="before dt"></span><a href="/acecity">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02"><span class="before dt"></span><a href="/acecity/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/acecity/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/acecity/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/acecity/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/acecity/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/acecity/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02"><span class="before dt"></span><a href="/acecity/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/acecity/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/acecity/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/acecity/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/acecity/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/acecity/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/acecity/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/acecity/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/acecity/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/acecity/contact">Contact Us</a><span class="after dt"></span></li>
           <!-- End Hidden Menu Display in mobile & ipad -->
         </ul>
         <div class="clear"></div>
       </div>
     </nav>
   </header>
-  <!--Header Section--> 
-  
+  <!--Header Section-->
+
   <!--Slideshow Section -->
-  <div id="projectsnapshotCont"> 
+  <div id="projectsnapshotCont">
     <!-- Slide Images starts from here-->
     <div class="slideBanner">
-      <div id="coin-slider"> 
+      <div id="coin-slider">
 	      	<a href="javascript:void(0);">
-	        	<img src="http://images.bestnest.in/micro-site/ace-city/slide-show/slide-show-1.png" alt="Buy Residential Apartments - Ace City, Greater Noida West"  /> 
+	        	<img src="http://images.bestnest.in/micro-site/ace-city/slide-show/slide-show-1.png" alt="Buy Residential Apartments - Ace City, Greater Noida West"  />
 	        </a>
 	        <a href="javascript:void(0);">
-	        	<img src="http://images.bestnest.in/micro-site/ace-city/slide-show/slide-show-2.png" alt="Buy Residential Apartments - Ace City, Greater Noida West" /> 
+	        	<img src="http://images.bestnest.in/micro-site/ace-city/slide-show/slide-show-2.png" alt="Buy Residential Apartments - Ace City, Greater Noida West" />
 	       	</a>
 	       	<a href="javascript:void(0);">
-	       	<img src="http://images.bestnest.in/micro-site/ace-city/slide-show/slide-show-3.png" alt="Buy Residential Apartments - Ace City, Greater Noida West" /> 
+	       	<img src="http://images.bestnest.in/micro-site/ace-city/slide-show/slide-show-3.png" alt="Buy Residential Apartments - Ace City, Greater Noida West" />
 	      	</a>
 		</div>
     </div>
@@ -164,8 +164,8 @@ $('a > img').each(function(){
     <div class="highlight"> <img alt="Highlight" src="http://images.bestnest.in/micro-site/ace-city/highlight.png"> </div>
     <div class="clear"></div>
   </div>
-  <!--Slideshow Section--> 
-  
+  <!--Slideshow Section-->
+
   <!--Content Section-->
   <div id="content" class="default group" >
     <div id="blink">
@@ -280,7 +280,7 @@ $('a > img').each(function(){
                                       	</ul>
                                   	</div>
                                 </span>&nbsp;
-                                <!-- End Hidden Price Per Sqt Filter Div -->				
+                                <!-- End Hidden Price Per Sqt Filter Div -->
                             </span>
                         </form>
                         <br>
@@ -289,7 +289,7 @@ $('a > img').each(function(){
                     <div id="results">
                     	<!-- Property Listing Container -->
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
 								<b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">35.76 Lac</b>
@@ -301,36 +301,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                     <a href="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1090sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1090sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1090  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 3281</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/acecity" title="Ace City" class="sName">
                                     		<b>Ace City</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Ace City Noida Extension is a new residential project by the upcoming Ace Group.It is a offering of 2 and 3 BHK apartments spreads over 5 acres of a land area with a lot of green area and a superlative designlocated at main road at Sector 10, Noida Extension , now called Greater Noida West.The land and the project of Ace City is next to the 50 Acre Green Belt, on the main road.Ace City will undoubtedly come up with a very excellent elevation and layouts with all modern amenities , with lots of green area and amenities like swimming pool, club, sports area, badminton court, tennis court, basketball court an orchid garden etc.
@@ -342,7 +342,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -370,15 +370,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=46" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -386,7 +386,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">37.73 Lac</b>
@@ -398,36 +398,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1150sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1150sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1150  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 3281</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/acecity" title="Ace City" class="sName">
                                     		<b>Ace City</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Ace City Noida Extension is a new residential project by the upcoming Ace Group.It is a offering of 2 and 3 BHK apartments spreads over 5 acres of a land area with a lot of green area and a superlative designlocated at main road at Sector 10, Noida Extension , now called Greater Noida West.The land and the project of Ace City is next to the 50 Acre Green Belt, on the main road.Ace City will undoubtedly come up with a very excellent elevation and layouts with all modern amenities , with lots of green area and amenities like swimming pool, club, sports area, badminton court, tennis court, basketball court an orchid garden etc.
@@ -439,7 +439,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -467,15 +467,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=46" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -483,7 +483,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">43.47</b>
@@ -495,36 +495,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1325sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1325sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1325  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 3281</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/acecity" title="Ace City" class="sName">
                                     		<b>Ace City</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Ace City Noida Extension is a new residential project by the upcoming Ace Group.It is a offering of 2 and 3 BHK apartments spreads over 5 acres of a land area with a lot of green area and a superlative designlocated at main road at Sector 10, Noida Extension , now called Greater Noida West.The land and the project of Ace City is next to the 50 Acre Green Belt, on the main road.Ace City will undoubtedly come up with a very excellent elevation and layouts with all modern amenities , with lots of green area and amenities like swimming pool, club, sports area, badminton court, tennis court, basketball court an orchid garden etc.
@@ -536,7 +536,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -564,15 +564,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=46" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -580,7 +580,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">45.44 Lac</b>
@@ -592,35 +592,35 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1385sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1385sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1385  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 3281</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     		<b>Ace City</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Ace City Noida Extension is a new residential project by the upcoming Ace Group.It is a offering of 2 and 3 BHK apartments spreads over 5 acres of a land area with a lot of green area and a superlative designlocated at main road at Sector 10, Noida Extension , now called Greater Noida West.The land and the project of Ace City is next to the 50 Acre Green Belt, on the main road.Ace City will undoubtedly come up with a very excellent elevation and layouts with all modern amenities , with lots of green area and amenities like swimming pool, club, sports area, badminton court, tennis court, basketball court an orchid garden etc.
@@ -632,7 +632,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -660,15 +660,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=46" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -676,7 +676,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                         <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">50.20 Lac</b>
@@ -688,35 +688,35 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1530sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/ace-group/ace-city/floor-plan-ace-city-1530sqft.jpg" alt="3 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1530  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 3281</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     		<b>Ace City</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Ace City Noida Extension is a new residential project by the upcoming Ace Group.It is a offering of 2 and 3 BHK apartments spreads over 5 acres of a land area with a lot of green area and a superlative designlocated at main road at Sector 10, Noida Extension , now called Greater Noida West.The land and the project of Ace City is next to the 50 Acre Green Belt, on the main road.Ace City will undoubtedly come up with a very excellent elevation and layouts with all modern amenities , with lots of green area and amenities like swimming pool, club, sports area, badminton court, tennis court, basketball court an orchid garden etc.
@@ -728,7 +728,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -756,15 +756,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=46" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -787,7 +787,7 @@ $('a > img').each(function(){
                     <p class="show">Ace City Noida Extension is a new residential project by the upcoming Ace Group.It is a offering of 2 and 3 BHK apartments spreads over 5 acres of a land area with a lot of green area and a superlative designlocated at main road at Sector 10, Noida Extension , now called Greater Noida West.The land and the project ofAce City is next to the 50 Acre Green Belt, on the main road.Ace City will undoubtedly come up with a very excellent elevation and layouts with all modern amenities , with lots of green area and amenities like swimming pool, club, sports area, badminton court, tennis court, basketball court an orchid garden etc.</p>
                   </div>
                 </div>
-          	</div> 
+          	</div>
           	<div class="overviewicons">
             	<div class="iconwrapper left">
               <p><img alt="Location" src="http://images.bestnest.in/micro-site/common/location-icons.png" /></p>
@@ -821,8 +821,8 @@ $('a > img').each(function(){
             </div>
           	</div>
           	<!--Location Map & Site Plan Links -->
-            
-			<!--End Location Map & Site Plan Links --> 
+
+			<!--End Location Map & Site Plan Links -->
            	<!-- Amenities Section -->
          	<div class="rightContBox" id="Project">
           	<h2 class="heading_2">Amenities</h2>
@@ -947,30 +947,30 @@ $('a > img').each(function(){
     </div>
     <aside role="complementary" class="right s-cf" id="sidebar">
       <div class="side-block" id="side-links1">
-        <div class="rgtbox"> 
+        <div class="rgtbox">
           <!-- Right Form Starts from here -->
           <div class="rgtcontentcontainer1">
             <h3>Get in Touch</h3>
             <div class="lftcontentcontainer" id="gnContactForm">
-            
-              <form:form id="clientInformationForm" class="frmLeaveMessage" 
-                    		action="${pageContext.request.contextPath}/contactUsSave.htm" 
-									modelAttribute="clientInformationForm">  
-									
+
+              <form:form id="clientInformationForm" class="frmLeaveMessage"
+                    		action="${pageContext.request.contextPath}/contactUsSave.htm"
+									modelAttribute="clientInformationForm">
+
 				<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/acecity">
-						
+
                <label>First Name <b>*</b></label>
                 <input type="text" id="firstName" name="firstName" required />
-                
+
                 <label>Last Name <b>*</b></label>
                 <input type="text" id="lastName" name="lastName" />
-                
+
                 <label>E-mail Id<b>*</b></label>
                 <input type="email" id="email" name="email" />
-                
+
                 <label>Mobile Phone No. <b>*</b></label>
                 <input type="text" id="mobilePhoneNumber" name="mobilePhoneNumber" required />
-                                
+
                 <label>Your Query *</label>
                 <textarea maxlength="2048" rows="3" id="message" name="message">I am interested in your property. Please contact me.</textarea>
                 <div class="clrbth"></div>
@@ -991,14 +991,14 @@ $('a > img').each(function(){
       </div>
      <div class="side-block" id="side-links2">
         <div class="rgtbox">
-          <div class="rgtcontentcontainer"> 
+          <div class="rgtcontentcontainer">
             <!-- Contact Details Starts from here -->
             <h4>Contact Us</h4>
             <div class="paddinglftrgt10">
               <h2><strong>Ace City</strong></h2>
               <i class="imap"></i><span class="ml_5">Sector-1, Greater Noida (West)</span>
               <div class="contactbtn">
-                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/acecity/contact.htm')" value="View Contact Details" />
+                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/acecity/contact')" value="View Contact Details" />
               </div>
             </div>
           </div>
@@ -1013,9 +1013,9 @@ $('a > img').each(function(){
     </div>
     <div class="clear"></div>
   </div>
-  <!--Content Section--> 
+  <!--Content Section-->
   <div class="sitevisit">
-	<a href="/acecity/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Ace City Site Visit"></a>
+	<a href="/acecity/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Ace City Site Visit"></a>
 </div>
   <!--Social Icons-->
   <div id="single-share" class="right_icon_main">
