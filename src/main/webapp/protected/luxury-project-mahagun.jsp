@@ -207,7 +207,7 @@ function toggleDiv(divId) {
 				<div class="contactright">
 					<span style="display: block; margin-bottom: 5px;"> 
 						<img width="26" height="26" src="http://images.bestnest.in/micro-site/mahagun-group/phone_icon.png" alt="Call Us" style="vertical-align: middle"> 
-						<a title="Call BestNest Real Estate Services" style="font-size:22px!important;">+91-9278399399</a>
+						<a title="Call BestNest Real Estate Services" style="font-size:22px!important;">+91-9211170170</a>
 					</span> 
 					<span style="display: block; margin-top: 5px;"> 
 						<img width="26" height="26" src="http://images.bestnest.in/micro-site/mahagun-group/message-icon.png" alt="Email Us" style="vertical-align: middle">

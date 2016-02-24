@@ -666,7 +666,7 @@ $(window).load(function() {
                                     	<p class="location-address">
                                         	D-77, Ground floor<br>
                                         	Sector - 63, Noida<br>
-                                        	Tel: +91-9278399399, 8800491850<br>                                       		
+                                        	Tel: +91-9211170170, 8800491841<br>
                                             Email: query@bestnest.in
                                         </p>
                                     </li>
