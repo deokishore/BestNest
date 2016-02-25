@@ -11,7 +11,7 @@
 <!-- Meta Keywords for Indexing -->
 <meta name="keywords" content="Patel Neo Town, Contact Patel Neo Town, 2bhk flat in noida extension,BestNest Real Estate"/>
 <!-- End Meta Keywords for Indexing -->
-<meta name="description" content="BESTNEST REAL ESTATE SERVICES PVT. LTD., D-77, Ground Floor, Sector 63, Noida,Call Us: +91-9278399399, 91 8800491850"/>
+<meta name="description" content="BESTNEST REAL ESTATE SERVICES PVT. LTD., D-77, Ground Floor, Sector 63, Noida,Call Us: +91-9211170170, 91 8800491841"/>
 <!--Meta Robot.txt reference for Indexing -->
 <meta name="robots" content="index,follow" />
 <!--End Meta Robot.txt for Indexing -->

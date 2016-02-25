@@ -11,7 +11,7 @@
 <!-- Meta Keywords for Indexing -->
 <meta name="keywords" content="Contact damont epic, Contact damont group projects,Contact damont noida extension,damont epic residential project,damont epic noida extension, 2/3 bhk aparments in sector 12 noida extension,Contact for 2/3 bhk at affordbale price,Contact damont epic greater noida west,BestNest Real Estate, bestnest.in"/>
 <!-- End Meta Keywords for Indexing -->
-<meta name="description" content="For any query regarding damont epic please conatact our number +919278399399, or mail US on our mail ID query@bestnest.in."/>
+<meta name="description" content="For any query regarding damont epic please conatact our number +919211170170, or mail US on our mail ID query@bestnest.in."/>
 <!--Meta Robot.txt reference for Indexing -->
 <meta name="robots" content="index,follow" />
 <!--End Meta Robot.txt for Indexing -->
@@ -100,7 +100,7 @@ $('a > img').each(function(){
 				<p>
 					<span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
 				    <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png"> 
-				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9278399399 (IND)</span>
+				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9211170170 (IND)</span>
 				</p>
 				<p class="contactno" style="margin-top:5px; margin-left:47%">
 					<img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">
