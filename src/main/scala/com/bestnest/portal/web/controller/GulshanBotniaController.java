@@ -74,7 +74,7 @@ public class GulshanBotniaController {
 	
 	@RequestMapping(value="/sitevisit", method = RequestMethod.GET)
 	public ModelAndView siteVisit() {
-		ModelAndView mv = new ModelAndView("gulshan-botnia-sector144-noida.sitevisit");
+		ModelAndView mv = new ModelAndView("gulshan-botnia-sector144-noida.siteVisit");
 		return mv;
  	}
 	

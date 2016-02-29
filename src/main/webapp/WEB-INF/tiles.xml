@@ -40,6 +40,11 @@
         <put-attribute name="body" value="/protected/login.jsp"/>
     </definition>
 
+    <!--  ContactUs Page -->
+    <definition name="contactUs" extends="master.page">
+        <put-attribute name="body" value="/protected/contact-us.jsp"/>
+    </definition>
+
 
 
 

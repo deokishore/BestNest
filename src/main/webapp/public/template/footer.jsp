@@ -69,9 +69,9 @@
 			<div class="sections last">
 				<h3>Contact us</h3>
 				<ul>
-					<li><a href="/aboutUs.htm">About Us</a></li>
-					<li><a href="/nriServices.htm">NRI Services</a></li>
-					<li><a href="/contactUs.htm">Contact Us</a></li>
+					<li><a href="/aboutUs">About Us</a></li>
+					<li><a href="/nriServices">NRI Services</a></li>
+					<li><a href="/contactUs">Contact Us</a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>
