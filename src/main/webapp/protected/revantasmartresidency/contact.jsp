@@ -100,7 +100,7 @@ $('a > img').each(function(){
 				<p>
 					<span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
 				    <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png"> 
-				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9278399399 (IND)</span>
+				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9211170170 (IND)</span>
 				</p>
 				<p class="contactno" style="margin-top:5px; margin-left:47%">
 					<img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">
@@ -191,7 +191,7 @@ $('a > img').each(function(){
                 <div class="padding10">
                 	<h4>BESTNEST REAL ESTATE SERVICES PVT. LTD.</h4>
                 	<p>D-77, Ground Floor, Sector 63, Noida</p>
-                	<p>Call Us: +91-9278399399, 91 8800491850</p>
+                	<p>Call Us: +91-9211170170, 91 8800491841</p>
                 </div>
             </div>
             <div class="contact-form">

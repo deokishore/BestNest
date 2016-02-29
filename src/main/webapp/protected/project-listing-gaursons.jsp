@@ -698,7 +698,7 @@ function toggleDiv(divId) {
 				<div class="contactright">
 					<span style="display: block; margin-bottom: 5px;"> 
 						<img width="26" height="26" src="http://images.bestnest.in/micro-site/gaursons-india-limited/phone_icon.png" alt="Call Us" style="vertical-align: middle"> 
-						<a title="Call BestNest Real Estate Services" style="font-size:22px!important;">+91-9278399399</a>
+						<a title="Call BestNest Real Estate Services" style="font-size:22px!important;">+91-9211170170</a>
 					</span> 
 					<span style="display: block; margin-top: 5px;"> 
 						<img width="26" height="26" src="http://images.bestnest.in/micro-site/gaursons-india-limited/message-icon.png" alt="Email Us" style="vertical-align: middle">
@@ -913,7 +913,7 @@ function toggleDiv(divId) {
 	<div class="righttext" style="position: fixed; top: 300px; right: 0; z-index: 9999">
 		<div id="showtext" style="display: block; color: #ff0000" class="calbg">
 			<div id="more">
-				<div style="color: rgb(255, 255, 255);" class="calbgpd">9278399399</div>
+				<div style="color: rgb(255, 255, 255);" class="calbgpd">9211170170</div>
 			</div>
 			<br>
 		</div>

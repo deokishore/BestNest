@@ -1138,7 +1138,7 @@ document.getElementById('inrPlatinumlbl').innerHTML=formatIndiaCurrency(parseFlo
                                 <tr>
 									<td class="alt">Legal Opinion</td>
 									<td>
-                        				<label id="138_USD">16.273392800396852</label>
+                        				<label id="138_USD">16.27339292800396852</label>
 										<script>
 											document.getElementById('138_USD').innerHTML=formatUSCurrency
 											(16.273392800396852);

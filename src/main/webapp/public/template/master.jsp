@@ -10,12 +10,14 @@
 <html>
 <!--<![endif]-->
 <head>
-<title>Real Estate Property In Delhi/NCR| Search Buy/Sell/Rent Property In Noida| Real Estate Consultant| BestNest Real Estate</title>
-<meta name="description" content="Bestnest Real estate services Pvt.Ltd. Provide buy/sell/rent Option to you for your property, Our Recommended Builders are Mahagun And Gaur And in Fetured project we recommended Supertech Eco village, Gaur city, Mahagun, Saya. and Our ofice is in Noida sector 63" />
-<meta name="keywords" content="bestnest real estate, Search property online, Recommended Builders by bestnest, Featured Projects by bestnest, Available Residential, Commercial, and Plot Property for you by bestnest." />
+<title>Real Estate Consultant Noida | BestNest Real Estate | Property Dealer in Noida Extension</title>
+<meta name="msvalidate.01" content="9759E0718AC050A65102EA3D3F92C50A" />
+<meta name="google-site-verification" content="r7tc1qa4MWIwCkE8iqUDczB4y9x-7DomeOxqUlKXEII" />
+<meta name="description" content="BestNest Real estate services Pvt.Ltd. is a Real Estate property Consultancy Company in Delhi NCR, We Provide buy,sell option for your property in our property portal, our office Address is  D-77,Sector 63, Noida " />
+<meta name="keywords" content="BestNest,BestNest Real Estate,Property dealer in Noida Extension,Real Estate Consultant Noida, 2BHK Flat in Noida Extension,Property in Noida Extension,BestNest Noida,Residential Flat in Noida Extension,Commercial shop in Noida Extension,Flats in greater Noida west" />
 <link rel="canonical" href="http://www.bestnest.in" />
-<meta name="page-topic" content="Mahagun Project" />
-<meta name="Copyright" content="Mahagun Project in Noida and Noida Extension" />
+<meta name="page-topic" content="BestNest Real Estate Consultant" />
+<meta name="Copyright" content="BestNest Real Estate Services Private Limited" />
 <meta name="ROBOTS" content="INDEX, FOLLOW" />
 <meta name="rating" content="Safe For Kids" />
 <meta name="googlebot" content="INDEX, FOLLOW" />
@@ -53,6 +55,23 @@
 <script type="text/javascript" src="http://resources.bestnest.in/js/projectsection.js"></script>
 <script type="text/javascript" src="http://resources.bestnest.in/js/custom.js"></script>
 <script type="text/javascript" src="http://resources.bestnest.in/js/EzFade.js"></script>
+
+<!-- Google Analytics Code Start-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59446819-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+<!-- Google Analytics Code End-->
 
 
 
