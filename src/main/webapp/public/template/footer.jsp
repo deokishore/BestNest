@@ -38,7 +38,7 @@
 			<div class="sections">
 				<h3>Commercial</h3>
 				<ul>
-					<li><a href="/-commercial-projenoidacts" target="_blank">Commercial Projects in Noida</a></li>
+					<li><a href="/noida-commercial-projects" target="_blank">Commercial Projects in Noida</a></li>
 					<li><a href="/aarzasquare1" target="_blank">Aarza Square</a></li>
 					<li><a href="/bandhan" target="_blank">Bandhan</a></li>
 					<li><a href="/cybercity" target="_blank">Cyber City</a></li>

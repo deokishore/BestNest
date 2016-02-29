@@ -30,6 +30,38 @@
         <put-attribute name="body" value="/protected/project-detail.jsp"/>
     </definition>
 
+    <!--  BestNest AboutUs -->
+    <definition name="aboutUs" extends="master.page">
+        <put-attribute name="body" value="/protected/about-us.jsp"/>
+    </definition>
+
+    <!--  Login Page -->
+    <definition name="login" extends="master.page">
+        <put-attribute name="body" value="/protected/login.jsp"/>
+    </definition>
+
+
+
+
+
+    <!-- Delhi L Zone Start -->
+    <definition name="delhiLZone" extends="master.page">
+        <put-attribute name="body" value="/protected/dda-lzone.jsp"/>
+    </definition>
+
+    <definition name="ddaNews" extends="master.page">
+        <put-attribute name="body" value="/protected/dda-news.jsp"/>
+    </definition>
+
+    <definition name="ddaMap" extends="master.page">
+        <put-attribute name="body" value="/protected/dda-mpd.jsp"/>
+    </definition>
+
+    <definition name="ddaBlogs" extends="master.page">
+        <put-attribute name="body" value="/protected/dda-blogs.jsp"/>
+    </definition>
+
+    <!-- Delhi L Zone End -->
 
     <!--  Microsite Master Start -->
     <definition name="microsite.master" template="/public/template/master.jsp">
@@ -1156,11 +1188,72 @@
     <definition name="gulshan-botnia-sector144-noida.siteVisit" extends="microsite.master">
         <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/sitevisit.jsp"/>
     </definition>
-
-
     <!-- gulshan-botnia-sector144-noida End-->
 
+    <!-- Mahagun Project Start -->
+    <definition name="mahagunproject" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-listing-mahagun.jsp"/>
+    </definition>
 
+    <definition name="mahagunprojectGrid" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-grid-mahagun.jsp"/>
+    </definition>
+
+    <definition name="aboutUsMahagun" extends="microsite.master">
+        <put-attribute name="body" value="/protected/about-us-mahagun.jsp"/>
+    </definition>
+
+    <definition name="contactUsMahagun" extends="microsite.master">
+        <put-attribute name="body" value="/protected/contact-us-mahagun.jsp"/>
+    </definition>
+    <!-- Mahagun Project End -->
+
+    <!-- Mahagun Project Start -->
+    <definition name="gaursons" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-listing-gaur.jsp"/>
+    </definition>
+
+    <definition name="gaursonsGrid" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-grid-gaursons.jsp"/>
+    </definition>
+
+    <definition name="aboutUsGaursons" extends="microsite.master">
+        <put-attribute name="body" value="/protected/about-us-gaursons.jsp"/>
+    </definition>
+
+    <definition name="contactUsGaur" extends="microsite.master">
+        <put-attribute name="body" value="/protected/contact-us-gaursons.jsp"/>
+    </definition>
+    <!-- Mahagun Project End -->
+
+
+    <!-- NRI Services Start -->
+    <definition name="nriServices" extends="microsite.master">
+        <put-attribute name="body" value="/protected/nri-services.jsp"/>
+    </definition>
+    <definition name="plotManagement" extends="microsite.master">
+        <put-attribute name="body" value="/protected/plot-management.jsp"/>
+    </definition>
+    <definition name="constructionUpdate" extends="microsite.master">
+        <put-attribute name="body" value="/protected/construction-update.jsp"/>
+    </definition>
+    <definition name="tenantManagement" extends="microsite.master">
+        <put-attribute name="body" value="/protected/tenant-management.jsp"/>
+    </definition>
+    <definition name="tenantManagement" extends="microsite.master">
+        <put-attribute name="body" value="/protected/tenant-management.jsp"/>
+    </definition>
+    <definition name="buyNRIProduct" extends="microsite.master">
+        <put-attribute name="body" value="/protected/buy-nri-product.jsp"/>
+    </definition>
+    <definition name="nriUserRegistration" extends="microsite.master">
+        <put-attribute name="body" value="/protected/nri-user-registration.jsp"/>
+    </definition>
+
+
+    <!-- NRI Services End -->
+
+    <!-- Mahagun Project End -->
 
     <!-- Blogger Section Start -->
     <definition name="common" template="/public/template/master.jsp">

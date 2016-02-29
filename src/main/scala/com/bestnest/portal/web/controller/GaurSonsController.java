@@ -51,9 +51,9 @@ public class GaurSonsController {
 		ModelAndView mv =  null;
 		String listGrid = request.getParameter("listGrid");
 		if(listGrid == null || listGrid.equals("") || listGrid.equals("List") ) {
-			mv = new ModelAndView("project-listing-gaursons","projectSearchForm",projectSearchForm);
+			mv = new ModelAndView("gaursons","projectSearchForm",projectSearchForm);
 		} else if(listGrid.equals("Grid")) {
-			mv = new ModelAndView("project-grid-gaursons","projectSearchForm",projectSearchForm);
+			mv = new ModelAndView("gaursonsGrid","projectSearchForm",projectSearchForm);
 		}
 		return mv;
  	}
@@ -70,7 +70,7 @@ public class GaurSonsController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-listing-gaursons","projectSearchForm",projectSearchForm);
+		return new ModelAndView("gaursons","projectSearchForm",projectSearchForm);
  	}
 	
 	@RequestMapping(value="/projectgrid", method = RequestMethod.GET)
@@ -85,18 +85,18 @@ public class GaurSonsController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-grid-gaursons","projectSearchForm",projectSearchForm);
+		return new ModelAndView("gaursonsGrid","projectSearchForm",projectSearchForm);
  	}
 	
-	@RequestMapping(value="/aboutus", method = RequestMethod.GET)
+	@RequestMapping(value="/aboutUsGaursons", method = RequestMethod.GET)
 	public ModelAndView aboutUs() {
-		ModelAndView mv = new ModelAndView("about-us-gaursons");
+		ModelAndView mv = new ModelAndView("aboutUsGaursons");
 		return mv;
  	}
 	
-	@RequestMapping(value="/contactus", method = RequestMethod.GET)
+	@RequestMapping(value="/contactusGaursons", method = RequestMethod.GET)
 	public ModelAndView contactUs() {
-		ModelAndView mv = new ModelAndView("contact-us-gaursons");
+		ModelAndView mv = new ModelAndView("contactusGaursons");
 		return mv;
  	}
 	

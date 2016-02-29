@@ -28,7 +28,7 @@ public class ContactUsController {
 	public ModelAndView contactUs(@RequestParam(value="source", required=false) String source) {
 		ClientInformationForm clientInformationForm = new ClientInformationForm();
 		clientInformationForm.setSourceSite(source);
-		ModelAndView mv = new ModelAndView("contact-us", "clientInformationForm", clientInformationForm);
+		ModelAndView mv = new ModelAndView("contactUs", "clientInformationForm", clientInformationForm);
 		return mv;
 	}
 
@@ -53,6 +53,10 @@ public class ContactUsController {
 			mv = new ModelAndView("antrikshurbangreek/antrikshurbangreek");
 		} else if(clientInformationForm.getSourceSite().contains("damontepic")) {
 			mv = new ModelAndView("damontepic/damontepic");
+		} else if(clientInformationForm.getSourceSite().contains("mahagun")) {
+			mv = new ModelAndView("mahagunproject");
+		} else if(clientInformationForm.getSourceSite().contains("gaur")) {
+			mv = new ModelAndView("gaursons");
 		} else {
 			mv = new ModelAndView("thank-you", "contactUsForm", clientInformationForm);
 		}

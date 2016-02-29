@@ -54,9 +54,9 @@ public class MahagunController {
 		ModelAndView mv =  null;
 		String listGrid = request.getParameter("listGrid");
 		if(listGrid == null || listGrid.equals("") || listGrid.equals("List") ) {
-			mv = new ModelAndView("project-listing-mahagun","projectSearchForm",projectSearchForm);
+			mv = new ModelAndView("mahagunproject","projectSearchForm",projectSearchForm);
 		} else if(listGrid.equals("Grid")) {
-			mv = new ModelAndView("project-grid-mahagun","projectSearchForm",projectSearchForm);
+			mv = new ModelAndView("mahagunprojectGrid","projectSearchForm",projectSearchForm);
 		}
 		return mv;
  	}
@@ -73,7 +73,7 @@ public class MahagunController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-listing-mahagun","projectSearchForm",projectSearchForm);
+		return new ModelAndView("mahagunproject","projectSearchForm",projectSearchForm);
  	}
 	
 	@RequestMapping(value="/projectgrid", method = RequestMethod.GET)
@@ -88,7 +88,7 @@ public class MahagunController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-grid-mahagun","projectSearchForm",projectSearchForm);
+		return new ModelAndView("mahagunprojectGrid","projectSearchForm",projectSearchForm);
  	}
 	
 	
@@ -105,7 +105,7 @@ public class MahagunController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-listing-mahagun","projectSearchForm",projectSearchForm);
+		return new ModelAndView("mahagunproject","projectSearchForm",projectSearchForm);
  	}
 	
 	@RequestMapping(value="/residential", method = RequestMethod.GET)
@@ -121,20 +121,20 @@ public class MahagunController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-listing-mahagun","projectSearchForm",projectSearchForm);
- 	}
-	
+		return new ModelAndView("mahagunproject","projectSearchForm",projectSearchForm);
+}
+
 	@RequestMapping(value="/aboutus", method = RequestMethod.GET)
 	public ModelAndView aboutUs() {
-		ModelAndView mv = new ModelAndView("about-us-mahagun");
+		ModelAndView mv = new ModelAndView("aboutUsMahagun");
 		return mv;
- 	}
-	
+	}
+
 	@RequestMapping(value="/contactus", method = RequestMethod.GET)
 	public ModelAndView contactUs() {
-		ModelAndView mv = new ModelAndView("contact-us-mahagun");
+		ModelAndView mv = new ModelAndView("contactUsMahagun");
 		return mv;
- 	}
-	
-	
+	}
+
+
 }

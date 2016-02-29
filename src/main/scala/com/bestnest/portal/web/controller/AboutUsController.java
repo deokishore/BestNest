@@ -10,7 +10,7 @@ public class AboutUsController {
 
 	@RequestMapping(value = "/aboutUs", method = RequestMethod.GET)
 	public ModelAndView aboutUs() {
-		ModelAndView mv = new ModelAndView("about-us");
+		ModelAndView mv = new ModelAndView("aboutUs");
 		return mv;
 	}
 

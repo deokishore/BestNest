@@ -583,7 +583,7 @@ $(window).load(function() {
         <div class="nri-service plot fl s-cf">
         	<h3>Plot Management</h3>
             <div class="wrap">            
-                <a href="/plotManagement.htm" title="Plot Management">
+                <a href="/nriServices/plotManagement.htm" title="Plot Management">
                     <img src="http://images.bestnest.in/nri-services/nri-other/nri-service1.png" alt="Plot Management">
                 </a>
                 <p>We will manage your plot in India and keep you updated with the developments around your plot. We also provide photos, reports.
@@ -595,14 +595,14 @@ $(window).load(function() {
                     <li>Setting up a name board for your plot</li>
 
                 </ul>
-                <a href="/plotManagement.htm" title="Read More" class="textright">Read More...</a>
+                <a href="/nriServices/plotManagement.htm" title="Read More" class="textright">Read More...</a>
             </div>
          	<div class="clear"></div>
         </div>
         <div class="nri-service construction fl s-cf">
         	<h3>Construction Updates</h3>
             <div class="wrap">
-                <a href="/constructionUpdate.htm" title="Construction Updates">
+                <a href="/nriServices/constructionUpdate.htm" title="Construction Updates">
                     <img src="http://images.bestnest.in/nri-services/nri-other/nri-service2.jpg" alt="Construction Updates">
                 </a>
                 <p>We will visit your construction site and create a list of completed versus pending phases for your quick comparison.
@@ -613,14 +613,14 @@ $(window).load(function() {
                     <li>Upcoming activities</li>
                     <li>Interior decoration &amp; other works</li>
                 </ul>
-                <a href="/constructionUpdate.htm" title="Read More" class="textright">Read More...</a>
+                <a href="/nriServices/constructionUpdate.htm" title="Read More" class="textright">Read More...</a>
             </div>
          	<div class="clear"></div>
         </div>
         <div class="nri-service tenant fl s-cf">
         	<h3>Tenant Management</h3>
             <div class="wrap">
-               <a href="/tenantManagement.htm" title="Tenant Management">
+               <a href="/nriServices/tenantManagement.htm" title="Tenant Management">
                     <img src="http://images.bestnest.in/nri-services/nri-other/nri-service3.jpg" alt="Tenant Management">
                 </a>
                 <p>Sign up with us and leave all your tenant activities to us. Be it collecting and depositing rent, painting your property, we are there for you.
@@ -631,7 +631,7 @@ $(window).load(function() {
                     <li>Utility Management - Electricity</li>
                     <li>Major Maintenance - Repairs</li>
                 </ul>
-                <a href="/tenantManagement.htm" title="Read More" class="textright">Read More...</a>
+                <a href="/nriServices/tenantManagement.htm" title="Read More" class="textright">Read More...</a>
             </div>
          	<div class="clear"></div>
         </div>
@@ -742,7 +742,7 @@ $(window).load(function() {
             <div class="clear"></div>
         </div>
         <div class="right-portion">
-            <form accept-charset="UTF-8" method="post" action="/contactUsSave.htm" id="clientInfo">
+            <form accept-charset="UTF-8" method="post" action="/nriServices/contactUsSave.htm" id="clientInfo">
             	<fieldset>
                 	<legend>Get In Touch</legend>
                     <div class="short_explanation">* Required Fields</div>
@@ -854,9 +854,9 @@ $(window).load(function() {
 			<div class="sections last">
 				<h3>Contact us</h3>
 				<ul>
-					<li><a href="/aboutUs.htm">About Us</a></li>
+					<li><a href="/nriServices/aboutUs.htm">About Us</a></li>
 					<li><a href="/nriServices.htm">NRI Services</a></li>
-					<li><a href="/contactUs.htm">Contact Us</a></li>
+					<li><a href="/nriServices/contactUs.htm">Contact Us</a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>

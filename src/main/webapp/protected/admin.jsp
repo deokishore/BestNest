@@ -85,26 +85,7 @@
 			title="click here to skip to main content">skip to main content</a>
 
 
-		<header class="secSHeader" role="banner">
-			<div id="headerbanner">
-				<div id="bankname">
-					<a href="homePage.htm">Santander - Online Banking</a>
-				</div>
-				<div id="loginfo">
-					<span class="username">Katie Walker</span> <span class="successful">Last
-						successful log on: <strong>21/11/2013 13:24</strong>
-					</span> <span class="unsuccessful">Last unsuccessful log on: <strong>21/11/2013
-							13:24</strong></span>
-				</div>
-				
-					<div id="logoff">
-						<form id="submitForAdmin" method="post">
-							<a href="javascript:submitForAdmin()">Log off</a>
-						</form>
-					</div>
-				
-			</div>
-		</header>
+
 		<div id="main" class="rightColumn">
 
 			<div id="content" class="applicationRequirements">
