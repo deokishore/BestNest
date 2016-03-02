@@ -1,4 +1,7 @@
 
+<title>Property in Delhi L Zone - Dwaraka | BestNest Real Estate</title>
+<meta name="description" content="The Delhi Development Authority (DDA) is working on the Master Plan of L Zone. Located in South-West Delhi and spread across 22,840 hectare of land, the L Zone is expected to give an impetus to the slow and stagnant real estate market of the national capital." />
+<meta name="keywords" content="dda L zone, L zone projects, dwaraka L zone, dwaraka L zone projects, L Zone hot projects" />
 
 <!--Search Section-->
 <div class="inner-form">

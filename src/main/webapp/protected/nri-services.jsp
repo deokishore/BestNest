@@ -1,7 +1,7 @@
 
-<title>NRI Services by Bestnest,Plot Management,Construction Updates,Tenant Management| BestNest Real Estate Sevices</title>
-<meta name="description" content="BestNest.in is World class realestate service provider,We have practically understood how challenging buying/selling/ renting property in india for NRI who is staying away from his home country." />
-<meta name="keywords" content="NRI RealEstate Services by bestnest,bestnest Plot Management, bestnest Construction Updates, bestnest Tenant Management, Property Documents Required for Sale, How It Works, NRI Home Loan Documents." />
+<title>NRI Services | Plot,Tenant Management,Construction Updates | BestNest Real Estate Services</title>
+<meta name="description" content="BestNest is World class real estate service provider,We have practically understood how challenging buying/selling/ renting property in Delhi/NCR india for NRI who is staying away from his home country." />
+<meta name="keywords" content="NRI Real Estate Services, bestnest Plot Management, bestnest Construction Updates, bestnest Tenant Management, Property Documents Required for Sale, How NRI Services Works, NRI Home Loan Documents." />
 
 
 <!--Banner Section-->

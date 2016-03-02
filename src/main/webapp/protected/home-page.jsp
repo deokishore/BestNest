@@ -1,9 +1,3 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
-<%@ page isELIgnored="false"%>
 
 <title>Real Estate Consultant Noida | BestNest Real Estate | Property Dealer in Noida Extension</title>
 <meta name="msvalidate.01" content="9759E0718AC050A65102EA3D3F92C50A" />
@@ -13,6 +7,17 @@
 <link rel="canonical" href="http://www.bestnest.in" />
 <meta name="page-topic" content="BestNest Real Estate Consultant" />
 <meta name="Copyright" content="BestNest Real Estate Services Private Limited" />
+<meta name="ROBOTS" content="INDEX, FOLLOW" />
+<meta name="rating" content="Safe For Kids" />
+<meta name="googlebot" content="INDEX, FOLLOW" />
+<meta name="YahooSeeker" content="INDEX, FOLLOW" />
+<meta name="msnbot" content="INDEX, FOLLOW" />
+<meta name="reply-to" content="info@bestnest.in" />
+<meta name="allow-search" content="yes" />
+<meta name="revisit-after" content="daily" />
+<meta name="distribution" content="global" />
+<meta name="expires" content="never" />
+<meta name="language" content="english" />
 <div class="clear"></div>
  <!-- Adds -->
  <div class="slider1">
