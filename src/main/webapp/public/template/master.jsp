@@ -11,24 +11,7 @@
 <!--<![endif]-->
 <head>
 
-<meta name="msvalidate.01" content="9759E0718AC050A65102EA3D3F92C50A" />
-<meta name="google-site-verification" content="r7tc1qa4MWIwCkE8iqUDczB4y9x-7DomeOxqUlKXEII" />
-<meta name="description" content="BestNest Real estate services Pvt.Ltd. is a Real Estate property Consultancy Company in Delhi NCR, We Provide buy,sell option for your property in our property portal, our office Address is  D-77,Sector 63, Noida " />
-<meta name="keywords" content="BestNest,BestNest Real Estate,Property dealer in Noida Extension,Real Estate Consultant Noida, 2BHK Flat in Noida Extension,Property in Noida Extension,BestNest Noida,Residential Flat in Noida Extension,Commercial shop in Noida Extension,Flats in greater Noida west" />
-<link rel="canonical" href="http://www.bestnest.in" />
-<meta name="page-topic" content="BestNest Real Estate Consultant" />
-<meta name="Copyright" content="BestNest Real Estate Services Private Limited" />
-<meta name="ROBOTS" content="INDEX, FOLLOW" />
-<meta name="rating" content="Safe For Kids" />
-<meta name="googlebot" content="INDEX, FOLLOW" />
-<meta name="YahooSeeker" content="INDEX, FOLLOW" />
-<meta name="msnbot" content="INDEX, FOLLOW" />
-<meta name="reply-to" content="info@bestnest.in" />
-<meta name="allow-search" content="yes" />
-<meta name="revisit-after" content="daily" />
-<meta name="distribution" content="global" />
-<meta name="expires" content="never" />
-<meta name="language" content="english" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--CSS Theme-->
