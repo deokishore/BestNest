@@ -25,7 +25,7 @@
 				<h5 class="red-border-bottom">ABOUT L ZONE</h5>
             	<!-- FOCUS HEADING -->
 				<p>As a step towards facilitating the growing need of housing in Delhi, the Delhi Development Authority (DDA) is working on the Master Plan of L Zone. Located in South-West Delhi and spread across 22,840 hectare of land, the L Zone is expected to give an impetus to the slow and stagnant real estate market of the national capital.</p> 
-                <input type="button" onclick="window.location.href='ddaMap.htm';" class="btn b yellow marginL5" id="readmorebtn1" value="Read more &raquo;">
+                <input type="button" onclick="window.location.href='delhiLZone/ddaMap';" class="btn b yellow marginL5" id="readmorebtn1" value="Read more &raquo;">
         	</div>
         </aside>
         <aside id="ctup-ads-widget-2" class="widget ctUp-ads">
@@ -39,7 +39,7 @@
 				<h5 class="red-border-bottom">RECENT NEWS</h5>
             	<!-- FOCUS HEADING -->
 				<p>Land Pooling Policy has been approved by the Ministry of Urban Development on 5th September 2013. This policy assures fundamental changes in the way of acquisition and development of land, in Delhi. The policy of DDA's was to acquire large chunks of land, directly from the land owners, at a price determined by DDA.</p>
-                <input type="button" onclick="window.location.href='/ddaNews';" class="btn b yellow marginL5" id="readmorebtn2" value="Read more &raquo;">
+                <input type="button" onclick="window.location.href='/delhiLZone/ddaNews';" class="btn b yellow marginL5" id="readmorebtn2" value="Read more &raquo;">
         	</div>
         </aside>
         <aside id="ctup-ads-widget-3" class="widget ctUp-ads">
@@ -53,7 +53,7 @@
 				<h5 class="red-border-bottom">OUR BLOGS</h5>
             	<!-- FOCUS HEADING -->
 				<p>DDA L Zone, Delhi, has become a hot area in the last couple of months of 2015. Say it end user or the real estate investor, both are looking forward for making a long term investment in Delhi L Zone. However, a lot of questions are still there which are rushing through minds of people, for e.g. What is location of DDA L zone,  what is land pooling policy?</p>
-                <input type="button" onclick="window.location.href='/ddaBlogs';" class="btn b yellow marginL5" id="readmorebtn3" value="Read more &raquo;">
+                <input type="button" onclick="window.location.href='';" class="btn b yellow marginL5" id="readmorebtn3" value="Read more &raquo;">
         	</div>
         </aside>
     </div>

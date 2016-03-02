@@ -22,7 +22,7 @@ public class DelhiLZoneController {
 	}
 
 	@RequestMapping(value = "/ddaMap", method = RequestMethod.GET)
-	public ModelAndView aboutUs() {
+	public ModelAndView ddaMaps() {
 		ModelAndView mv = new ModelAndView("ddaMap");
 		return mv;
 	}
@@ -32,5 +32,6 @@ public class DelhiLZoneController {
 		ModelAndView mv = new ModelAndView("ddaBlogs");
 		return mv;
 	}
+
 
 }

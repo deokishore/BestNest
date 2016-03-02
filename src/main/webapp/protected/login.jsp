@@ -1,80 +1,15 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page isELIgnored="false"%>
 
-<!doctype html>
-<html lang="en-GB">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport"
-	content="user-scalable=yes, width=device-width, initial-scale=1">
 <title>Login To BestNest Real Estate Services </title>
 <meta name="keywords" content="Login to BestNest, BestNest Admin Login,Login as a admin to BestNest" />
-<meta name="description" content="you can see property rate and access admin pannel if you will first Login from here" />
-<link rel="shortcut icon" href="http://images.bestnest.in/favicon.ico" />
-<link rel="stylesheet" href="http://resources.bestnest.in/css/isban/secureSiteSales.css">
-<!--[if lte IE 9]>
-	<link rel="stylesheet" href="Styles/ie9.css">
-<![endif]-->
-<!--[if lte IE 8]>
-	<link rel="stylesheet" href="Styles/ie8.css">
-<![endif]-->
-<!--[if lte IE 7]>
-	<link rel="stylesheet" href="Styles/ie7.css">
-<![endif]-->
-<script src="Scripts/lib/jquery-1.11.0.min.js"></script>
-<script src="Scripts/lib/jquery-ui-1.10.4.custom.min.js"></script>
-<script src="Scripts/behaviour.js"></script>
-<script src="Scripts/validator.js"></script>
-<!--[if lte IE 7]>
-	<script src="Scripts/ie7.js"></script>
-<![endif]-->
-<script>
-	$(function() {
-		$("form").attr("novalidate", "novalidate");
-		$("button.openLightbox")
-				.each(
-						function() {
-							if ($(this).val() == "cancel") {
-								$(this)
-										.attr("formaction",
-												"SSSCC.php?action=PFSSSCCCtrl&cmd=start&step=CancelApplication");
-							}
-						});
-		$("form.validator").validate();
-	});
+<meta name="description" content="you can see property rate and access admin panel if you will first Login from here" />
 
-	addCSSRule(0, ".hidden", "display: none;");
-
-	function submitForAdmin() {
-		document.getElementById('loginForm').action = "admin.htm";
-		document.getElementById('loginForm').submit();
-	}
-	
-	function submitForHomePage() {
-		document.getElementById('loginForm').action = "/";
-		document.getElementById('loginForm').submit();
-	}
-	
-</script>
-	
-</script>
-<noscript>
-	<style>
-.nsHide {
-	display: none !important;
-}
-</style>
-</noscript>
-</head>
-<body>
 	<div id="wrapper">
 		<a href="#main" class="auralOnly"
 			title="click here to skip to main content">skip to main content</a>
 		<header class="secSHeader" role="banner">
 			<div id="headerbanner">
 				<div id="bankname">
-					<a href="homePage.htm">Santander - Online Banking</a>
+					<a href="/homePage">BestNest - Home Page</a>
 				</div>
 				<div id="loginfo">
 					<span class="username">Deo Kishore</span> <span class="successful">Last
@@ -134,19 +69,7 @@
 					</ul>
 				</form:form>
 			</div>
-			<div id="extraInfo">
-				<!--Extra info blocks-->
-			</div>
 
-			<div id="footer">
-				<ul>
-					<li><a title="This link opens in a new window" href="#" target="_blank">Site Help &amp; Accessibility</a></li>
-					<li><a title="This link opens in a new window" href="#" target="_blank">Security &amp; Privacy</a></li>
-					<li><a title="This link opens in a new window" href="#" target="_blank">Terms &amp; Conditions</a></li>
-					<li><a title="This link opens in a new window" href="#" target="_blank">Legal</a></li>
-				</ul>
-			</div>
 		</div>
+
 	</div>
-</body>
-</html>
