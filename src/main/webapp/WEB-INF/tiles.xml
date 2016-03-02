@@ -27,7 +27,20 @@
 
     <!--  ProjectDetails Page -->
     <definition name="projectDetail" extends="master.page">
+        <put-attribute name="title" expression="${projectForm.title}"/>
+        <put-attribute name="metaKeyword" expression="${metaKeyword}"/>
+        <put-attribute name="metaDescription" expression="${projectForm.metaDescription}"/>
         <put-attribute name="body" value="/protected/project-detail.jsp"/>
+    </definition>
+
+    <!--  ProjectDetails Page -->
+    <definition name="email" extends="master.page">
+        <put-attribute name="body" value="/protected/email.jsp"/>
+    </definition>
+
+    <!--  ProjectDetails Page -->
+    <definition name="sent" extends="master.page">
+        <put-attribute name="body" value="/protected/sent.jsp"/>
     </definition>
 
     <!--  BestNest AboutUs -->
@@ -38,6 +51,11 @@
     <!--  Login Page -->
     <definition name="login" extends="master.page">
         <put-attribute name="body" value="/protected/login.jsp"/>
+    </definition>
+
+    <!--  Login Page -->
+    <definition name="admin" extends="master.page">
+        <put-attribute name="body" value="/protected/admin.jsp"/>
     </definition>
 
     <!--  ContactUs Page -->

@@ -4,7 +4,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <%@ page isELIgnored="false"%>
-
+<head>
+<title>Real Estate Consultant Noida | BestNest Real Estate | Property Dealer in Noida Extension</title>
+</head>
 
 <div class="clear"></div>
  <!-- Adds -->

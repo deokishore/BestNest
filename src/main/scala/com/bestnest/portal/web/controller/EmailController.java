@@ -149,8 +149,8 @@ public class EmailController {
 	 */
 	@RequestMapping(value = "/sendBulkMailFromExcelWithInlineImage", method = RequestMethod.POST)
 	public String sendBulkMailFromExcelWithInlineImage(
-			@RequestParam("fromEmailText") final String fromEmailText,
-			@RequestParam("subject") final String subject,
+			@RequestParam(value = "fromEmailText", defaultValue = "new value" ) final String fromEmailText,
+			@RequestParam(value = "subject", defaultValue = "new value" ) final String subject,
 			@RequestParam("image") final MultipartFile image,
 			@RequestParam("excelFile") final MultipartFile excelFile,
 			final Locale locale,  HttpSession session) throws Exception {

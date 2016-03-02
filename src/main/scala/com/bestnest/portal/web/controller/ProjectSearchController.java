@@ -186,9 +186,9 @@ public class ProjectSearchController {
 		request.setAttribute("minPrice", request.getParameter("minPrice") == null ? 0 : request.getParameter("minPrice"));
 		request.setAttribute("maxPrice", request.getParameter("maxPrice") == null ? 0 : request.getParameter("maxPrice"));
 		request.setAttribute("gridList", request.getParameter("gridList"));
-		
+
 		model.addAttribute("clientInformationForm", new ClientInformationForm());
-		
+
 		ModelAndView mv = new ModelAndView("projectDetail","projectForm",projectForm);
 		return mv;
 	}

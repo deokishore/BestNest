@@ -121,13 +121,10 @@ function submitForAdmin() {
 			
 			<div id="content">
 					
-				<form class="validator" method='post' id="saleReg1Form"
-					action="/sendBulkMailFromExcelWithInlineImage.htm" enctype="multipart/form-data"
-					modelAttribute="salesRegisterForm" data-req-msg="Required default"
+				<form:form class="validator" method='post' id="saleReg1Form" action="/sendBulkMailFromExcelWithInlineImage" enctype="multipart/form-data"
+					data-req-msg="Required default"
 					data-format-msg="Format default">
-					
-					
-					
+
 					<div class="form">
 						<h2>HTML email with bulk email from Excel, </h2>
 						<div class="formbody">
@@ -137,14 +134,13 @@ function submitForAdmin() {
 									<fieldset>
 
 										<label for="attachRecipientName">From (EmailText):</label> 
-										<input type="text" id="fromEmailText" name="fromEmailText"
-											placeholder="From Email Text" required="required" /> <br />
+										<input type="text" id="fromEmailText" name="fromEmailText" placeholder="From Email Text" required="required" /> <br/>
 										
 										<label for="subject">To (Subject):</label> 
-										<input type="text" id="subject" name="subject" placeholder="subject" required="required" /> <br /> 
+										<input type="text" id="subject" name="subject" placeholder="subject" required="required" /> <br/>
 											
 										<label for="inlineImage">Inlined image (max 10Mb):</label> 
-										<input type="file" id="inlineImage" name="image" accept="image/*" required="required" /> <br />
+										<input type="file" id="inlineImage" name="image" accept="image/*" required="required" /> <br/>
 										
 										<label for="inlineImage">Excel Sheet (max 10Mb):</label>
 										<input type="file" id="excelFile" name="excelFile" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required="required"/> <br />
@@ -154,13 +150,12 @@ function submitForAdmin() {
 							</ul>
 							
 							<ul class="actions">
-								<li><button type="submit" name="event" value="continue"
-										class="primary">Send Email</button></li>
+								<li><button type="submit" name="event" class="primary">Send Email</button></li>
 							</ul>	
 													
 						</div>
 					</div>
-				</form>
+				</form:form>
 			</div>
 			
 			

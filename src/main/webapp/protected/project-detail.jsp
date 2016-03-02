@@ -1,18 +1,17 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <%@ page isELIgnored="false"%>
 
 
 <head>
 <meta charset="utf-8">
-<title>Projects in Details View by | BestNest Real Estate Services </title>
-<meta name="description" content="We provided World Class Amenities with  Buying/Selling/Renting flat in Delhi/NCR, we are channel Partner with More than 100 Top developers Across Delhi/NCR" />
-<meta name="keywords" content="World Class Amenities with bestnest, Residential Flat In Delhi/NCR, Commercial Propety in Delhi/NCR, 2BHK Flat in Noida, Noida Extension, Greater Noida West, Greater Noida, NH-24 Ghaziabad." />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>${projectForm.title}</title>
+<meta name="description" content="${projectForm.metaDescription}" />
+<meta name="keywords" content="${projectForm.metaKeyword}"/>
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-
 
 <!--Slideshow-->
 <c:set var="google_map" value="" scope="page"/>
@@ -374,6 +373,7 @@ function nFormatter2(val) {
 <!-- End Google Analytics Code -->
 
 </head>
+
 	<!--Wrapper-->
 	<div class="wrapper">
 

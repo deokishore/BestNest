@@ -38,6 +38,9 @@ public class Project implements java.io.Serializable {
 	private String possessionStatus;
 	private String projectLogo;
 	private String projectGroup;
+	private String title;
+	private String metaKeyword;
+	private String metaDescription;
 	
 
 	private Set<ProjectSimilar> projectSimilarsForProjectId = new HashSet<ProjectSimilar>(
@@ -57,6 +60,9 @@ public class Project implements java.io.Serializable {
 			String possessionDate, Boolean focusProject,
 			String possessionStatus,
 			String projectLogo,
+			String title,
+			String metaKeyword,
+			String metaDescription,
 			Set<ProjectSimilar> projectSimilarsForProjectId,
 			Set<ProjectDetails> projectDetailses,
 			Set<ProjectSimilar> projectSimilarsForProjectSimilarMappingId) {
@@ -71,6 +77,9 @@ public class Project implements java.io.Serializable {
 		this.projectLogo = projectLogo;
 		this.focusProject = focusProject;
 		this.possessionStatus = possessionStatus;
+		this.title = title;
+		this.metaKeyword = metaKeyword;
+		this.metaDescription = metaDescription;
 		this.projectSimilarsForProjectId = projectSimilarsForProjectId;
 		this.projectDetailses = projectDetailses;
 		this.projectSimilarsForProjectSimilarMappingId = projectSimilarsForProjectSimilarMappingId;
@@ -232,7 +241,36 @@ public class Project implements java.io.Serializable {
 			Set<ProjectSimilar> projectSimilarsForProjectSimilarMappingId) {
 		this.projectSimilarsForProjectSimilarMappingId = projectSimilarsForProjectSimilarMappingId;
 	}
-	
+
+	@Column(name = "title", length = 70)
+	public String getTitle() {
+		return title;
+	}
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	@Column(name = "meta_keyword", length = 100)
+	public String getMetaKeyword() {
+		return metaKeyword;
+	}
+
+	public void setMetaKeyword(String metaKeyword) {
+		this.metaKeyword = metaKeyword;
+	}
+
+
+	@Column(name = "meta_description", length = 170)
+	public String getMetaDescription() {
+		return metaDescription;
+	}
+
+	public void setMetaDescription(String metaDescription) {
+		this.metaDescription = metaDescription;
+	}
+
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub

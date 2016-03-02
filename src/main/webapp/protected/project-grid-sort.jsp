@@ -6,6 +6,21 @@
 <%@ page isELIgnored="false"%>
 
 
+<head>
+
+<!-- Pagination Start  -->
+    <script type="text/javascript" src="http://resources.bestnest.in/js/pagination/jquery_grid.pajinate.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#paging_container2').pajinate();
+        });
+    </script>
+<!-- Pagination End -->
+
+</head>
+
+
 	<!--Search Section-->
 	<div id="search-bar-Bg" style="height:150px;">
 	
