@@ -119,8 +119,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
         <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01"><a href="/riseorganicghar/about.htm">About</a></li>
-          <li id="top-menu-item-02"><a href="/riseorganicghar/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01"><a href="/riseorganicghar/about">About</a></li>
+          <li id="top-menu-item-02"><a href="/riseorganicghar/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -131,15 +131,15 @@ $('a > img').each(function(){
       <ul class="menu" id="menu-main-menu">
       
       	<li id="main-menu-01" class="first"><span class="before dt"></span><a href="/riseorganicghar">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02" class="current_page_item"><span class="before dt"></span><a href="/riseorganicghar/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/riseorganicghar/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/riseorganicghar/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/riseorganicghar/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/riseorganicghar/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/riseorganicghar/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02" class="current_page_item"><span class="before dt"></span><a href="/riseorganicghar/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/riseorganicghar/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/riseorganicghar/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/riseorganicghar/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/riseorganicghar/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/riseorganicghar/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/riseorganicghar/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/riseorganicghar/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/riseorganicghar/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/riseorganicghar/contact">Contact Us</a><span class="after dt"></span></li>
         <!-- End Hidden Menu Display in mobile & ipad -->
       </ul>
       <div class="clear"></div>
@@ -210,7 +210,7 @@ $('a > img').each(function(){
             <h3>Get in Touch</h3>
             <div class="lftcontentcontainer" id="gnContactForm">
               <form:form id="clientInformationForm" class="frmLeaveMessage" 
-                    		action="${pageContext.request.contextPath}/contactUsSave.htm" 
+                    		action="${pageContext.request.contextPath}/contactUsSave" 
 									modelAttribute="clientInformationForm">  
 									
 				<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/riseorganicghar">
@@ -254,7 +254,7 @@ $('a > img').each(function(){
               <h2><strong> Rise Organic Ghar</strong></h2>
              <i class="imap"></i><span class="ml_5">NH-24 Ghaziabad</span>
               <div class="contactbtn">
-                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/riseorganicghar/contact.htm')" value="View Contact Details" />
+                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/riseorganicghar/contact')" value="View Contact Details" />
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ $('a > img').each(function(){
   </div>
   <!--Content Section--> 
 <div class="sitevisit">
-	<a href="/riseorganicghar/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Rise Organic Ghar Site Visit"></a>
+	<a href="/riseorganicghar/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Rise Organic Ghar Site Visit"></a>
 </div>
    <!--Social Icons-->
   <div id="single-share" class="right_icon_main">

@@ -116,8 +116,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
         <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01"><a href="/damontepic/about.htm">About</a></li>
-          <li id="top-menu-item-02"><a href="/damontepic/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01"><a href="/damontepic/about">About</a></li>
+          <li id="top-menu-item-02"><a href="/damontepic/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -127,36 +127,36 @@ $('a > img').each(function(){
       <div class="group">
        <ul class="menu" id="menu-main-menu">
           <li id="main-menu-01" class="first"><span class="before dt"></span><a href="/damontepic">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02"><span class="before dt"></span><a href="/damontepic/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/damontepic/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/damontepic/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/damontepic/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/damontepic/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/damontepic/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02"><span class="before dt"></span><a href="/damontepic/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/damontepic/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/damontepic/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/damontepic/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/damontepic/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/damontepic/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/damontepic/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/damontepic/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/damontepic/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/damontepic/contact">Contact Us</a><span class="after dt"></span></li>
           <!-- End Hidden Menu Display in mobile & ipad -->
         </ul>
         <div class="clear"></div>
       </div>
     </nav>
   </header>
-  <!--Header Section--> 
-  
+  <!--Header Section-->
+
   <!--Slideshow Section -->
-  <div id="projectsnapshotCont"> 
+  <div id="projectsnapshotCont">
     <!-- Slide Images starts from here-->
     <div class="slideBanner">
-      <div id="coin-slider"> 
+      <div id="coin-slider">
 	      	<a href="javascript:void(0);">
-	        	<img src="http://images.bestnest.in/micro-site/damont-epic/slide-show/slide-show-1.jpg" alt="Buy Residential Apartments - DAMONT EPIC, Greater Noida West" /> 
+	        	<img src="http://images.bestnest.in/micro-site/damont-epic/slide-show/slide-show-1.jpg" alt="Buy Residential Apartments - DAMONT EPIC, Greater Noida West" />
 	        </a>
 	        <a href="javascript:void(0);">
-	        	<img src="http://images.bestnest.in/micro-site/damont-epic/slide-show/slide-show-2.jpg" alt="Buy Residential Apartments - DAMONT EPIC, Greater Noida West" /> 
+	        	<img src="http://images.bestnest.in/micro-site/damont-epic/slide-show/slide-show-2.jpg" alt="Buy Residential Apartments - DAMONT EPIC, Greater Noida West" />
 	       	</a>
 	       	<a href="javascript:void(0);">
-	       	<img src="http://images.bestnest.in/micro-site/damont-epic/slide-show/slide-show-3.jpg" alt="Buy Residential Apartments - DAMONT EPIC, Greater Noida West" /> 
+	       	<img src="http://images.bestnest.in/micro-site/damont-epic/slide-show/slide-show-3.jpg" alt="Buy Residential Apartments - DAMONT EPIC, Greater Noida West" />
 	      	</a>
 		</div>
     </div>
@@ -164,8 +164,8 @@ $('a > img').each(function(){
     <div class="highlight"> <img alt="Highlight" src="http://images.bestnest.in/micro-site/damont-epic/highlight.png"> </div>
     <div class="clear"></div>
   </div>
-  <!--Slideshow Section--> 
-  
+  <!--Slideshow Section-->
+
   <!--Content Section-->
   <div id="content" class="default group" >
     <div id="blink">
@@ -280,7 +280,7 @@ $('a > img').each(function(){
                                       	</ul>
                                   	</div>
                                 </span>&nbsp;
-                                <!-- End Hidden Price Per Sqt Filter Div -->				
+                                <!-- End Hidden Price Per Sqt Filter Div -->
                             </span>
                         </form>
                         <br>
@@ -289,7 +289,7 @@ $('a > img').each(function(){
                     <div id="results">
                     	<!-- Property Listing Container -->
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
 								<b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">24.57 Lac</b>
@@ -301,36 +301,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                     <a href="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-985sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-985sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>985  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 2495</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/damontepic" title="Damont Epic" class="sName">
                                     		<b>Damont Epic</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Da Mont Epic, A new residential project of Da Mont Group that offers 2/3 BHK luxurious apartments at extremely affordable rates in Greater Noida (West). Epic gives enough space to live and enjoy life with your family & friends along with an option to expand and customize your home in your own way.
@@ -342,7 +342,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -370,15 +370,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=181" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -386,7 +386,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">29.31 Lac</b>
@@ -398,36 +398,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	 <a href="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1175sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1175sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1175  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 2495</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/damontepic" title="Damont Epic" class="sName">
                                     		<b>Damont Epic</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Da Mont Epic, A new residential project of Da Mont Group that offers 2/3 BHK luxurious apartments at extremely affordable rates in Greater Noida (West). Epic gives enough space to live and enjoy life with your family & friends along with an option to expand and customize your home in your own way.
@@ -439,7 +439,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -467,15 +467,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=181" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -483,7 +483,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">34.05</b>
@@ -496,36 +496,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1365sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1365sqft.jpg" alt="2 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1365  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 2495</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/damontepic" title="Damont Epic" class="sName">
                                     		<b>Damont Epic</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Da Mont Epic, A new residential project of Da Mont Group that offers 2/3 BHK luxurious apartments at extremely affordable rates in Greater Noida (West). Epic gives enough space to live and enjoy life with your family & friends along with an option to expand and customize your home in your own way.
@@ -537,7 +537,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -565,15 +565,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=181" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -581,7 +581,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                          <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">39.29 Lac</b>
@@ -593,36 +593,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1575sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1575sqft.jpg" alt="3 BHK + Toilets, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1575  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 2495</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/damontepic" title="Damont Epic" class="sName">
                                     		<b>Damont Epic</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Da Mont Epic, A new residential project of Da Mont Group that offers 2/3 BHK luxurious apartments at extremely affordable rates in Greater Noida (West). Epic gives enough space to live and enjoy life with your family & friends along with an option to expand and customize your home in your own way.
@@ -634,7 +634,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -662,15 +662,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=181" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -678,7 +678,7 @@ $('a > img').each(function(){
     					</div>
                         <div class="clr paddingtopbot15"></div>
                         <div title="View property details" onclick="#" class="srpWrap">
-						<i class="pLatinum"></i>		
+						<i class="pLatinum"></i>
                         	<div class="wrapttl">
 								<div class="srpttl  wdthFix385 left">
                                     <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">46.15 Lac</b>
@@ -690,36 +690,36 @@ $('a > img').each(function(){
                                	</a>
                         		<div class="clr"></div>
 							</div>
-							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">  
+							<img alt="BESTNEST" src="http://images.bestnest.in/micro-site/common/best-nest-logo.png" class="logo_bdr abs">
                         	<div class="srpDetail">
 								<div class="srpImg rel">
                                 	<a href="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1850sqft.jpg" class="fancybox" title="Floor Plan">
                                     	<img width="200" height="150" class="imgBoxSrp vmid" src="http://images.bestnest.in/damont-group/damont-epic/floor-plan-damont-epic-1850sqft.jpg" alt="3 BHK, Residential Apartment in Greater Noida West">
                                     	<div class="imgCap text-center">
                                         	<b>View Floor Plan</b>
-                                        	<div class="clr"></div>                                      
+                                        	<div class="clr"></div>
                                 		</div>
                                     </a>
                                 </div>
 								<div class="srpDataWrap">
-                					<span>Super built-up  Area : 
+                					<span>Super built-up  Area :
                                     	<b>1850  Sq.Ft. </b> @ <b class="WebRupee f13 mr5 fwn"> &#8360; 2495</b> / Sq.Ft.
-                                    </span>				                                        
+                                    </span>
                                     <div class="clr pdt8"></div>
-                                    <span class="redPd  doElip">New Project : 
+                                    <span class="redPd  doElip">New Project :
                                     	<a href="/damontepic" title="Damont Epic" class="sName">
                                     		<b>Damont Epic</b>
                                     	</a>
                                     </span>
                               		<div class="sep clr mt3imp"></div>
                                     <span>
-                                    	<span>Highlights:&nbsp; </span> 
+                                    	<span>Highlights:&nbsp; </span>
                                     	<span>New Booking&nbsp;</span>
-                                        <span> 
+                                        <span>
                                         	<span>/&nbsp;</span> New launched&nbsp;
                                         </span>
                                     </span>
-                        			<div class="sep clr"></div>                    				
+                        			<div class="sep clr"></div>
                                     <div class="left  f12">
                                     	<b>Description :</b>
                                     	Da Mont Epic, A new residential project of Da Mont Group that offers 2/3 BHK luxurious apartments at extremely affordable rates in Greater Noida (West). Epic gives enough space to live and enjoy life with your family & friends along with an option to expand and customize your home in your own way.
@@ -731,7 +731,7 @@ $('a > img').each(function(){
                                                 <i value="Power Back-up" class="i2">&nbsp;</i>
                                                 <i value="Feng Shui / Vaastu Compliant" class="i5">&nbsp;</i>
                                                 <i value="Lift(s)" class="i21">&nbsp;</i>
-                                                <i value="Security Personnel" class="i9">&nbsp;</i>                        
+                                                <i value="Security Personnel" class="i9">&nbsp;</i>
                                             </div>
                                             <div class="LyrIcon top0imp fc_icons fcInit wrapHvr hide" style="display: none;">
                                                 <div class="wrapIn">
@@ -759,15 +759,15 @@ $('a > img').each(function(){
                     			</div>
             					<div class="clr p5"></div>
                                 <div class="left f13 marginlr10 mb5">
-                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>                              
-                                </div> 
+                                    Marketed By : <a href="http://www.bestnest.in" target="_blank" title="BESTNEST REAL ESTATE SERVICES PVT. LTD. , Noida" class="hverU blkImp" style="color:#09C!important; font-weight:bold;">BESTNEST REAL ESTATE SERVICES PVT. LTD.</a>
+                                </div>
                             </div>
         					<div class="clr"></div>
             				<div class="mt5 paddingL10">
-                            	
+
 								<a title="View Phone Number" id="viewphoneno" class="whiteBtn f13 mr10 left" href="http://bestnest.in/projectDetail.htm?projectId=181" target="_blank">View Project Details</a>
 								<!--ShortlistStar -->
-                              	
+
             					<!--ShortlistStar -->
                             	<div class="right f11 mt25 grey mrgnrght10">Posted : Sep 10, 2015</div>
                           	</div>
@@ -790,7 +790,7 @@ $('a > img').each(function(){
                     <p class="show">Da Mont Epic, A new residential project of Da Mont Group that offers 2/3 BHK luxurious apartments at extremely affordable rates in Greater Noida (West). Epic gives enough space to live and enjoy life with your family & friends along with an option to expand and customize your home in your own way. Damont Epic, is designed to fit the lifestyle of common people. With the availability of all the modern facilities and amenities, residents can enjoy a luxurious lifestyle. In short, Epic apartments can provide you with a whole new experience of the modern-age living.</p>
                   </div>
                 </div>
-          	</div> 
+          	</div>
           	<div class="overviewicons">
             	<div class="iconwrapper left">
               <p><img alt="Location" src="http://images.bestnest.in/micro-site/common/location-icons.png" /></p>
@@ -824,8 +824,8 @@ $('a > img').each(function(){
             </div>
           	</div>
           	<!--Location Map & Site Plan Links -->
-            
-			<!--End Location Map & Site Plan Links --> 
+
+			<!--End Location Map & Site Plan Links -->
            	<!-- Amenities Section -->
          	<div class="rightContBox" id="Project">
           	<h2 class="heading_2">Amenities</h2>
@@ -949,30 +949,30 @@ $('a > img').each(function(){
     </div>
     <aside role="complementary" class="right s-cf" id="sidebar">
       <div class="side-block" id="side-links1">
-        <div class="rgtbox"> 
+        <div class="rgtbox">
           <!-- Right Form Starts from here -->
           <div class="rgtcontentcontainer1">
             <h3>Get in Touch</h3>
             <div class="lftcontentcontainer" id="gnContactForm">
-            
-              <form:form id="clientInformationForm" class="frmLeaveMessage" 
-                    		action="${pageContext.request.contextPath}/contactUsSave.htm" 
-									modelAttribute="clientInformationForm">  
-									
+
+              <form:form id="clientInformationForm" class="frmLeaveMessage"
+                    		action="${pageContext.request.contextPath}/contactUsSave"
+									modelAttribute="clientInformationForm">
+
 				<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/damontepic">
-						
+
                 <label>First Name <b>*</b></label>
                 <input type="text" id="firstName" name="firstName" required />
-                
+
                 <label>Last Name <b>*</b></label>
                 <input type="text" id="lastName" name="lastName" />
-                
+
                 <label>E-mail Id<b>*</b></label>
                 <input type="email" id="email" name="email" />
-                
+
                 <label>Mobile Phone No. <b>*</b></label>
                 <input type="text" id="mobilePhoneNumber" name="mobilePhoneNumber" required />
-                                
+
                 <label>Your Query *</label>
                 <textarea maxlength="2048" rows="3" id="message" name="message">I am interested in your property. Please contact me.</textarea>
                 <div class="clrbth"></div>
@@ -993,14 +993,14 @@ $('a > img').each(function(){
       </div>
      <div class="side-block" id="side-links2">
         <div class="rgtbox">
-          <div class="rgtcontentcontainer"> 
+          <div class="rgtcontentcontainer">
             <!-- Contact Details Starts from here -->
             <h4>Contact Us</h4>
             <div class="paddinglftrgt10">
               <h2><strong>Damont Epic</strong></h2>
               <i class="imap"></i><span class="ml_5">Sector-12, Greater Noida (West)</span>
               <div class="contactbtn">
-                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/damontepic/contact.htm')" value="View Contact Details" />
+                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/damontepic/contact')" value="View Contact Details" />
               </div>
             </div>
           </div>
@@ -1015,9 +1015,9 @@ $('a > img').each(function(){
     </div>
     <div class="clear"></div>
   </div>
-  <!--Content Section--> 
+  <!--Content Section-->
   <div class="sitevisit">
-	<a href="/damontepic/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Damont Epic Site Visit"></a>
+	<a href="/damontepic/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Damont Epic Site Visit"></a>
 </div>
   <!--Social Icons-->
   <div id="single-share" class="right_icon_main">

@@ -116,8 +116,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
         <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01"><a href="/cybercity/about.htm">About</a></li>
-          <li id="top-menu-item-02"><a href="/cybercity/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01"><a href="/cybercity/about">About</a></li>
+          <li id="top-menu-item-02"><a href="/cybercity/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -127,15 +127,15 @@ $('a > img').each(function(){
       <div class="group">
         <ul class="menu" id="menu-main-menu">
           <li id="main-menu-01" class="current_page_item first"><span class="before dt"></span><a href="/cybercity">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02"><span class="before dt"></span><a href="/cybercity/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/cybercity/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/cybercity/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/cybercity/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/cybercity/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/cybercity/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02"><span class="before dt"></span><a href="/cybercity/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/cybercity/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/cybercity/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/cybercity/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/cybercity/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/cybercity/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/cybercity/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/cybercity/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/cybercity/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/cybercity/contact">Contact Us</a><span class="after dt"></span></li>
           <!-- End Hidden Menu Display in mobile & ipad -->
         </ul>
         <div class="clear"></div>
@@ -791,7 +791,7 @@ $('a > img').each(function(){
             <div class="lftcontentcontainer" id="gnContactForm">
             
               <form:form id="clientInformationForm" class="frmLeaveMessage" 
-                    		action="${pageContext.request.contextPath}/contactUsSave.htm" 
+                    		action="${pageContext.request.contextPath}/contactUsSave"
 									modelAttribute="clientInformationForm">  
 									
 				<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/cybercity">
@@ -835,7 +835,7 @@ $('a > img').each(function(){
               <h2><strong>RJ Cyber City</strong></h2>
               <i class="imap"></i><span class="ml_5">KP-V, Greater Noida (West)</span>
               <div class="contactbtn">
-                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/cybercity/contact.htm')" value="View Contact Details" />
+                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/cybercity/contact')" value="View Contact Details" />
               </div>
             </div>
           </div>
@@ -852,7 +852,7 @@ $('a > img').each(function(){
   </div>
   <!--Content Section--> 
   <div class="sitevisit">
-	<a href="/cybercity/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Cyber City Site Visit"></a>
+	<a href="/cybercity/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Cyber City Site Visit"></a>
 </div>
   <!--Social Icons-->
   <div id="single-share" class="right_icon_main">

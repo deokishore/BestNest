@@ -117,8 +117,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
         <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01"><a href="/fragrance/about.htm">About</a></li>
-          <li id="top-menu-item-02" class="selected"><a href="/fragrance/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01"><a href="/fragrance/about">About</a></li>
+          <li id="top-menu-item-02" class="selected"><a href="/fragrance/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -128,15 +128,15 @@ $('a > img').each(function(){
     <div class="group">
       <ul class="menu" id="menu-main-menu">
       	 <li id="main-menu-01" class="first"><span class="before dt"></span><a href="/fragrance">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02"><span class="before dt"></span><a href="/fragrance/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/fragrance/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/fragrance/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/fragrance/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/fragrance/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/fragrance/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02"><span class="before dt"></span><a href="/fragrance/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/fragrance/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/fragrance/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/fragrance/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/fragrance/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/fragrance/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/fragrance/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="current_page_item s alt"><span class="before dt"></span><a href="/fragrance/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/fragrance/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="current_page_item s alt"><span class="before dt"></span><a href="/fragrance/contact">Contact Us</a><span class="after dt"></span></li>
           <!-- End Hidden Menu Display in mobile & ipad -->
        
       </ul>
@@ -195,7 +195,7 @@ $('a > img').each(function(){
             <div class="contact-form">
             <h3>Get In Touch With Us</h3>
             	<div class="padding10">
-                	<form:form id="clientInformationForm" class="frmLeaveMessage" action="${pageContext.request.contextPath}/contactUsSave.htm" 
+                	<form:form id="clientInformationForm" class="frmLeaveMessage" action="${pageContext.request.contextPath}/contactUsSave" 
           							modelAttribute="clientInformationForm">
           							
           				<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/fragrance"/>
@@ -242,7 +242,7 @@ $('a > img').each(function(){
   
   <!--Project Slider Ends -->
    <div class="sitevisit">
-	<a href="/fragrance/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Fragrance Site Visit"></a>
+	<a href="/fragrance/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Fragrance Site Visit"></a>
 </div>
   <!--Social Icons-->
   <div id="single-share" class="right_icon_main">
