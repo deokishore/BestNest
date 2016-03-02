@@ -9,14 +9,39 @@
     <mvc:resources mapping="/resources/**" location="/resources/" />
 
     <!-- TILES -->
-    <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
+    <!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+    <bean id="tilesConfigurer"
+          class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
         <property name="definitions">
             <list>
                 <value>/WEB-INF/tiles.xml</value>
+                <!--<value>/WEB-INF/views/**/views.xml</value>-->
             </list>
         </property>
-        <property name="preparerFactoryClass"
-                  value="org.springframework.web.servlet.view.tiles2.SpringBeanPreparerFactory"/>
+    </bean>
+
+    <bean id="tilesViewResolver"  class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass">
+            <value>
+                org.springframework.web.servlet.view.tiles3.TilesView
+            </value>
+        </property>
+
+        <property name="order" value="0"/>
+    </bean>
+
+    <!-- View Handler -->
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+                    <property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView"/>
+                </bean>
+                <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                    <property name="prefix" value="/"/>
+                </bean>
+            </list>
+        </property>
     </bean>
 
     <!-- i18n -->
@@ -27,20 +52,6 @@
     </bean>
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.FixedLocaleResolver">
         <property name="defaultLocale" value="en"/>
-    </bean>
-
-    <!-- View Handler -->
-    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
-        <property name="viewResolvers">
-            <list>
-                <bean class="org.springframework.web.servlet.view.UrlBasedViewResolver">
-                    <property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
-                </bean>
-                <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-                    <property name="prefix" value="/"/>
-                </bean>
-            </list>
-        </property>
     </bean>
 
 

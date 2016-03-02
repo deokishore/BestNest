@@ -23,7 +23,10 @@ public class ProjectForm {
 	private Boolean focusProject;
 	private String projectLogo;
 	private String projectGroup;
-	
+	private String title;
+	private String metaKeyword;
+	private String metaDescription;
+
 	private Set<ProjectDetailsForm> projectDetailsFormSet = new HashSet<ProjectDetailsForm>(0);
 	
 	private List<ProjectSimilarForm> projectSimilarsForProjectIdForm = new ArrayList<ProjectSimilarForm>(
@@ -179,5 +182,28 @@ public class ProjectForm {
 	public void setProjectGroup(String projectGroup) {
 		this.projectGroup = projectGroup;
 	}
-	
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getMetaKeyword() {
+		return metaKeyword;
+	}
+
+	public void setMetaKeyword(String metaKeyword) {
+		this.metaKeyword = metaKeyword;
+	}
+
+	public String getMetaDescription() {
+		return metaDescription;
+	}
+
+	public void setMetaDescription(String metaDescription) {
+		this.metaDescription = metaDescription;
+	}
 }
