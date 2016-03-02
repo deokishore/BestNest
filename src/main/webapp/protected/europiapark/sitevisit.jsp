@@ -86,7 +86,7 @@
 	
 	<p align="center" style="padding-bottom: 10px;">Enter your details to get a call from us.</p>
 	
-	<form:form name="validform" method="post" action="${pageContext.request.contextPath}/contactUsSaveForSiteVisit.htm"
+	<form:form name="validform" method="post" action="${pageContext.request.contextPath}/contactUsSaveForSiteVisit"
 		modelAttribute="clientInformationForm" onsubmit="return validate(this);" style="margin:0px;">
 	
 		<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/europiapark">

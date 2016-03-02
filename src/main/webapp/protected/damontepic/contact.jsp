@@ -117,8 +117,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
          <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01"><a href="/damontepic/about.htm">About</a></li>
-          <li id="top-menu-item-02" class="selected"><a href="/damontepic/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01"><a href="/damontepic/about">About</a></li>
+          <li id="top-menu-item-02" class="selected"><a href="/damontepic/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -128,15 +128,15 @@ $('a > img').each(function(){
     <div class="group">
       <ul class="menu" id="menu-main-menu">
           <li id="main-menu-01" class="first"><span class="before dt"></span><a href="/damontepic">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02"><span class="before dt"></span><a href="/damontepic/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/damontepic/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/damontepic/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/damontepic/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/damontepic/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/damontepic/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02"><span class="before dt"></span><a href="/damontepic/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/damontepic/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/damontepic/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/damontepic/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/damontepic/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/damontepic/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/damontepic/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="current_page_item s alt"><span class="before dt"></span><a href="/damontepic/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="s alt"><span class="before dt"></span><a href="/damontepic/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="current_page_item s alt"><span class="before dt"></span><a href="/damontepic/contact">Contact Us</a><span class="after dt"></span></li>
           <!-- End Hidden Menu Display in mobile & ipad -->
         </ul>
       <div class="clear"></div>
@@ -194,7 +194,7 @@ $('a > img').each(function(){
             <div class="contact-form">
             <h3>Get In Touch With Us</h3>
             	<div class="padding10">
-                	<form:form id="clientInformationForm" class="frmLeaveMessage" action="${pageContext.request.contextPath}/contactUsSave.htm" 
+                	<form:form id="clientInformationForm" class="frmLeaveMessage" action="${pageContext.request.contextPath}/contactUsSave" 
           							modelAttribute="clientInformationForm">
           							
           				<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in/damontepic"/>
@@ -241,7 +241,7 @@ $('a > img').each(function(){
   
   <!--Project Slider Ends -->
    <div class="sitevisit">
-	<a href="/damontepic/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Damont Epic Site Visit"></a>
+	<a href="/damontepic/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Damont Epic Site Visit"></a>
 </div>
   <!--Social Icons-->
   <div id="single-share" class="right_icon_main">
