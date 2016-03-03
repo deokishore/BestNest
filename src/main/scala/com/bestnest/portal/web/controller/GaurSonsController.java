@@ -51,7 +51,7 @@ public class GaurSonsController {
 		ModelAndView mv =  null;
 		String listGrid = request.getParameter("listGrid");
 		if(listGrid == null || listGrid.equals("") || listGrid.equals("List") ) {
-			mv = new ModelAndView("gaursons","projectSearchForm",projectSearchForm);
+			mv = new ModelAndView("gaurproject","projectSearchForm",projectSearchForm);
 		} else if(listGrid.equals("Grid")) {
 			mv = new ModelAndView("gaursonsGrid","projectSearchForm",projectSearchForm);
 		}
@@ -70,7 +70,7 @@ public class GaurSonsController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("gaursons","projectSearchForm",projectSearchForm);
+		return new ModelAndView("gaurproject","projectSearchForm",projectSearchForm);
  	}
 	
 	@RequestMapping(value="/projectgrid", method = RequestMethod.GET)
@@ -113,7 +113,7 @@ public class GaurSonsController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-listing-gaursons","projectSearchForm",projectSearchForm);
+		return new ModelAndView("gaurproject","projectSearchForm",projectSearchForm);
  	}
 	
 	@RequestMapping(value="/residential", method = RequestMethod.GET)
@@ -129,7 +129,7 @@ public class GaurSonsController {
 		List<ProjectForm> projectFormList = projectSearchService.searchProjects(projectSearchForm);
 		projectSearchForm.setProjectFormList(projectFormList);
 		
-		return new ModelAndView("project-listing-gaursons","projectSearchForm",projectSearchForm);
+		return new ModelAndView("gaurproject","projectSearchForm",projectSearchForm);
  	}
 	
 	@RequestMapping(value="/luxuryproject", method = RequestMethod.GET)

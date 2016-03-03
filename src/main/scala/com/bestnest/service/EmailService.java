@@ -27,8 +27,8 @@ import com.bestnest.portal.web.form.ClientInformationForm;
 
 @Service
 public class EmailService {
-	
-	private Logger logger = Logger.getLogger(EmailService.class);
+
+	private static final Logger logger = Logger.getLogger("emailLogger");
 	
 	@Autowired
 	private JavaMailSender mailSender;
@@ -36,10 +36,8 @@ public class EmailService {
 	@Autowired
 	private TemplateEngine templateEngine;
 	
-	private static List<String> clientInfoList = Arrays.asList("deokishore@yahoo.com", "ankit.prajapati@bestnest.in", "birujna@gmail.com", "nawnit_k@yahoo.com", "query@bestnest.in");
-	private static List<String> directorsList = Arrays.asList("deokishore@yahoo.com","birujna@gmail.com", "nawnit_k@yahoo.com","saurabh.middha@bestnest.in");
-	private static int counter = 1;
-	
+	private static List<String> clientInfoList = Arrays.asList("deokishore@yahoo.com", "ankit.prajapati@bestnest.in");
+
 	/*
 	 * Send HTML mail (simple)
 	 */
@@ -61,7 +59,7 @@ public class EmailService {
 //								mimeMessage, true, "UTF-8");
 //						message.setSubject("Someone Accessed BestNest Site, count: " + counter);
 //						message.setTo(bestNestUserEmail);
-//						message.setFrom("info@bestnest.in",
+//						message.setFrom("customer.care@bestnest.in",
 //								"BestNest Email Service");
 //						message.setText(htmlContent, true /* isHtml */);
 //					} catch (Exception e) {
@@ -79,7 +77,7 @@ public class EmailService {
 	public void sendClientEMail(final ClientInformationForm clientInformationForm)
 			throws MessagingException {
 		
-		logger.info("Sending sendClientEMail ");
+		logger.info("Sending email to user  " +  clientInfoList);
 		
 		// Prepare the evaluation context
 		final String firstName = clientInformationForm.getFirstName()  == null ? " No FirstName " : clientInformationForm.getFirstName();
@@ -104,15 +102,15 @@ public class EmailService {
 		for (final String bestNestUserEmail : clientInfoList) {
 			preparators[i++] = new MimeMessagePreparator() {
 				public void prepare(MimeMessage mimeMessage) throws Exception {
-					try {
-						final MimeMessageHelper message = new MimeMessageHelper(mimeMessage, true, "UTF-8");
-						message.setSubject(subject);
-						message.setTo(bestNestUserEmail);
-						message.setFrom("info@bestnest.in", "BestNest Email Service");
-						message.setText(htmlContent, true /* isHtml */);
-					}catch (Exception e) {
-						System.out.println("Error while configuring email" + e);
-					}
+				try {
+					final MimeMessageHelper message = new MimeMessageHelper(mimeMessage, true, "UTF-8");
+					message.setSubject(subject);
+					message.setTo(bestNestUserEmail);
+					message.setFrom("customer.care@bestnest.in", "BestNest Email Service");
+					message.setText(htmlContent, true /* isHtml */);
+				}catch (Exception ex) {
+					logger.error("Error while configuring email" + ex);
+				}
 				}
 			};
 		}
@@ -122,21 +120,8 @@ public class EmailService {
 		} catch(Exception ex) {
 			logger.error("Error while sending mails ", ex);
 		}
-		
-//		List<MimeMessagePreparator[]> list = splitArray(preparators, 20);
-//		logger.info("Sending Tota Email " + list.size());
-//		
-//		try {
-//			
-//			for (MimeMessagePreparator[] mimeMessagePreparators : list) {
-//				this.mailSender.send(mimeMessagePreparators);
-//				logger.info("Sent a batch of 20 ");
-//			}
-//			
-//		} catch(Exception ex) {
-//			logger.error("Error while sending mails ", ex);
-//		}
-		
+
+		logger.error("Sending  Email was successful ");
 	}
 	
 	
@@ -160,7 +145,7 @@ public class EmailService {
 				"UTF-8");
 		message.setSubject(subject);
 		try {
-			message.setFrom("info@bestnest.in", fromEmailText);
+			message.setFrom("customer.care@bestnest.in", fromEmailText);
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -198,7 +183,7 @@ public class EmailService {
 				true /* multipart */, "UTF-8");
 		message.setSubject(subject);
 		try {
-			message.setFrom("info@bestnest.in", fromEmailText);
+			message.setFrom("customer.care@bestnest.in", fromEmailText);
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -247,7 +232,7 @@ public class EmailService {
 				true /* multipart */, "UTF-8");
 		message.setSubject(subject);
 		try {
-			message.setFrom("info@bestnest.in", fromEmailText);
+			message.setFrom("customer.care@bestnest.in", fromEmailText);
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -302,7 +287,7 @@ public class EmailService {
 					ctx.setVariable("name", user.getFirstName());
 					message.setSubject(subject);
 					message.setTo(user.getEmail());
-					message.setFrom("info@bestnest.in", fromEmailText);
+					message.setFrom("customer.care@bestnest.in", fromEmailText);
 					message.setText(htmlContent, true /* isHtml */);
 					message.addInline(imageResourceName, imageSource,
 							imageContentType);
@@ -311,7 +296,7 @@ public class EmailService {
 		}
 		
 		List<MimeMessagePreparator[]> list = splitArray(preparators, 5);
-		logger.info("Sending Tota Email " + list.size());
+		logger.info("Sending Total Email " + list.size());
 		
 		try {
 			
@@ -330,12 +315,11 @@ public class EmailService {
 			final String subject, final String imageResourceName,
 			final byte[] imageBytes, final String imageContentType,
 			final Locale locale,
-			final List<ClientInformation> clientInfoList) throws Exception {
+			final List<ClientInformation> clientInfoList) {
 		
 		logger.info(" Sending Bulk email form an excel file " );
 		
-		MimeMessagePreparator[] preparators = new MimeMessagePreparator[clientInfoList
-				.size()];
+		MimeMessagePreparator[] preparators = new MimeMessagePreparator[clientInfoList.size()];
 		int i = 0;
 
 		final Context ctx = new Context(locale);

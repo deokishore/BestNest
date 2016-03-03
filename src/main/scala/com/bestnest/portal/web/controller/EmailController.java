@@ -1,22 +1,9 @@
 package com.bestnest.portal.web.controller;
 
-import java.io.BufferedOutputStream;
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.mail.MessagingException;
-import javax.management.RuntimeErrorException;
-import javax.servlet.http.HttpSession;
-
+import com.bestnest.domain.ClientInformation;
+import com.bestnest.service.ClientInformationService;
+import com.bestnest.service.EmailService;
+import com.bestnest.util.Constant;
 import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -28,15 +15,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.bestnest.domain.ClientInformation;
-import com.bestnest.service.ClientInformationService;
-import com.bestnest.service.EmailService;
-import com.bestnest.util.Constant;
+import javax.mail.MessagingException;
+import javax.servlet.http.HttpSession;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @Controller
 public class EmailController {
-	
-	private Logger logger = Logger.getLogger(EmailController.class);
+
+	private static final Logger logger = Logger.getLogger("emailLogger");
 	
 	@Autowired
 	ClientInformationService clientInformationService;
@@ -145,59 +140,25 @@ public class EmailController {
 	}
 
 	/*
-	 * Send HTML mail with inline image
-	 */
+     * Send HTML mail with inline image
+     */
 	@RequestMapping(value = "/sendBulkMailFromExcelWithInlineImage", method = RequestMethod.POST)
 	public String sendBulkMailFromExcelWithInlineImage(
-			@RequestParam(value = "fromEmailText", defaultValue = "new value" ) final String fromEmailText,
-			@RequestParam(value = "subject", defaultValue = "new value" ) final String subject,
+			@RequestParam("fromEmailText") final String fromEmailText,
+			@RequestParam("subject") final String subject,
 			@RequestParam("image") final MultipartFile image,
 			@RequestParam("excelFile") final MultipartFile excelFile,
 			final Locale locale,  HttpSession session) throws Exception {
-		
-		logger.info(" sendBulkMailFromExcelWithInlineImage ... " );
-		
-		String fileName="";
-		
-		if(excelFile!=null && !excelFile.isEmpty()){
-			 try {
-				 	fileName = excelFile.getOriginalFilename();
-					String userName =  session.getAttribute("user").toString();
-		            userName = userName.substring(0, userName.indexOf("@"));
-		            fileName = userName + "_" + fileName ;
-		            fileName = getFileName(fileName);
-		            
-		            logger.info(" Excel file name created : " + fileName );
-		            
-	                byte[] bytes = excelFile.getBytes();
-	 
-	                // Creating the directory to store file
-//	                String catalinaHome = System.getProperty("catalina.home");
-//	                logger.info(" Catalina Home Test : " + catalinaHome);
-//	                String rootPath = Constant.EXCEL_SAVE_PATH;
-//	                File dir = new File(rootPath);
-//	                if (!dir.exists()) {
-//	                	logger.info(" Directory does not exists, creating it " + dir.getAbsolutePath());
-//	                    dir.mkdir();
-//	                } else {
-//	                	logger.info(" Directory exists" + dir.getAbsolutePath());
-//	                }
-//	                
-//	                // Create the file on the server
-//	                File serverFile = new File(dir.getAbsolutePath() + File.separator + fileName);
-//	                BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(serverFile));
-//	                stream.write(bytes);
-//	                stream.close();
-	                
-	                logger.info("You successfully uploaded file : " + fileName);
-	            } catch (Exception e) {
-	            	logger.error("Error while sending bulk mail from excel with inline Image : ", e);
-	                return "You failed to upload " + fileName + " => " + e.getMessage();
-	            }
-		}
-		
+
+		logger.info(" send Bulk Mail From Excel With Inline Image ... " + "EmailController{" +
+				"fromEmailText='" + fromEmailText + '\'' +
+				", subject='" + subject + '\'' +
+				", image=" + image +
+				", excelFile=" + excelFile +
+				'}');
+
 		List<ClientInformation> clntInfoList = getExcelDatat(excelFile.getBytes());
-		// clientInformationService.bulkSave(clntInfoList);
+
 
 		this.emailService.sendBulkMailFromExcelWithInline(fromEmailText,
 				subject, image.getName(), image.getBytes(),

@@ -221,8 +221,8 @@ function toggleDiv(divId) {
 			        <li id="listone"><a href="/gaurproject" title="Home">Home</a> </li>
 			        <li id="listtwo" style="display:none;"><a rel="residential" href="/gaurproject/residential.htm" title="Residential Projects" class="active">Residential Projects</a></li>
 					<li id="listthree" style="display:none;"><a rel="commercial" href="/gaurproject/commercial.htm" title="Commercial Projects">Commercial Projects</a></li>
-			        <li id="listfour"><a href="/gaurproject/aboutus.htm" title="About Us">About Gaur</a> </li>
-			        <li id="listfive"><a href="/gaurproject/contactus.htm" title="Contact Us">Contact Us</a> </li>		        
+			        <li id="listfour"><a href="/gaurproject/aboutUsGaursons" title="About Us">About Gaur</a> </li>
+			        <li id="listfive"><a href="/gaurproject/contactusGaursons" title="Contact Us">Contact Us</a> </li>
 			      </ul>
 			      </ul>
 			</div>

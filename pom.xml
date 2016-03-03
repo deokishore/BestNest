@@ -338,7 +338,7 @@
                     <path>/</path>
                     <additionalConfigFilesDir>${basedir}/src/main/tomcat/conf</additionalConfigFilesDir>
                     <systemProperties>
-                        <log4j.configuration>file:./src/main/tomcat/conf/log4j.xml</log4j.configuration>
+                        <log4j.configuration>file:./src/main/tomcat/conf/log4j.properties</log4j.configuration>
                     </systemProperties>
                 </configuration>
                 <dependencies>

@@ -484,8 +484,8 @@ function nFormatter2(val) {
     <a class="toggleMenu" href="#"><img src="http://images.bestnest.in/micro-site/gaursons-india-limited/nav-icon.png" alt="Menu Items" border="0" /></a>
        <ul class="nav">
          <li><a href="/gaurproject" title="Home">Home</a> </li>
-        <li><a href="/gaurproject/aboutus.htm" title="About Us">About Gaur</a> </li>
-        <li><a class="active" href="/gaurproject/contactus.htm" title="Contact Us">Contact Us</a> </li>
+        <li><a href="/gaurproject/aboutUsGaursons" title="About Us">About Gaur</a> </li>
+        <li><a class="active" href="/gaurproject/contactusGaursons title="Contact Us">Contact Us</a> </li>
       </ul>
     </div>
   </header>

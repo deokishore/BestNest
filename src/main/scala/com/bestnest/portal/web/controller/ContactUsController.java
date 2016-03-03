@@ -42,17 +42,17 @@ public class ContactUsController {
 		ModelAndView mv = null;
 		
 		if(clientInformationForm.getSourceSite().contains("bullandcalisto")) {
-			mv = new ModelAndView("bullandcalisto/bullandcalisto");
+			mv = new ModelAndView("bullandcalisto");
 		} else if(clientInformationForm.getSourceSite().contains("acecity")) {
-			mv = new ModelAndView("acecity/acecity");
+			mv = new ModelAndView("acecity");
 		} else if(clientInformationForm.getSourceSite().contains("amaatrahomes")) {
-			mv = new ModelAndView("amaatrahomes/amaatrahomes");
+			mv = new ModelAndView("amaatrahomes");
 		} else if(clientInformationForm.getSourceSite().contains("antrikshgalaxy")) {
-			mv = new ModelAndView("antrikshgalaxy/antrikshgalaxy");
+			mv = new ModelAndView("antrikshgalaxy");
 		} else if(clientInformationForm.getSourceSite().contains("antrikshurbangreek")) {
-			mv = new ModelAndView("antrikshurbangreek/antrikshurbangreek");
+			mv = new ModelAndView("antrikshurbangreek");
 		} else if(clientInformationForm.getSourceSite().contains("damontepic")) {
-			mv = new ModelAndView("damontepic/damontepic");
+			mv = new ModelAndView("damontepic");
 		} else if(clientInformationForm.getSourceSite().contains("mahagun")) {
 			mv = new ModelAndView("mahagunproject");
 		} else if(clientInformationForm.getSourceSite().contains("gaur")) {

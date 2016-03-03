@@ -232,7 +232,7 @@ function toggleDiv(divId) {
 			        <li id="listone"><a href="/gaurproject" title="Home">Home</a> </li>
 			        <li id="listtwo" style="display:none;"><a rel="residential" href="/gaurproject/residential" title="Residential Projects">Residential Projects</a></li>
 					<li id="listthree" style="display:none;"><a rel="commercial" href="/gaurproject/commercial" title="Commercial Projects">Commercial Projects</a></li>
-			        <li id="listfour"><a href="/gaurproject/aboutus" title="About Us">About Gaur</a> </li>
+			        <li id="listfour"><a href="gaurproject/aboutUsGaursons" title="About Us">About Gaur</a> </li>
 			        <li id="listfive"><a class="active" href="/gaurproject/contactus" title="Contact Us">Contact Us</a> </li>
 			      </ul>
 			</div>
@@ -266,8 +266,8 @@ function toggleDiv(divId) {
       			<ul>
                    		<li><a rel="residential" href="/gaurproject/residential" title="Residential Projects">Residential Projects</a></li>
 						<li><a rel="commercial" href="/gaurproject/commercial" title="Commercial Projects">Commercial Projects</a></li>
-						<li><a rel="aboutus" href="/gaurproject/aboutus" title="About Us">About	Gaur</a></li>
-						<li><a class="active" rel="contact" href="/gaurproject/contactus" title="Contact Us">Contact Us</a></li>
+						<li><a rel="aboutus" href="/gaurproject/aboutUsGaursons" title="About Us">About	Gaur</a></li>
+						<li><a class="active" rel="contact" href="/gaurproject/contactusGaursons" title="Contact Us">Contact Us</a></li>
                     <div class="clear"></div>
                </ul>
     		</div>

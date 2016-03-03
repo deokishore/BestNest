@@ -63,6 +63,10 @@
         <put-attribute name="body" value="/protected/contact-us.jsp"/>
     </definition>
 
+    <!--  ContactUs Page -->
+    <definition name="thank-you" extends="master.page">
+        <put-attribute name="body" value="/protected/thank-you.jsp"/>
+    </definition>
 
 
 
@@ -1232,8 +1236,8 @@
     <!-- Mahagun Project End -->
 
     <!-- Mahagun Project Start -->
-    <definition name="gaursons" extends="microsite.master">
-        <put-attribute name="body" value="/protected/project-listing-gaur.jsp"/>
+    <definition name="gaurproject" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-listing-gaursons.jsp"/>
     </definition>
 
     <definition name="gaursonsGrid" extends="microsite.master">
