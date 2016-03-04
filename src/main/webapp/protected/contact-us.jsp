@@ -4,7 +4,7 @@
 
 <title>Contact Us | BestNest Real Estate Services private limited</title>
 <meta name="description" content="Contact us to buy,sell,rent your property in Delhi NCR, contact us to buy residential, commercial, plot, villa property in noida extension/delhi ncr " />
-<meta name="keywords" content="bestnest real estate, property in noida extension, BestNest noida,property dealer in noida extension, flat, shop, www.bestnest.in" />
+<meta name="keywords" content="BestNest real estate services private limited, property in noida extension, BestNest noida,property dealer in noida extension, contact us for buy/sell/rent your property www.bestnest.in " />
 
 <!--Content Section-->
 <section>
@@ -16,7 +16,7 @@
                 	<div class="col">
                     	<div id="gform_wrapper_3" class="gform_wrapper frmLeaveMessage_wrapper">
                         	<!-- <form action="/contact/" class="frmLeaveMessage" id="gform_3" method="post">  -->
-                        	<form:form id="clientInformationForm" class="frmLeaveMessage" action="${pageContext.request.contextPath}/contactUsSave.htm" 
+                        	<form:form id="clientInformationForm" class="frmLeaveMessage" action="${pageContext.request.contextPath}/contactUsSave"
           							modelAttribute="clientInformationForm">
           							
           						<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in"/>
