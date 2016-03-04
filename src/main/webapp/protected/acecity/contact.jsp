@@ -11,7 +11,7 @@
 <!-- Meta Keywords for Indexing -->
 <meta name="keywords" content="Contact ace city, Contact Ace group projects, Contact ace noida extension,ace city noida extension, 2/3 bhk aparments in sector 1 noida extension,Contact 2/3 bhk at affordbale price,Contact ace city greater noida west,BestNest Real Estate, bestnest.in"/>
 <!-- End Meta Keywords for Indexing -->
-<meta name="description" content="Contact us as BESTNEST REAL ESTATE SERVICES PVT. LTD. D-77, Ground Floor, Sector 63,Noida Call Us: +91-8800491841, 91 9899481760, query@bestnest.in."/>
+<meta name="description" content="Contact us as BESTNEST REAL ESTATE SERVICES PVT. LTD. D-77, Ground Floor, Sector 63,Noida Call Us: +91-9211170170, 91 8800491841, query@bestnest.in."/>
 <!--Meta Robot.txt reference for Indexing -->
 <meta name="robots" content="index,follow" />
 <!--End Meta Robot.txt for Indexing -->
@@ -188,7 +188,7 @@ $('a > img').each(function(){
                 <div class="padding10">
                 	<h4>BESTNEST REAL ESTATE SERVICES PVT. LTD.</h4>
                 	<p>D-77, Ground Floor, Sector 63, Noida</p>
-                	<p>Call Us: +91-8800491841, 91 9899481760</p>
+                	<p>Call Us: +91-9211170170, 91 8800491841</p>
                 </div>
             </div>
             <div class="contact-form">

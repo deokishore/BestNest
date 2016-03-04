@@ -192,7 +192,7 @@ $('a > img').each(function(){
                 <div class="padding10">
                 	<h4>BESTNEST REAL ESTATE SERVICES PVT. LTD.</h4>
                 	<p>D-77, Ground Floor, Sector 63, Noida</p>
-                	<p>Call Us: +91-8800491841, 91 9899481760</p>
+                	<p>Call Us: +91-9211170170, 91 8800491841</p>
                 </div>
             </div>
             <div class="contact-form">

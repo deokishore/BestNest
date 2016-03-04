@@ -10,13 +10,13 @@
     <div class="wrapper">
         <div class="left-portion">
         	<div class="lftbox">
-            	<h2 class="heading_2">About BestNest</h2>
+            	<h1 class="heading_2">About BestNest Real Estate</h1>
       			<div class="contentbrd">
 					<p>
-                       Bestnest Private Limited is the real estate organisation with wide-ranging resources and ability to offer personalized professional services in Northern India. We have tie-ups with more than 30 top developers across the NCR. Though currently we are operating in the Delhi NCR region but we have plans to expand our footprint throughout the country in the near future. 
+                       BestNest Real Estate Services Private Limited is the real estate organisation with wide-ranging resources and ability to offer personalized professional Real Estate Consultancy services in Northern India. We have tie-ups with more than 30 top developers across the Delhi NCR. Though currently we are operating in the Delhi NCR region but we have plans to expand our footprint throughout the country in the near future.
                    	</p>
                     <p>
-                       We provide wide range of residential and commercial projects from the leading developers. Providing services along with reliable excellence, innovation and effectiveness and delivering the same with enthusiasm and determination has become one of the major hallmarks at Bestnest. We are there for you at every step and would come to your doorstep to serve and meet any of your requirements. Buying your dream home through Bestnest ensures that all the transaction are transparent , safe and secure thereby ensuring complete peace of mind. 
+                       We provide wide range of residential and commercial projects from the leading developers. Providing services along with reliable excellence, innovation and effectiveness and delivering the same with enthusiasm and determination has become one of the major hallmarks at BestNest. We are there for you at every step and would come to your doorstep to serve and meet any of your requirements. Buying your dream home through BestNest ensures that all the transaction are transparent , safe and secure thereby ensuring complete peace of mind.
                     </p>
                     <ul>
                     	<li><strong> Dedicated and highly motivated staff members </strong></li>

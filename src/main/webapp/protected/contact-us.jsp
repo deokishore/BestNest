@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 
-<title>Contact Us | BestNest Real Estate Services private limited</title>
+<title> Contact Us | BestNest Real Estate </title>
 <meta name="description" content="Contact us to buy,sell,rent your property in Delhi NCR, contact us to buy residential, commercial, plot, villa property in noida extension/delhi ncr " />
 <meta name="keywords" content="BestNest real estate services private limited, property in noida extension, BestNest noida,property dealer in noida extension, contact us for buy/sell/rent your property www.bestnest.in " />
 
