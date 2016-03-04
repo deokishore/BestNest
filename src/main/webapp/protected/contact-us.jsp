@@ -8,7 +8,9 @@
 
 <!--Content Section-->
 <section>
+
     <div class="wrapper">
+
     	<div class="contact-block">
     		<div class="contact-block-inner">
         	<div class="contact-block-gradient">
@@ -22,7 +24,8 @@
           						<input id="sourceSite" name="sourceSite" type="hidden" value="www.bestnest.in"/>
           						
                             	<div class="gform_heading">
-                            		<h3 class="gform_title">Send Us A Message</h3>
+                            	 <h1>Contact BestNest Real Estate</h1></br>
+                            		<h2 class="gform_title">Send Us A Message</h2>
                         		</div>
                                 <div class="gform_body">
                                 	<ul class="gform_fields">

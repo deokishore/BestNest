@@ -1236,7 +1236,7 @@
     </definition>
     <!-- Mahagun Project End -->
 
-    <!-- Mahagun Project Start -->
+    <!-- Gaur Project Start -->
     <definition name="gaursons" extends="microsite.master">
         <put-attribute name="body" value="/protected/project-listing-gaur.jsp"/>
     </definition>
@@ -1252,7 +1252,7 @@
     <definition name="contactUsGaur" extends="microsite.master">
         <put-attribute name="body" value="/protected/contact-us-gaursons.jsp"/>
     </definition>
-    <!-- Mahagun Project End -->
+    <!-- GaurProject Project End -->
 
 
     <!-- NRI Services Start -->
@@ -1299,8 +1299,34 @@
 
     <definition name="commonPosts" extends="common">
         <put-attribute name="title" value="Blogger - Posts" />
-        <put-attribute name="body" value="/WEB-INF/views/tiles/body_posts.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/tiles/body_home.jsp" />
     </definition>
     <!-- Blogger Section End -->
+
+
+
+     <!-- SEO Start -->
+
+<!--
+    <definition name="BingSiteAuth.xml" extends="master.jsp">
+        <put-attribute name="body" value="static/BingSiteAuth.xml" />
+    </definition>
+
+    <definition name="google0320724b19f5fc9d.html" extends="master.jsp">
+        <put-attribute name="body" value="static/google0320724b19f5fc9d.html" />
+    </definition>
+
+    <definition name="robots.txt" extends="master.jsp">
+        <put-attribute name="body" value="static/robots.txt" />
+    </definition>
+
+    <definition name="sitemap.xml" extends="master.jsp">
+        <put-attribute name="body" value="static/sitemap.xml" />
+    </definition>
+    -->
+
+    <!-- SEO End -->
+
+
 
 </tiles-definitions>

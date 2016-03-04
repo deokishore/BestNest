@@ -66,24 +66,24 @@ $(window).load(function() {
         visibleItems: 5,
         animationSpeed: 1500,
         autoPlay: true,
-        autoPlaySpeed: 3000,            
+        autoPlaySpeed: 3000,
         pauseOnHover: true,
         enableResponsiveBreakpoints: true,
-        responsiveBreakpoints: { 
-            portrait: { 
+        responsiveBreakpoints: {
+            portrait: {
                 changePoint:480,
                 visibleItems: 1
-            }, 
-            landscape: { 
+            },
+            landscape: {
                 changePoint:640,
                 visibleItems: 2
             },
-            tablet: { 
+            tablet: {
                 changePoint:768,
                 visibleItems: 3
             }
         }
-    });  
+    });
 });
 </script>
 <!-- End Developer Slider Footer -->
@@ -97,48 +97,48 @@ $(window).load(function() {
 <!-- End Common Js File-->
 
 <!-- Fancy Box -->
-<script type="text/javascript" src="http://resources.bestnest.in/js/video.js"></script> 
+<script type="text/javascript" src="http://resources.bestnest.in/js/video.js"></script>
 <script type="text/javascript" src="http://resources.bestnest.in/js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.fancybox-buttons.js"></script> 
+<script type="text/javascript" src="http://resources.bestnest.in/js/jquery.fancybox-buttons.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		/*
 		 *  Simple image gallery. Uses default settings
 		 */
-	
+
 		$('.fancybox').fancybox();
-	
-	
+
+
 		/*
 		 *  Different effects
 		 */
-	
-		
+
+
 		/*
 		 *  Button helper. Disable animations, hide close button, change title type and content
 		 */
-	
+
 		$('.fancybox-buttons').fancybox({
 			openEffect  : 'elastic',
 			closeEffect : 'fade',
-	
+
 			prevEffect : 'none',
 			nextEffect : 'none',
-	
+
 			closeBtn  : false,
-	
+
 			helpers : {
 				title : {
 					type : 'inside'
 				},
 				buttons	: {}
 			},
-	
+
 			afterLoad : function() {
-				this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.	
+				this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.
 				title : '');
 			}
-		});	
+		});
 	});
 </script>
 <!--End Fancy Box-->
@@ -226,8 +226,8 @@ $(window).load(function() {
 	$(".zsg-icon-x-thin").click(function() {
 	   $(this).find('#zmm-lrf').removeClass('zmm-lrf-advanced-show').addClass('zmm-lrf-advanced-hidden');
 	});
-	
-  })  
+
+  })
 </script>
 <script type="text/javascript">
     function customCheckbox(checkboxName){
@@ -267,7 +267,7 @@ $(window).load(function() {
         duration: 1000
       }
     });
-	
+
 	 $( "#dialog1" ).dialog({
 	   width: 650,
        height: 300,
@@ -281,15 +281,15 @@ $(window).load(function() {
         duration: 1000
       }
     });
-	
+
     $( ".sample-report-opener" ).click(function() {
       $( "#dialog" ).dialog( "open" );
     });
-	
+
 	$( ".price-report-opener" ).click(function() {
       $( "#dialog1" ).dialog( "open" );
     });
-	
+
   });
   </script>
 <script>
@@ -325,7 +325,7 @@ $(window).load(function() {
 		$('#scrollbar5').tinyscrollbar();
 		$('#scrollbar6').tinyscrollbar();
 });
-	
+
 	/** Filter Hidden Div Toogle **/
 	function toggleDiv(divId) {
    		$("#"+divId).toggleClass('flipClose flipOpen');
@@ -337,7 +337,7 @@ $(window).load(function() {
 	function handleClick(obj, valparam, tosetid, settype, clsid, rpclass) {
 		var setObj = document.getElementById(tosetid);
 		var trgCls = document.getElementById(clsid);
-		
+
 		if (setObj!=null) {
 			if (settype = "stInner") {
 				setObj.innerHTML = valparam;
@@ -357,16 +357,16 @@ $(window).load(function() {
 			else {
 				// DO NOTHING
 			}
-			
+
 			if ((trgCls != null) && (rpclass == "Y")) {
 				trgCls.className = trgCls.className.replace('flipOpen', 'flipClose');
-				//alert (trgCls.className);	
-			}		
-		}				
+				//alert (trgCls.className);
+			}
+		}
 	}
-	
+
 	/** End Set Filter Values **/
-	
+
 	/** Reset Filter Values **/
 	function resetdo(){
 		var field1 = document.getElementById("cstatus");
@@ -379,14 +379,14 @@ $(window).load(function() {
 		var field8 = document.getElementById("rentMinprice");
 		var field9 = document.getElementById("rentMaxprice");
 		var field10 = document.getElementById("rentFilterBeds");
-		
+
 		var radiobtn0 = document.getElementById("protypeli1").checked = true;
 		var radiobtn1 = document.getElementById("protypeli3").checked = true;
 		var radiobtn2 = document.getElementById("allst").checked = true;
 		var radiobtn3 = document.getElementById("cityli0").checked = true;
 		var radiobtn4 = document.getElementById("bedroomli1").checked = true;
 		var radiobtn5 = document.getElementById("rentcityli0").checked = true;
-		
+
 		if (field1!= null){
 			field1.innerHTML = "All";
 		}
@@ -426,65 +426,65 @@ $(window).load(function() {
 	{
 		$(".anythingSlider").mouseover(function() { $("span.arrow").css('opacity', '1'); });
 		$(".anythingSlider").mouseout(function() { $("span.arrow").css('opacity', '0'); });
-		
-	$(".forward").click(function(){  
+
+	$(".forward").click(function(){
 		$("#proGalleryFourSlider_1 li").removeClass('activePage').next('li').addClass('activePage');
-		$(".anythingSlider").find("span.back").removeClass("disabled"); 
+		$(".anythingSlider").find("span.back").removeClass("disabled");
 		$(this).parents(".anythingSlider").find("ul").css('left' , '-941px');
 	});
-	
-	$(".back").click(function(){  
+
+	$(".back").click(function(){
 		$("#proGalleryFourSlider_1 li").removeClass('activePage').next('li').addClass('activePage');
-		$(".anythingSlider").find("span.back").addClass("disabled"); 
+		$(".anythingSlider").find("span.back").addClass("disabled");
 		$(this).parents(".anythingSlider").find("ul").css('left' , '0px');
 	});
-	
+
 	/** End Best Deals Slider Function**/
-	
+
 	/** Project Size & Price Sorting Function **/
 	$('#sort-size').click(function() {
 		$(this).closest('div').parents().find('#project-item1').toggleClass('active');
 		$(this).parents().siblings('div').find('#project-item2').removeClass('active');
 		});
-	
+
 		$('#sort-price').click(function() {
 			$(this).closest('div').parents().find('#project-item2').toggleClass('active');
 			$(this).parents().siblings('div').find('#project-item1').removeClass('active');
 		});
-		
+
 		$('#filterSize1').click(function() {
 			alert("You have selected 1 Bhk Size");
 			$(this).parents().find('#project-item1').removeClass('active');
 		});
-		
+
 		$('#filterSize2').click(function() {
 			alert("You have selected 2 Bhk Size");
 			$(this).parents().find('#project-item1').removeClass('active');
 		});
-		
+
 		$('#filterSize3').click(function() {
 			alert("You have selected 3 Bhk Size");
 			$(this).parents().find('#project-item1').removeClass('active');
 		});
-		
+
 		$('#filterSize4').click(function() {
 			alert("You have selected 4 Bhk Size");
 			$(this).parents().find('#project-item1').removeClass('active');
 		});
-		
+
 		$('#min-price').click(function() {
 			alert("You have selected min price");
 			$(this).parents().find('#project-item2').removeClass('active');
 		});
-		
+
 		$('#max-price').click(function() {
 			alert("You have selected max price");
 			$(this).parents().find('#project-item2').removeClass('active');
-		});	
+		});
 	/** End Project Size & Price Sorting Function **/
-		
+
 	/** Search Tab Buy & Rent Functionality **/
-	
+
 	$('.search-tabs li a').click(function() {
     	$('li a.sel').removeClass('sel');
     	$(this).closest('li a').addClass('sel');
@@ -494,10 +494,10 @@ $(window).load(function() {
 	$(".tabs").click(function() {
 		$(".buyrentpanel").toggleClass("showfilter hidefilter");
 	});
-	
+
 	/** End Search Tab Buy & Rent Functionality **/
-	
-});	
+
+});
 </script>
 <!-- End Other Scripts -->
 
@@ -524,7 +524,7 @@ $(window).load(function() {
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://images.bestnest.in/ico/apple-touch-icon-144-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://images.bestnest.in/ico/apple-touch-icon-114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://images.bestnest.in/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="http://images.bestnest.in/ico/apple-touch-icon-57-precomposed.png"> 
+<link rel="apple-touch-icon-precomposed" href="http://images.bestnest.in/ico/apple-touch-icon-57-precomposed.png">
  </head>
 
 <body>
@@ -539,27 +539,7 @@ $(window).load(function() {
     }(document, 'script', 'facebook-jssdk'));</script>
     <!-- End Facebook Plugin -->
 
-<!--Header Section-->
-<header>
-  <div class="head">
-    <div class="logo"> <a href="/"><img src="http://images.bestnest.in/best-nest.png" alt="BestNest Real Estate Services Pvt. Ltd." /></a>
-      <div class="clear"></div>
-    </div>
-        <a class="toggleMenu" href="#"><img src="http://images.bestnest.in/nav-icon.png" alt="Menu Items" border="0" /></a>
-	
-	  <ul class="nav">
-        <li><a href="/nriServices.htm" class="active" title="NRI Services">NRI Services</a></li>
-	    <li><a href="/aboutUs.htm" class="deactive" title="About Us">About Us</a></li>
-		<li><a href="/lZone.htm" class="deactive" title="DDA L ZONE">DDA L Zone</a></li>
-		<li><a href="/contactUs.htm" class="deactive" title="Contact Us">Contact Us</a></li>
-		<li><a href="javascript:submitForAdmin()" class="deactive" title="Login to Admin Panel">Login</a></li>
-   		<!-- <li class="postProLi"><a class="sellrent" href="sell/seller-login.html" title="Post Property">Post Property<small> Free</small></a> </li>  -->
-       </ul>
-    <div class="clear"></div>
-  </div>
-  <div class="clear"></div>
-</header>
-<!--Header Section-->
+
 
 <!--Search Section-->
 <div class="inner-form">
@@ -1610,100 +1590,7 @@ document.getElementById('inrPlatinumlbl').innerHTML=formatIndiaCurrency(parseFlo
 </div>
 <!-- End Sample Price Chart -->
 
-<!--Footer Section-->
-<footer>
-	<!--Social Links Starts -->
-		<div class="socialicn" style="float:left; width:120px;">
-		<div class="marginL10 marginT10" style="margin-bottom:10px;">
-			<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-color="red" data-pin-height="28">
-				<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" />
-			</a>
-			<!-- Please call pinit.js only once per page -->
-			<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
-		</div>
-		<div class="marginL10  marginT10" style="margin-bottom:10px;">
-			<div class="fb-like" data-href="https://www.facebook.com/bestnestrealestate" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
-		</div>
-		<div class="marginL10  marginT10" style="margin-bottom:10px;">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/BestNestRealEst" data-text="BestNest Real Estate Services Pvtt.ltd." data-via="BestNestRealEst" data-related="BestNestRealEstate" data-hashtags="BNest">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		</div>
-		</div>
-		<!--End Social Links -->
-		<div class="context">
-			<div class="sections">
-				<h3>Residential</h3>
-				<ul>
-					<li><a href="/noida-residential-projects" target="_blank">Noida Residential Projects</a></li>
-					<li><a href="/delhi-residential-projects" target="_blank">Delhi Residential Projects</a></li>
-					<li><a href="/antrikshurbangreek" target="_blank">Antriksh Urban Greek</a></li>
-					<li><a href="/antrikshgalaxy" target="_blank">Antriksh Galaxy</a></li>
-					<li><a href="/revantasmartresidency" target="_blank">Revanta Smart Residency</a></li>
-					<li><a href="/gaurproject" target="_blank">Gaur Projects</a></li>
-					<li><a href="/mahagunproject" target="_blank">Mahagun Projects</a></li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-			<div class="sections">
-				<h3>Commercial</h3>
-				<ul>
-					<li><a href="/noida-commercial-projects" target="_blank">Commercial Projects in Noida</a></li>
-					<li><a href="/aarzasquare1" target="_blank">Aarza Square</a></li>
-					<li><a href="/bandhan" target="_blank">Bandhan</a></li>
-					<li><a href="/cybercity" target="_blank">Cyber City</a></li>
-					<li><a href="/goldeni" target="_blank">Golden I</a></li>
-					<li><a href="/neotowncommercial" target="_blank">Neo Town</a></li>
-					<li><a href="/trinitynx" target="_blank">Trinity NX</a></li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-            <div class="sections">
-				<h3>New Projects</h3>
-				<ul>
-					<li><a href="/bullandcalisto" target="_blank">Bulland Calisto</a></li>
-                    <li><a href="/damontepic" target="_blank">Damont Epic</a></li>
-                    <li><a href="/shivalikhomes" target="_blank">Shivalik Homes 2</a></li>
-                    <li><a href="/riseorganicghar" target="_blank">Rise Organic Ghar</a></li>
-                    <li><a href="/europiapark" target="_blank">Europia Park</a></li>
-                    <li><a href="/neotown" target="_blank">Neo Town</a></li>
-                    <li><a href="/fragrance" target="_blank">Fragrance</a></li>
-                    <li><a href="/trinitynxresidential" target="_blank">Trinity Nx</a></li>
-                    <li><a href="/amaatrahomes" target="_blank">Amaatra Homes</a></li>
-                    <li><a href="/acecity" target="_blank">Ace City</a></li>
-                    
-				</ul>
-				<div class="clear"></div>
-			</div>
-			<div class="sections last">
-				<h3>Contact us</h3>
-				<ul>
-					<li><a href="/aboutUs.htm">About Us</a></li>
-					<li><a href="/nriServices.htm">NRI Services</a></li>
-					<li><a href="/contactUs.htm">Contact Us</a></li>
-				</ul>
-				<div class="clear"></div>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-		<div class="copyright">
-			<div class="main-text">
-				<div class="rights">
-					&copy; 2014 Best Nest. All Rights Reserved
-					<div class="clear"></div>
-				</div>
-				<div class="poweredby">
-					Powered by <a href="/" style="color:#ffc211;">BestNest Real Estate Services Pvt. Ltd.</span>
-					<div class="clear"></div>
-				</div>
-				<div class="clear"></div>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="clear"></div>
-		
-	</footer>
-	<!--End Footer Section-->
+
 
 <!--Footer Section-->
 
