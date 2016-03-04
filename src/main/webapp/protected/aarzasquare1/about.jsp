@@ -117,8 +117,8 @@ $('a > img').each(function(){
 		</div>
       <div class="top-menu dt">
         <ul class="menu" id="menu-top-menu">
-          <li id="top-menu-item-01" class="selected"><a href="/aarzasquare1/about.htm">About</a></li>
-          <li id="top-menu-item-02"><a href="/aarzasquare1/contact.htm">Contact Us</a></li>
+          <li id="top-menu-item-01" class="selected"><a href="/aarzasquare1/about">About</a></li>
+          <li id="top-menu-item-02"><a href="/aarzasquare1/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="s" id="toggle-menu"><i class="fa fa-bars"></i></div>
@@ -128,15 +128,15 @@ $('a > img').each(function(){
       <div class="group">
         <ul class="menu" id="menu-main-menu">
           <li id="main-menu-01" class="first"><span class="before dt"></span><a href="/aarzasquare1">Home</a><span class="after dt"></span></li>
-          <li id="main-menu-02"><span class="before dt"></span><a href="/aarzasquare1/priceList.htm">Price List</a> <span class="after dt"></span></li>
-          <li id="main-menu-03"><span class="before dt"></span><a href="/aarzasquare1/specification.htm">Specification</a> <span class="after dt"></span></li>
-          <li id="main-menu-04"><span class="before dt"></span><a href="/aarzasquare1/floorPlan.htm">Floor Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-05"><span class="before dt"></span><a href="/aarzasquare1/sitePlan.htm">Site Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-06"><span class="before dt"></span><a href="/aarzasquare1/paymentPlan.htm">Payment Plan</a><span class="after dt"></span></li>
-          <li id="main-menu-07"><span class="before dt"></span><a href="/aarzasquare1/locationMap.htm">Location Map</a><span class="after dt"></span></li>
+          <li id="main-menu-02"><span class="before dt"></span><a href="/aarzasquare1/priceList">Price List</a> <span class="after dt"></span></li>
+          <li id="main-menu-03"><span class="before dt"></span><a href="/aarzasquare1/specification">Specification</a> <span class="after dt"></span></li>
+          <li id="main-menu-04"><span class="before dt"></span><a href="/aarzasquare1/floorPlan">Floor Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-05"><span class="before dt"></span><a href="/aarzasquare1/sitePlan">Site Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-06"><span class="before dt"></span><a href="/aarzasquare1/paymentPlan">Payment Plan</a><span class="after dt"></span></li>
+          <li id="main-menu-07"><span class="before dt"></span><a href="/aarzasquare1/locationMap">Location Map</a><span class="after dt"></span></li>
           <!-- Hidden Menu Display in mobile & ipad -->
-          <li id="main-menu-08" class="current_page_item s alt"><span class="before dt"></span><a href="/aarzasquare1/about.htm">About</a><span class="after dt"></span></li>
-          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/aarzasquare1/contact.htm">Contact Us</a><span class="after dt"></span></li>
+          <li id="main-menu-08" class="current_page_item s alt"><span class="before dt"></span><a href="/aarzasquare1/about">About</a><span class="after dt"></span></li>
+          <li id="main-menu-09" class="s alt"><span class="before dt"></span><a href="/aarzasquare1/contact">Contact Us</a><span class="after dt"></span></li>
           <!-- End Hidden Menu Display in mobile & ipad -->
         </ul>
         <div class="clear"></div>
@@ -263,7 +263,7 @@ $('a > img').each(function(){
               <h2><strong> Aarza Square 1 </strong></h2>
              <i class="imap"></i><span class="ml_5">Main Gaur Circle, Greater Noida (West)</span>
               <div class="contactbtn">
-                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/aarzasquare1/contact.htm')" value="View Contact Details" />
+                <input type="button" class="btnGreen" id="contactbtn" name="contactbtn" onclick="window.location.href=('/aarzasquare1/contact')" value="View Contact Details" />
               </div>
             </div>
           </div>
@@ -281,7 +281,7 @@ $('a > img').each(function(){
   <!--Content Section--> 
   
   <div class="sitevisit">
-	<a href="/aarzasquare1/siteVisit.htm" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Aarza Square 1 Site Visit"></a>
+	<a href="/aarzasquare1/siteVisit" class="example7 cboxElement"><img src="http://images.bestnest.in/micro-site/common/site-visit.png" alt="Aarza Square 1 Site Visit"></a>
 </div>
    <!--Social Icons-->
   <div id="single-share" class="right_icon_main">
