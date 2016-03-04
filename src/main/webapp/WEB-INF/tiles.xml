@@ -1189,7 +1189,7 @@
 
     <!--  gulshan-botnia-sector144-noida sitePlan -->
     <definition name="gulshan-botnia-sector144-noida.sitePlan" extends="microsite.master">
-        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/sitelan.jsp"/>
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/siteplan.jsp"/>
     </definition>
 
     <!-- gulshan-botnia-sector144-noida paymentPlan -->
