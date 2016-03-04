@@ -48,6 +48,11 @@
         <put-attribute name="body" value="/protected/about-us.jsp"/>
     </definition>
 
+    <!--  admin Page -->
+    <definition name="admin" extends="master.page">
+        <put-attribute name="body" value="/protected/admin.jsp"/>
+    </definition>
+
     <!--  Login Page -->
     <definition name="login" extends="master.page">
         <put-attribute name="body" value="/protected/login.jsp"/>
@@ -63,10 +68,6 @@
         <put-attribute name="body" value="/protected/contact-us.jsp"/>
     </definition>
 
-    <!--  ContactUs Page -->
-    <definition name="thank-you" extends="master.page">
-        <put-attribute name="body" value="/protected/thank-you.jsp"/>
-    </definition>
 
 
 
@@ -1187,8 +1188,8 @@
     </definition>
 
     <!--  gulshan-botnia-sector144-noida sitePlan -->
-    <definition name="antrikshurbangreek.sitePlan" extends="microsite.master">
-        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/siteplan.jsp"/>
+    <definition name="gulshan-botnia-sector144-noida.sitePlan" extends="microsite.master">
+        <put-attribute name="body" value="/protected/gulshan-botnia-sector144-noida/sitelan.jsp"/>
     </definition>
 
     <!-- gulshan-botnia-sector144-noida paymentPlan -->
@@ -1236,8 +1237,8 @@
     <!-- Mahagun Project End -->
 
     <!-- Mahagun Project Start -->
-    <definition name="gaurproject" extends="microsite.master">
-        <put-attribute name="body" value="/protected/project-listing-gaursons.jsp"/>
+    <definition name="gaursons" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-listing-gaur.jsp"/>
     </definition>
 
     <definition name="gaursonsGrid" extends="microsite.master">
@@ -1255,27 +1256,28 @@
 
 
     <!-- NRI Services Start -->
-    <definition name="nriServices" extends="microsite.master">
+    <definition name="nriServices" extends="master.page">
         <put-attribute name="body" value="/protected/nri-services.jsp"/>
     </definition>
-    <definition name="plotManagement" extends="microsite.master">
+    <definition name="plotManagement" extends="master.page">
         <put-attribute name="body" value="/protected/plot-management.jsp"/>
     </definition>
-    <definition name="constructionUpdate" extends="microsite.master">
+    <definition name="constructionUpdate" extends="master.page">
         <put-attribute name="body" value="/protected/construction-update.jsp"/>
     </definition>
-    <definition name="tenantManagement" extends="microsite.master">
+    <definition name="tenantManagement" extends="master.page">
         <put-attribute name="body" value="/protected/tenant-management.jsp"/>
     </definition>
-    <definition name="tenantManagement" extends="microsite.master">
+    <definition name="tenantManagement" extends="master.page">
         <put-attribute name="body" value="/protected/tenant-management.jsp"/>
     </definition>
-    <definition name="buyNRIProduct" extends="microsite.master">
+    <definition name="buyNRIProduct" extends="master.page">
         <put-attribute name="body" value="/protected/buy-nri-product.jsp"/>
     </definition>
-    <definition name="nriUserRegistration" extends="microsite.master">
+    <definition name="nriUserRegistration" extends="master.page">
         <put-attribute name="body" value="/protected/nri-user-registration.jsp"/>
     </definition>
+
 
 
     <!-- NRI Services End -->
