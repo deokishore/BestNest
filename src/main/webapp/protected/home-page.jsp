@@ -63,7 +63,7 @@
   		
     	
 	  	  <div class="slide">
-		  		<a href="projectDetail.htm?projectId=${varProjectForm.projectId}"><img src="http://images.bestnest.in/${slideImage}" height="150" width="300" alt="Galaxy North Avenue 2"></a> 
+		  		<a href="projectDetail.htm?projectId=${varProjectForm.projectId}"><img src="http://images.bestnest.in/${slideImage}" height="150" width="300" alt="${slideImage}"></a>
 		        <div class="slide-wrapper">
 		        	<div>
 		        		<a href="#" class="sprojectname">${varProjectForm.projectName}, </a>

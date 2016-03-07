@@ -446,7 +446,7 @@
 				<div class="grid-box">
 					<div class="project-slider">
 						<div class="project-img">
-							<img src="http://images.bestnest.in/${slideImage}" width="290" height="180" alt="slideshow_large" />  
+							<img src="http://images.bestnest.in/${slideImage}" width="290" height="180" alt="${slideImage}" />
 						</div>
 						<div class="project-name">
 							${varProjectForm.projectName}
