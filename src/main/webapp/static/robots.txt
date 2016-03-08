@@ -31,18 +31,18 @@ Disallow: /
 
 # Xenu Crawler
 User-agent: Xenu
-Disallow: 
+Disallow:
 
 User-agent: larbin
 Disallow: /
 
 # W3C Crawler
 User-agent: libwww
-Disallow: 
+Disallow:
 
 # LookSmart Crawler
 User-agent: ZyBORG
-Disallow: 
+Disallow:
 
 User-agent: Download Ninja
 Disallow: /

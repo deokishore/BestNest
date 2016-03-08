@@ -4,9 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
 						   http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
 
+
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+
+    <mvc:resources mapping="/google0320724b19f5fc9d.html" location="/static/google0320724b19f5fc9d.html" order="0"/>
+    <mvc:resources mapping="/robots.txt" location="/static/robots.txt" order="0"/>
+    <mvc:resources mapping="/sitemap.xml" location="/static/sitemap.xml" order="0"/>
+    <mvc:resources mapping="/BingSiteAuth.xml" location="/static/BingSiteAuth.xml" order="0"/>
+
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
-    <mvc:resources mapping="/resources/**" location="/resources/" />
 
     <!-- TILES -->
     <!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->

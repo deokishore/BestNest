@@ -70,8 +70,6 @@
 
 
 
-
-
     <!-- Delhi L Zone Start -->
     <definition name="delhiLZone" extends="master.page">
         <put-attribute name="body" value="/protected/dda-lzone.jsp"/>
@@ -1237,8 +1235,8 @@
     <!-- Mahagun Project End -->
 
     <!-- Gaur Project Start -->
-    <definition name="gaursons" extends="microsite.master">
-        <put-attribute name="body" value="/protected/project-listing-gaur.jsp"/>
+    <definition name="gaurproject" extends="microsite.master">
+        <put-attribute name="body" value="/protected/project-listing-gaursons.jsp"/>
     </definition>
 
     <definition name="gaursonsGrid" extends="microsite.master">
@@ -1249,7 +1247,7 @@
         <put-attribute name="body" value="/protected/about-us-gaursons.jsp"/>
     </definition>
 
-    <definition name="contactUsGaur" extends="microsite.master">
+    <definition name="contactusGaursons" extends="microsite.master">
         <put-attribute name="body" value="/protected/contact-us-gaursons.jsp"/>
     </definition>
     <!-- GaurProject Project End -->
