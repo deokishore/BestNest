@@ -1297,7 +1297,7 @@
 
     <definition name="commonPosts" extends="common">
         <put-attribute name="title" value="Blogger - Posts" />
-        <put-attribute name="body" value="/WEB-INF/views/tiles/body_home.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/tiles/body_posts.jsp" />
     </definition>
     <!-- Blogger Section End -->
 
