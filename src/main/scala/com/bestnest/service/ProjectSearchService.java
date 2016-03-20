@@ -99,6 +99,20 @@ public class ProjectSearchService {
 		return projectForm;
 	}
 
+	public ProjectForm getPropertyDetailsByURL(String url) {
+		List<ProjectForm> listFormTo = new ArrayList<ProjectForm>();
+		BeanUtil.copyProjectListBasedOnURL(listFormTo, projectFormList, url);
+		Set<ProjectDetailsForm> projectDetailsFormSet = new TreeSet<ProjectDetailsForm>(
+				new ProjectDetailsFormComparator());
+		for (ProjectDetailsForm projectDetails : listFormTo.get(0)
+				.getProjectDetailsFormSet()) {
+			projectDetailsFormSet.add(projectDetails);
+		}
+		ProjectForm projectForm = listFormTo.get(0);
+		projectForm.setProjectDetailsFormSet(projectDetailsFormSet);
+		return projectForm;
+	}
+
 	public List<ProjectForm> searchProjectsWithAutoCompleteField(ProjectSearchForm projectSearchForm) {
 		
 		List<ProjectForm> tmpProjectList = new ArrayList<ProjectForm>();

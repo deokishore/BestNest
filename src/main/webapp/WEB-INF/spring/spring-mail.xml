@@ -5,11 +5,11 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
 
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-        <property name="host" value="smtp.bestnest.in" />
-        <property name="port" value="587" />
+        <property name="host" value="mail.bestnest.in" />
+        <property name="port" value="25" />
         <property name="protocol" value="smtp" />
         <property name="username" value="customer.care@bestnest.in" />
-        <property name="password" value="fKePWXo6" />
+        <property name="password" value="Move2customer" />
     </bean>
 
     <!-- **************************************************************** -->

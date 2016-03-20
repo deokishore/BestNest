@@ -26,6 +26,8 @@ public class ProjectForm {
 	private String title;
 	private String metaKeyword;
 	private String metaDescription;
+	private String url;
+
 
 	private Set<ProjectDetailsForm> projectDetailsFormSet = new HashSet<ProjectDetailsForm>(0);
 	
@@ -205,5 +207,13 @@ public class ProjectForm {
 
 	public void setMetaDescription(String metaDescription) {
 		this.metaDescription = metaDescription;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 }

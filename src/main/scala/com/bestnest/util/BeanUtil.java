@@ -175,7 +175,45 @@ public class BeanUtil {
 		}
 
 	}
-	
+
+
+	public static void copyProjectListBasedOnURL(
+			List<ProjectForm> listFormTo, List<ProjectForm> listFrom, String url){
+
+		if (listFormTo == null) {
+			throw new IllegalArgumentException("No destination bean specified");
+		}
+		if (listFrom == null) {
+			throw new IllegalArgumentException("No origin bean specified");
+		}
+
+		if (listFrom.size() < 0) {
+			return;
+		}
+
+		int prevProjectId = listFrom.get(0).getProjectId();
+		int nextProjectId = listFrom.get(1).getProjectId();
+
+		for (int i = 0; i < listFrom.size(); i++) {
+			ProjectForm project = listFrom.get(i);
+			if(url.trim().equalsIgnoreCase(project.getUrl().trim())){
+				try {
+					project.setPrevProjectId(prevProjectId);
+					project.setNextProjectId(nextProjectId);
+					listFormTo.add(project);
+					break;
+				} catch (Exception ex) {
+					LOG.error("Error while copying copyProjectList : ", ex);
+				}
+			} else  if(i < listFrom.size()-2) {
+				nextProjectId = listFrom.get(i+2).getProjectId();
+				prevProjectId = project.getProjectId();
+			}
+		}
+
+
+	}
+
 	public static void copyProjectList(
 			List<ProjectForm> listFormTo, List<ProjectForm> listFrom, int projectId) {
 		

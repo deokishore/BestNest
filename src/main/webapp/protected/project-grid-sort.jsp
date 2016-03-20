@@ -25,7 +25,7 @@
 	<div id="search-bar-Bg" style="height:150px;">
 	
      	<form:form id="projectSearchForm" method="POST" 
-     		action="${pageContext.request.contextPath}/projectSearchPage" 
+     		action="${pageContext.request.contextPath}/property-for-sale"
      			modelAttribute="projectSearchForm" onsubmit="javascript:updateHiddenField();">
 			 
         <input id="minPrice" name="minPrice" value="${projectSearchForm.minPrice}" type="hidden"/>
@@ -287,6 +287,7 @@
                         </h2>
                     </li>
                     <li>
+                       <!--
                         <a href="${pageContext.request.contextPath}/projectSearchListPage.htm
 										?cityId=<%=request.getAttribute("cityId")%>
 										&companyId=<%=request.getAttribute("companyId")%>
@@ -295,6 +296,11 @@
 										&bedRoom=<%=request.getAttribute("bedRoom")%>
 										&minPrice=<%=request.getAttribute("minPrice")%>
 										&maxPrice=<%=request.getAttribute("maxPrice")%>">
+                            <img alt="List View" src="http://images.bestnest.in/list-icon1.png">
+                        </a>
+                        -->
+
+                        <a href="${pageContext.request.contextPath}/property-for-sale/project-list">
                             <img alt="List View" src="http://images.bestnest.in/list-icon1.png">
                         </a>
                     </li>
@@ -456,7 +462,8 @@
 					</div>
 					
 					<div class="view-details view-link">
-						<a href="${pageContext.request.contextPath}/projectDetail.htm?projectId=${varProjectForm.projectId}
+					    <!--
+						<a href="/property-for-sale?projectId=${varProjectForm.projectId}
 										&projectDetailsId=${varProjectDetailsForm.projectDetailsId}
 										&cityId=<%=request.getAttribute("cityId")%>
 										&companyId=<%=request.getAttribute("companyId")%>
@@ -469,6 +476,12 @@
 							View Details <img src="http://images.bestnest.in/view-icon-png.png" alt="Details"
 							border="0" align="absmiddle" />
 						</a>
+						-->
+
+						<a href="/property-for-sale/${varProjectForm.url}/">
+                            View Details <img src="http://images.bestnest.in/view-icon-png.png" alt="Details"
+                            border="0" align="absmiddle" />
+                        </a>
 						<div class="clear"></div>
 					</div>
 					

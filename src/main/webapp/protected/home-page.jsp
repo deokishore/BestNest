@@ -63,7 +63,7 @@
   		
     	
 	  	  <div class="slide">
-		  		<a href="projectDetail.htm?projectId=${varProjectForm.projectId}"><img src="http://images.bestnest.in/${slideImage}" height="150" width="300" alt="${slideImage}"></a>
+		  		<a href="/property-for-sale/${varProjectForm.url}/"><img src="http://images.bestnest.in/${slideImage}" height="150" width="300" alt="${slideImage}"></a>
 		        <div class="slide-wrapper">
 		        	<div>
 		        		<a href="#" class="sprojectname">${varProjectForm.projectName}, </a>
@@ -91,7 +91,7 @@
 <!--Banner Section-->
 <div class="banner">
   <div id="search-bar-Bg">
-    <form:form id="projectSearchForm" action="projectSearchPage" 
+    <form:form id="projectSearchForm" action="property-for-sale"
           	modelAttribute="projectSearchForm" onsubmit="javascript:updateHiddenField();">
           
           	
@@ -569,7 +569,7 @@
               <ul id="proGalleryFourSlider_1" class="anythingBase horizontal" style="width: 3764px; left: 0px;">
                 <li class="panel activePage" style="width: 941px; height: 404px;"> 
                   <!-- Featured Project 1 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=39" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/supertech-sport-village-greater-noida-west/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Supertech Eco Village-3" src="http://images.bestnest.in/featured-projects/supertech-sports-village.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida Extension</div>
@@ -589,7 +589,7 @@
                     </a> </div>
                   <!-- End Featured Project 1 --> 
                   <!-- Featured Project 2 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=44" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/gaur-city-14th-avenue-noida-extension/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Gaur City 14 Avenue" src="http://images.bestnest.in/featured-projects/gaur-14-avenue.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida Extension</div>
@@ -609,7 +609,7 @@
                     </a> </div>
                   <!-- End Featured Project 2 --> 
                   <!-- Featured Project 3 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=1" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/mahagun-mantra-1-noida-extention/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Mahagun Mantra 1" src="http://images.bestnest.in/featured-projects/mahagun-mantra-1.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida Extension</div>
@@ -629,7 +629,7 @@
                     </a> </div>
                   <!-- End Featured Project 3 --> 
                   <!-- Featured Project 4 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=44" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/gaur-city-14th-avenue-noida-extension/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Mahagun Mezzaria" src="http://images.bestnest.in/featured-projects/mahagun-mezzaria.jpeg" class="lazy"> </div>
                       <div class="pgFourCity">Noida</div>
@@ -652,7 +652,7 @@
                 </li>
                 <li class="panel" style="width: 941px; height: 404px;"> 
                   <!-- Featured Project 1 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=13" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/mahagun-marvella-noida-extension/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Mahagun Marvella" src="http://images.bestnest.in/featured-projects/mahagun-marvella.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida Extension</div>
@@ -672,7 +672,7 @@
                     </a> </div>
                   <!-- End Featured Project 1 --> 
                   <!-- Featured Project 2 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=60" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/mahagun-moderne-central-sector-78-noida/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Mahagun Moderne" src="http://images.bestnest.in/featured-projects/mahagun-moderne.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida</div>
@@ -692,7 +692,7 @@
                     </a> </div>
                   <!-- End Featured Project 2 --> 
                   <!-- Featured Project 3 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=7" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/saya-zion-noida-extension/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Saya Zion" src="http://images.bestnest.in/featured-projects/sava-zion.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida Extension</div>
@@ -712,7 +712,7 @@
                     </a> </div>
                   <!-- End Featured Project 3 --> 
                   <!-- Featured Project 4 -->
-                  <div class="pgFourBlock"> <a target="_blank" href="/projectDetail.htm?projectId=44" class="focusedLink">
+                  <div class="pgFourBlock"> <a target="_blank" href="/property-for-sale/gaur-city-14th-avenue-noida-extension/" class="focusedLink">
                     <div class="pgFour">
                       <div class="pgFourImg"> <img width="221" height="217" border="0" alt="Mahagun Mezzaria" src="http://images.bestnest.in/featured-projects/gaur-7-avenue.jpg" class="lazy"> </div>
                       <div class="pgFourCity">Noida Extension</div>

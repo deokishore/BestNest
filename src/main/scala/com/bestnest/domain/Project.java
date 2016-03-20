@@ -41,6 +41,7 @@ public class Project implements java.io.Serializable {
 	private String title;
 	private String metaKeyword;
 	private String metaDescription;
+	private String url;
 	
 
 	private Set<ProjectSimilar> projectSimilarsForProjectId = new HashSet<ProjectSimilar>(
@@ -62,7 +63,7 @@ public class Project implements java.io.Serializable {
 			String projectLogo,
 			String title,
 			String metaKeyword,
-			String metaDescription,
+			String metaDescription, String url,
 			Set<ProjectSimilar> projectSimilarsForProjectId,
 			Set<ProjectDetails> projectDetailses,
 			Set<ProjectSimilar> projectSimilarsForProjectSimilarMappingId) {
@@ -80,6 +81,7 @@ public class Project implements java.io.Serializable {
 		this.title = title;
 		this.metaKeyword = metaKeyword;
 		this.metaDescription = metaDescription;
+		this.url = url;
 		this.projectSimilarsForProjectId = projectSimilarsForProjectId;
 		this.projectDetailses = projectDetailses;
 		this.projectSimilarsForProjectSimilarMappingId = projectSimilarsForProjectSimilarMappingId;
@@ -269,6 +271,15 @@ public class Project implements java.io.Serializable {
 
 	public void setMetaDescription(String metaDescription) {
 		this.metaDescription = metaDescription;
+	}
+
+	@Column(name = "url", length = 200)
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 	@Override

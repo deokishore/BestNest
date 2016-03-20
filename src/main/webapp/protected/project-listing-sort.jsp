@@ -298,7 +298,7 @@ function arrayMax(arr) {
 <!--Search Section-->
 	<div id="search-bar-Bg" style="height:150px;">
 	
-     	<form:form id="projectSearchForm" action="projectSearchPage" modelAttribute="projectSearchForm" onsubmit="javascript:updateHiddenField();">
+     	<form:form id="projectSearchForm" action="property-for-sale" modelAttribute="projectSearchForm" onsubmit="javascript:updateHiddenField();">
 			 
         <input id="minPrice" name="minPrice" value="${projectSearchForm.minPrice}" type="hidden"/>
         <input id="maxPrice" name="maxPrice" value="${projectSearchForm.maxPrice}" type="hidden"/>
@@ -528,7 +528,7 @@ function arrayMax(arr) {
                 <!--  Bedrooms End -->
                 
                 <div id="search-btn" class="fr" style="margin-top:28px">
-				<input id="post" type="image" src="http://images.bestnest.in/search-project.png"  width="35" height="35" alt="Search Project"/>
+				  <input id="post" type="image" src="http://images.bestnest.in/search-project.png"  width="35" height="35" alt="Search Project"/>
                 </div>
                 <div class="clear"></div>    
             </div> 
@@ -565,6 +565,7 @@ function arrayMax(arr) {
                         </a>
                     </li>
                     <li>
+                    	<!--
                         <a href="${pageContext.request.contextPath}/projectSearchGridPage.htm
 										?cityId=<%=request.getAttribute("cityId")%>
 										&companyId=<%=request.getAttribute("companyId")%>
@@ -574,6 +575,10 @@ function arrayMax(arr) {
 										&minPrice=<%=request.getAttribute("minPrice")%>
 										&maxPrice=<%=request.getAttribute("maxPrice")%>">
                             <img alt="Grid View" src="http://images.bestnest.in/grid-icon1.png">
+                        </a>
+                        -->
+                        <a href="${pageContext.request.contextPath}/property-for-sale/">
+                           <img alt="List View" src="http://images.bestnest.in/list-icon1.png">
                         </a>
                     </li>
                     <li>

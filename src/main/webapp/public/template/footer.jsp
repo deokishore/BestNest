@@ -25,8 +25,14 @@
 			<div class="sections">
 				<h3>Residential</h3>
 				<ul>
-					<li><a href="/noida-residential-projects" target="_blank">Noida Residential Projects</a></li>
-					<li><a href="/delhi-residential-projects" target="_blank">Delhi Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate/">All Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Noida/">Noida Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Greater-Noida/">Greater Noida Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Noida-Extension-in-Noida/">Noida Extension Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Yamuna-Expressway-in-Greater-Noida/">Yamuna Expressway Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-NH-24-in-Ghaziabad/">NH 24 Ghaziabad Residential Projects</a></li>
+					<li><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Delhi-L-Zone/">Delhi L Zone Residential Projects</a></li>
+
 					<li><a href="/antrikshurbangreek" target="_blank">Antriksh Urban Greek</a></li>
 					<li><a href="/antrikshgalaxy" target="_blank">Antriksh Galaxy</a></li>
 					<li><a href="/revantasmartresidency" target="_blank">Revanta Smart Residency</a></li>
@@ -38,7 +44,14 @@
 			<div class="sections">
 				<h3>Commercial</h3>
 				<ul>
-					<li><a href="/noida-commercial-projects" target="_blank">Commercial Projects in Noida</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate/">All Commercial Projects</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Noida/">Noida Commercial Projects</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Greater-Noida/">Greater Noida Commercial Projects</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Noida-Extension-in-Noida/">Noida Extension Commercial Projects</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Yamuna-Expressway-in-Greater-Noida/">Yamuna Expressway Commercial Projects</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-NH-24-in-Ghaziabad/">NH 24 Ghaziabad Commercial Projects</a></li>
+					<li><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Delhi-L-Zone/">Delhi L Zone Commercial Projects</a></li>
+
 					<li><a href="/aarzasquare1" target="_blank">Aarza Square</a></li>
 					<li><a href="/bandhan" target="_blank">Bandhan</a></li>
 					<li><a href="/cybercity" target="_blank">Cyber City</a></li>

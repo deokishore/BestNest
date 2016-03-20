@@ -24,6 +24,26 @@ public class Constant {
 
 	public static final String[] yearArray = { "2014", "2013" };
 
+
+
+	public static final String CITY_NOIDA_ID = "NOD";
+	public static final String CITY_NOIDA_NAME = "Noida";
+
+	public static final String CITY_GREATER_NOIDA_ID = "GNOD";
+	public static final String CITY_GREATER_NOIDA_NAME = "Greater Noida";
+
+	public static final String CITY_NOIDA_EXT_ID = "NODE";
+	public static final String CITY_NOIDA_EXT_NAME = "Noida Extension ";
+
+	public static final String CITY_YAMUNA_EXPRESSWAY_ID = "EX-WAY";
+	public static final String CITY_YAMUNA_EXPRESSWAY_NAME = "Yamuna Expressway";
+
+	public static final String CITY_NH24_GHAZIABAD_ID = "GZB";
+	public static final String CITY_NH24_GHAZIABAD_NAME = "NH-24/Ghaziabad";
+
+	public static final String CITY_DELHI_L_ZONE_ID = "LZONE";
+	public static final String CITY_DELHI_L_ZONE_NAME = "Delhi L Zone";
+
 	public static List<String> getYearList() {
 		List<String> dateList = new ArrayList<String>();
 		dateList.add("Year");
