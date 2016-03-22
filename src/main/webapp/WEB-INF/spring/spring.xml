@@ -15,6 +15,7 @@
     <context:component-scan base-package="com.bestnest.portal.web.controller" />
     <context:component-scan base-package="com.bestnest.portal.web.form" />
     <context:component-scan base-package="com.bestnest.blogger" />
+    <context:component-scan base-package="com.bestnest.repository" />
 
 
     <!-- SpringMVC -->
@@ -23,8 +24,9 @@
     <!-- SpringData -->
     <import resource="spring-jpa.xml"/>
 
-    <!-- SpringSecurity -->
+    <!-- SpringSecurity
     <import resource="spring-security.xml"/>
+    -->
 
     <!-- SpringSecurity -->
     <import resource="spring-mail.xml" />

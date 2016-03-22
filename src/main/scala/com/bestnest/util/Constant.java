@@ -51,4 +51,6 @@ public class Constant {
 		dateList.add("2014");
 		return dateList;
 	}
+
+	public static final String PLOT = "Plot";
 }

@@ -2,19 +2,24 @@ package com.bestnest.portal.web.controller;
 
 import com.bestnest.exception.CustomException;
 import com.bestnest.portal.web.form.CityForm;
+import com.bestnest.portal.web.form.ClientInformationForm;
 import com.bestnest.portal.web.form.CompanyForm;
+import com.bestnest.portal.web.form.ProjectDetailsForm;
 import com.bestnest.portal.web.form.ProjectForm;
 import com.bestnest.portal.web.form.ProjectSearchForm;
+import com.bestnest.portal.web.form.ProjectSimilarForm;
 import com.bestnest.service.CityService;
 import com.bestnest.service.ProjectSearchService;
 import com.bestnest.service.ProjectSimilarService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,6 +27,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Controller
@@ -154,6 +161,35 @@ public class ProjectSearchController {
 		projectSearchForm.setProjectFormList(projectFormList);
 		
 		ModelAndView mv = new ModelAndView("projectGridSort","projectSearchForm",projectSearchForm);
+		return mv;
+	}
+
+	@RequestMapping(value="{projectURL}/*", method=RequestMethod.GET)
+	public ModelAndView projectDetail(@PathVariable("projectURL") String projectURL,
+									  @ModelAttribute("projectSearchForm") ProjectSearchForm projectSearchForm,
+									  BindingResult result, final Model model, HttpServletRequest request) {
+
+		ProjectForm projectForm = projectSearchService.getPropertyDetailsByURL(projectURL);
+		List<ProjectDetailsForm> sortedList = new ArrayList<>(projectForm.getProjectDetailsFormSet());
+		Collections.sort(sortedList);
+		List<ProjectSimilarForm> psfList = projectSimilarService.findgProjectByProjectSimilarMappingId(projectForm.getProjectId());
+		projectForm.setProjectSimilarsForProjectSimilarMappingIdForm(psfList);
+
+		request.setAttribute("projectId", projectForm.getPrevProjectId());
+		request.setAttribute("projectDetailsId", request.getParameter("projectDetailsId"));
+		request.setAttribute("cityId", request.getParameter("cityId") == null ?"": request.getParameter("cityId"));
+		request.setAttribute("cityName",request.getParameter("cityName") == null ? "" : request.getParameter("cityName"));
+		request.setAttribute("companyId",request.getParameter("companyId"));
+		request.setAttribute("companyName",request.getParameter("companyName"));
+		request.setAttribute("propertyType", request.getParameter("propertyType"));
+		request.setAttribute("bedRoom", request.getParameter("bedRoom") == null ? 0 : request.getParameter("bedRoom"));
+		request.setAttribute("minPrice", request.getParameter("minPrice") == null ? 0 : request.getParameter("minPrice"));
+		request.setAttribute("maxPrice", request.getParameter("maxPrice") == null ? 0 : request.getParameter("maxPrice"));
+		request.setAttribute("gridList", request.getParameter("gridList"));
+
+		model.addAttribute("clientInformationForm", new ClientInformationForm());
+
+		ModelAndView mv = new ModelAndView("projectDetail","projectForm",projectForm);
 		return mv;
 	}
 

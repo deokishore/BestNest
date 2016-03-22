@@ -739,9 +739,10 @@
         </div>
       </div>
     </div>
+
     <div class="box">
-      <h2><a href="/projectSearchGridPage.htm?propertyType=Residential&companyId=0">Search Residential</a></h2>
-      <div class="image-box"> <a href="/projectSearchGridPage.htm?propertyType=Residential&companyId=0"><img src="http://images.bestnest.in/residential.jpg" alt="Search Residential Projects in Delhi NCR(Noida Extension)" border="0" /> </a>
+      <h2><a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate/">Search Residential</a></h2>
+      <div class="image-box"> <a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate/"><img src="http://images.bestnest.in/residential.jpg" alt="Search Residential Projects in Delhi NCR(Noida Extension)" border="0" /> </a>
         <div class="clear"></div>
       </div>
       <div class="text">
@@ -749,14 +750,15 @@
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
-      <div class="more-link"> <a href="/projectSearchGridPage.htm?propertyType=Residential&companyId=0"> More Details </a>
+      <div class="more-link"> <a href="/residential-property-for-sale/ALL-RESIDENTIAL-real-estate/"> More Details </a>
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
     </div>
+
     <div class="box">
-      <h2><a href="/projectSearchGridPage.htm?propertyType=Commercial&companyId=0">Search Commercial</a></h2>
-      <div class="image-box"> <a href="/projectSearchGridPage.htm?propertyType=Commercial&companyId=0"><img src="http://images.bestnest.in/commercial.jpg" alt="Search Commercial Projects in Noida Extension (Delhi Ncr)" border="0" /></a>
+      <h2><a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate/">Search Commercial</a></h2>
+      <div class="image-box"> <a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate/"><img src="http://images.bestnest.in/commercial.jpg" alt="Search Commercial Projects in Noida Extension (Delhi Ncr)" border="0" /></a>
         <div class="clear"></div>
       </div>
       <div class="text">
@@ -764,14 +766,15 @@
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
-      <div class="more-link"> <a href="/projectSearchGridPage.htm?propertyType=Commercial&companyId=0"> More Details </a>
+      <div class="more-link"> <a href="/commercial-property-for-sale/ALL-COMMERCIAL-real-estate/"> More Details </a>
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
     </div>
+
     <div class="box last">
-      <h2><a href="/projectSearchGridPage.htm?propertyType=Plot&companyId=0">Search Plots</a></h2>
-      <div class="image-box"> <a href="/projectSearchGridPage.htm?propertyType=Plot&companyId=0"><img src="http://images.bestnest.in/land.jpg" alt="Searching for lands in Noida" border="0" /></a>
+      <h2><a href="/plot-for-sale/">Search Plots</a></h2>
+      <div class="image-box"> <a href="/plot-for-sale/"><img src="http://images.bestnest.in/land.jpg" alt="Searching for lands in Noida" border="0" /></a>
         <div class="clear"></div>
       </div>
       <div class="text">
@@ -779,7 +782,7 @@
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
-      <div class="more-link"> <a href="/projectSearchGridPage.htm?propertyType=Plot&companyId=0"> More Details </a>
+      <div class="more-link"> <a href="//plot-for-sale/"> More Details </a>
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
