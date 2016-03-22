@@ -282,7 +282,7 @@ $(document).ready(function () {
 	
 	
 	
-	$("#projectTitleMessage").append("<span><h1><span itemprop='name'>" + "${projectForm.projectName}" + ":  " +projectTitleMessage + " Luxurious BHK with World Class Amenities.</span></h1>"+
+	$("#projectTitleMessage").append("<span><h1><span itemprop='name'>" + "${projectForm.projectName}" + ":  " +projectTitleMessage + " BHK</span></h1>"+
 			"<p>${projectForm.addressForm.street} , ${projectForm.addressForm.cityLocalityForm.locality}</p></span>");		
 
 

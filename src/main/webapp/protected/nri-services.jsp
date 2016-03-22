@@ -231,9 +231,3 @@
 	<div class="clear"></div>
 </section>
 <!--Content Section-->
-
-<!--Developers Section-->
-
-<!--Developers Section--> 
-
-
