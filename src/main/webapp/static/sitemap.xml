@@ -1,445 +1,1404 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://bestnest.in/homePage.htm</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/nriServices.htm</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/aboutUs.htm</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/contactUs.htm</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=12</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=46</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=52</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=175</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=176</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=179</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=180</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=181</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/mahagunproject</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/gaurproject</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=39</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=44</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=1</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=13</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=60</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectDetail.htm?projectId=7</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectSearchGridPage.htm?propertyType=Residential&amp;companyId=0</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectSearchGridPage.htm?propertyType=Commercial&amp;companyId=0</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/projectSearchGridPage.htm?propertyType=Plot&amp;companyId=0</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/noida-residential-projects</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/delhi-residential-projects</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/noida-commercial-projects</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/plotManagement.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/constructionUpdate.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/tenantManagement.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/mahagunproject/aboutus.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/mahagunproject/contactus.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/mahagunproject/residential.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/mahagunproject/commercial.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/mahagunproject/projectgrid.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshurbangreek/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/antrikshgalaxy/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/bullandcalisto/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/damontepic/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/europiapark/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/amaatrahomes/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/about.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/contact.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/priceList.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/specification.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/floorPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/sitePlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/paymentPlan.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/locationMap.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/acecity/siteVisit.htm</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/gaurproject/projectgrid.htm</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/gaurproject/residential.htm</loc>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/gaurproject/commercial.htm</loc>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/gaurproject/aboutus.htm</loc>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>http://bestnest.in/gaurproject/contactus.htm</loc>
-  <priority>0.41</priority>
-</url>
+  <url>
+    <loc>http://www.bestnest.in/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/nriServices</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/posts</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/delhiLZone</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aboutUs</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/contactUs</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mantra-1-noida-extention/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mantra-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galaxy-vega-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galaxy-north-avenue-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galaxy-north-avenue-noida-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/bulland-calisto-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aarza-square-1-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sarvottam-nx-one-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-saundaryam-luxurious-project-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-city-14th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-7th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-eco-village-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amaatra-homes-noida-extension-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagin-mywoods-phase-1-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/divyansh-flora-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/geotech-pristine-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galazy-royal-residential-project-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-smart-homes-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-city-center-commercial-space-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-sport-village-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-marvella-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-moderne-central-sector-78-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/saya-zion-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/plot-for-sale/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Greater-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Noida-Extension-in-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Yamuna-Expressway-in-Greater-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-NH-24-in-Ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/residential-property-for-sale/ALL-RESIDENTIAL-real-estate-Delhi-L-Zone/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Greater-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Noida-Extension-in-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Yamuna-Expressway-in-Greater-Noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-NH-24-in-Ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/commercial-property-for-sale/ALL-COMMERCIAL-real-estate-Delhi-L-Zone/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/nriServices/plotManagement</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/nriServices/constructionUpdate</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/nriServices/tenantManagement</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bloggerHome</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/delhiLZone/ddaMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/delhiLZone/ddaNews</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject/residential</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject/commercial</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject/aboutus</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject/contactus</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject/projectlisting</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/mahagunproject/projectgrid</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject/residential</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject/commercial</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject/aboutUsGaursons</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject/contactusGaursons</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject/projectlisting</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gaurproject/projectgrid</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/project-list</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-ecovillage-3-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/saya-gold-avenue-indrapuram-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/eco-village-4-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/bulland-elevates-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/victory-central-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/victory-one-amara-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sare-homes-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-homes-noida-extension-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-legarden-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-1st-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-12th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-16th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/saviour-green-arch-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/cosmos-shivalik-homes-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-verona-heights-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-tropical-garden-noida-extension-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-dream-valley-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-river-view-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sikka-kaamya-greens-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rudra-palace-heights-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/panchsheel-greens-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-sports-city-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ace-city-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-sports-wood-noida-sector-79-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-yamuna-city-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-atulyam-greter-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-eco-village-1-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sikka-kirat-greens-sector10-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-4th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-5th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-6th-avenue-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-city-10th-avenue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-11th-avneue-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-cascades-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mezzaria-sector-78-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mirabella-sector-79-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-puram-nh-24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mywoods-phase-3-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mywoods-phase-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mywoods-phase3-part-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-meadows-mywoods-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagin-villament-mahagun-matra-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-oxford-suare-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/nimbus-hyde-park-sector-78-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/golden-palm-village-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/landcraft-golf-link-pahe-2-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-upcountry-noida-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/paramount-golfforeste-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/today-kings-park-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/prateek-grand-city-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/panchsheel-hynish-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/panchsheel-greens-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/nirala-aspire-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/nirala-greenshire-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aarcity-sports-city-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aarcity-regency-park-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ace-aspire-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rg-luxury-homes-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rg-residency-sector-120-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/stellar-jeevan-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/arihant-ambar-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gulshan-bellina-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/jm-florence-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/samridhi-grand-avenue-sector-150-noida-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/vvip-homes-gaurcity-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/asg-apple7-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/saviour-iris-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/flora-casa-adwik-group-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/la-casa-adwik-group-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/divyansh-pratham-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/apex-kremlin-apex-group-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/wave-city-wave-dream-home-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/savottam-shree-indrapuram-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/cloud9-vaishali-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahaluxmi-group-mahaluxmi-migsun-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/iitl-nimbus-hyde-park-sector-78-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-golf-village-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-panorama-noida-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-london-square-noida-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sunworld-vandita-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/le-solitairian-city-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/imperia-mirage-imperia-strurures/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sunworld-arista-noida-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/north-eye-supertechlimited-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sikka-karmic-greens-sikka-group-sector-78-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sikka-kaamna-greens-sector-143-noida-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sikka-karnam-greens-sector143-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/griha-pravesh-sector-77-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-grand-heritage-sector-74-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajnara-ambrosia-sector-118-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/jm-aroma-sector-75-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/jm-orchid-sector-76-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/civitech-sampriti-sector-77-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ivitech-stadia-sector-79-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-cape-town-sector-74-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-supernova-sector-79-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-ecociti-sector-137-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/supertech-emerald-court-sector-93-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/today-ridge-residency-sector-135-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/avj-heights-residential-apartment-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ajh-homes-beta2-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ska-green-mansion-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/svp-gulmohaur-garden-phase-2-rajnagar-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/svp-gulmohur-vatika-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sushant-aquapolis-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/stellar-mi-citihomes-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/stellar-mi-legacy-zeta-1-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/eldeco-mystic-greens-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-eden-park-sector-50-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-sapphire-sector-45-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-princely-estate-sector-76-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/apex-golf-avenue-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gulshan-ikebana-sector-143-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/kvd-wind-park-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/radicon-vedantam-sector-16-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/airwil-golf-green-avenue-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/color-homes-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/antriksh-golf-view-sector-78-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/antriksh-golf-city-sector-150-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/stellar-one-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/lotus-greens-lotus-group-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/urbainia-trinity-nx-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/vardhman-camellias-eta-one-freater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/jaypee-greens-villa-expanza-yamuna-expressway/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rise-organic-homes-nh-24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/kw-srishti-raj-nagar-extension-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sg-grand-raj-nagar-extension-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/antriksh-unban-greek-delhi-l-zone-delhi/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/revanta-smart-residency-l-zone-delhi/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/india-oil-the-hindusta-dwaraka-l-zone/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/antriksh-victorian-county-l-zone-delhi-dwaraka/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/antriksh-galaxy-dda-l-zone-dwarka-delhi/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/europia-park-by-europia-homes-dda-l-zone/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/damont-epic-damont-group-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/apex-athena-sector-75-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/casa-woodstock-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mascot-patel-neotown-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rise-organic-ghar-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/frangrance-truvae-groupsidharth-vihar-ghaziabad%20/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ace-golf-shire-sector-150-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ace-platinum-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/divyansh-onyx-nh24-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/royal-nest-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-adarsh-awas-yojna-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/amrapali-terrace-homes-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/french-apartment-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/exotica-dreamville-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/ratan-pearls-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rhythm-county-future-world-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/shri-radha-aqua-garden-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aarcity-foreste-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/future-estate-future-world-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/paramount-emotions-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aig-park-avenue-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/fusion-homes-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/antriksh-valley-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gayatri-life-apartment-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/arden-arihant-greatr-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rg-pride-rg-group-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-galleria-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aarza-square-2-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galaxy-shoppe-noida-extension-greaternoida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mmr-52nd-avenue-central-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/idi-sadar-bazar-commercial-project-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galaxy-plaza-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaurcity-plaza-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/aadhar-the-business-capital-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/gaur-city-mall-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mahagun-mart-shop-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/imperia-onyx-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/imperia-h2o-commercial-shop-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/imperia-premeria-greater-noida-west/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/wave-galleria-wave-city-ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/omaxe-connught-place-beta-2-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/omaxe-india-trade-center-apha-2-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/world-trade-center-commercial-space-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/airwil%20wow,%20mohan%20nagar,%20ghaziabad/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/urbtech-trade-center-sector-132-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/mist-avenue-mist-group-sector-143-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/grandslim-i-thum-commercial-space-sector-62-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/unnati-fortune-world-sector-144-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/proplarity-biz-life-sector-62-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/jaypee-wish-town-sector-134-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/the-great-adventure-mall-greater-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/jc-world-shoping-mall-sector-128-noida/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/imperia-bandhan-commercial-project-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/rj-cyber-city-commercial-project-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/sarvottam-golden-eye-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/galaxy-diamond-plaza-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/property-for-sale/idi-mart-commercial-shop-noida-extension/</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshurbangreek/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/antrikshgalaxy/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/revantasmartresidency/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/aarzasquare1/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bandhan/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/cybercity/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/goldeni/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotowncommercial/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynx/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/pricelist</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/floorplan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/siteplan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/paymentplan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/locationmap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/gulshan-botnia-sector144-noida/sitevisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/bullandcalisto/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/damontepic/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/shivalikhomes/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/riseorganicghar/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/europiapark/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/neotown/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/fragrance/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/trinitynxresidential/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/amaatrahomes/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/about</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/contact</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/priceList</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/specification</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/floorPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/sitePlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/paymentPlan</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/locationMap</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/siteVisit</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/delhiLZone/ddaNews.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/about.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/contact.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/priceList.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/specification.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/floorPlan.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/sitePlan.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/paymentPlan.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/locationMap.htm</loc>
+  </url>
+  <url>
+    <loc>http://www.bestnest.in/acecity/siteVisit.htm</loc>
+  </url>
 </urlset>
