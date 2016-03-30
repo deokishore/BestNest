@@ -68,6 +68,10 @@
         <put-attribute name="body" value="/protected/contact-us.jsp"/>
     </definition>
 
+    <!--  ContactUs Page -->
+    <definition name="thankYou" extends="master.page">
+        <put-attribute name="body" value="/protected/thank-you.jsp"/>
+    </definition>
 
 
     <!-- Delhi L Zone Start -->

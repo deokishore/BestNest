@@ -58,7 +58,7 @@ public class ContactUsController {
 		} else if(clientInformationForm.getSourceSite().contains("gaur")) {
 			mv = new ModelAndView("gaursons");
 		} else {
-			mv = new ModelAndView("thank-you", "contactUsForm", clientInformationForm);
+			mv = new ModelAndView("thankYou", "contactUsForm", clientInformationForm);
 		}
 			
 		return mv;
