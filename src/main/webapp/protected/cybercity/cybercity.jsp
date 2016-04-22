@@ -150,7 +150,7 @@ $('a > img').each(function(){
     <div class="slideBanner">
       <div id="coin-slider"> 
       	<a href="javascript:void(0);">
-        	<img src="http://images.bestnest.in/micro-site/cyber-city/slide-show/slide-show-1.jpg" alt="Buy Commercial Shops - Cyber City, Greater Noida West" /> 
+        	<img itemprop="image" src="http://images.bestnest.in/micro-site/cyber-city/slide-show/slide-show-1.jpg" alt="Buy Commercial Shops - Cyber City, Greater Noida West" />
         </a>
 	</div>
     </div>
@@ -176,7 +176,7 @@ $('a > img').each(function(){
       <article class="post">
       	<div class="lftbox">
         	<div class="rightContBox">
-            <h2 class="heading_2">Cyber City - Units Details</h2>
+            <h2 class="heading_2"><span itemprop="name"> Cyber City - Units Details</span></h2>
             <table class="tableUnitDetail" id="detail_table">
               <tbody>
                 <tr class="odd">
@@ -278,8 +278,8 @@ $('a > img').each(function(){
                          <div title="View property details" onclick="#" class="srpWrap">
 							<i class="pLatinum"></i>		
                         	<div class="wrapttl">
-								<div class="srpttl  wdthFix385 left">
-                                    <b><img src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">21.00 Lac</b>
+								<div class="srpttl  wdthFix385 left" itemscope itemtype="https://schema.org/Product">
+                                    <b><img itemprop="image" src="http://images.bestnest.in/micro-site/common/price-list.png" width="12" height="12">21.00 Lac</b>
                             		<a href="javascript:void(0);" title="Buy Commercial Shops in Greater Noida West" class="b">350 Sqft, Commercial Shops in Greater Noida West</a>
                         		</div>
                                	<a href="http://images.bestnest.in/rj-infraventures/rj-cyber-city/location-map-rj-cyber-city.jpg" class="fancybox" title="Location Map">
