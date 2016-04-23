@@ -250,52 +250,56 @@ public class BeanUtil {
 
 	}
 
-	public static void copyProject(Project project, ProjectForm projectForm)
-			throws IllegalAccessException, InvocationTargetException {
+	public static void copyProject(Project project, ProjectForm projectForm) throws Exception {
 		BeanUtils.copyProperties(projectForm, project);
-		
-		projectForm.setCompanyForm(new CompanyForm());
-		BeanUtils.copyProperties(projectForm.getCompanyForm(), project.getCompany());
-		
-		projectForm.setUserProfileForm(new UserProfileForm());
-		BeanUtils.copyProperties(projectForm.getUserProfileForm(), project.getUserProfileByUserProfileId());
-		
-		projectForm.setAddressForm(new AddressForm());
-		copyAdrress(projectForm.getAddressForm(), project.getAddress());
-		
-		projectForm.setPropertyTypeForm(new PropertyTypeForm());
-		copyPropertyTypeForm(projectForm.getPropertyTypeForm(), project.getPropertyType());
-		
-		
-		Set<ProjectDetailsForm> projectDetailsFormSet = new TreeSet<ProjectDetailsForm>(new ProjectDetailsFormComparator());
-		for (ProjectDetails projectDetails : project.getProjectDetailses()) {
-			ProjectDetailsForm projectDetailsForm = new ProjectDetailsForm();
-			copyProjectDetailsForm(projectDetailsForm, projectDetails);
-			projectDetailsFormSet.add(projectDetailsForm);
+		try {
+
+			projectForm.setCompanyForm(new CompanyForm());
+			BeanUtils.copyProperties(projectForm.getCompanyForm(), project.getCompany());
+
+			projectForm.setUserProfileForm(new UserProfileForm());
+			BeanUtils.copyProperties(projectForm.getUserProfileForm(), project.getUserProfileByUserProfileId());
+
+			projectForm.setAddressForm(new AddressForm());
+			copyAdrress(projectForm.getAddressForm(), project.getAddress());
+
+			projectForm.setPropertyTypeForm(new PropertyTypeForm());
+			copyPropertyTypeForm(projectForm.getPropertyTypeForm(), project.getPropertyType());
+
+
+			Set<ProjectDetailsForm> projectDetailsFormSet = new TreeSet<ProjectDetailsForm>(new ProjectDetailsFormComparator());
+			for (ProjectDetails projectDetails : project.getProjectDetailses()) {
+				ProjectDetailsForm projectDetailsForm = new ProjectDetailsForm();
+				copyProjectDetailsForm(projectDetailsForm, projectDetails);
+				projectDetailsFormSet.add(projectDetailsForm);
+			}
+
+			projectForm.setProjectDetailsFormSet(projectDetailsFormSet);
+
+			List<ProjectSimilarForm> projectSimilarFormSet = new ArrayList<ProjectSimilarForm>();
+			for (ProjectSimilar projectSimilar : project.getProjectSimilarsForProjectId()) {
+				ProjectSimilarForm projectSimilarForm = new ProjectSimilarForm();
+				copyProjectSimilarForm(projectSimilarForm, projectSimilar);
+				projectSimilarFormSet.add(projectSimilarForm);
+			}
+			projectForm.setProjectSimilarsForProjectIdForm(projectSimilarFormSet);
+
+			List<ProjectSimilarForm> projectSimilarsForProjectSimilarMappingIdFormSet = new ArrayList<ProjectSimilarForm>();
+			for (ProjectSimilar projectSimilar : project.getProjectSimilarsForProjectSimilarMappingId()) {
+				ProjectSimilarForm projectSimilarForm = new ProjectSimilarForm();
+				copyProjectSimilarForm(projectSimilarForm, projectSimilar);
+				projectSimilarsForProjectSimilarMappingIdFormSet.add(projectSimilarForm);
+			}
+			projectForm.setProjectSimilarsForProjectIdForm(projectSimilarsForProjectSimilarMappingIdFormSet);
+		} catch(Exception ex) {
+			System.out.println(ex);
+			throw new Exception(ex);
 		}
-		
-		projectForm.setProjectDetailsFormSet(projectDetailsFormSet);
-		
-		List<ProjectSimilarForm> projectSimilarFormSet = new ArrayList<ProjectSimilarForm>();
-		for (ProjectSimilar projectSimilar : project.getProjectSimilarsForProjectId()) {
-			ProjectSimilarForm projectSimilarForm = new ProjectSimilarForm();
-			copyProjectSimilarForm(projectSimilarForm, projectSimilar);
-			projectSimilarFormSet.add(projectSimilarForm);
-		}
-		projectForm.setProjectSimilarsForProjectIdForm(projectSimilarFormSet);
-		
-		List<ProjectSimilarForm> projectSimilarsForProjectSimilarMappingIdFormSet = new ArrayList<ProjectSimilarForm>();
-		for (ProjectSimilar projectSimilar : project.getProjectSimilarsForProjectSimilarMappingId()) {
-			ProjectSimilarForm projectSimilarForm = new ProjectSimilarForm();
-			copyProjectSimilarForm(projectSimilarForm, projectSimilar);
-			projectSimilarsForProjectSimilarMappingIdFormSet.add(projectSimilarForm);
-		}
-		projectForm.setProjectSimilarsForProjectIdForm(projectSimilarsForProjectSimilarMappingIdFormSet);
 	}
-	
+
 	private static void copyProjectSimilarForm(
 			ProjectSimilarForm projectSimilarForm, ProjectSimilar projectSimilar) {
-		
+
 		try {
 			BeanUtils.copyProperties(projectSimilarForm, projectSimilar);
 		} catch (Exception ex) {
@@ -333,8 +337,9 @@ public class BeanUtil {
 	@SuppressWarnings("unused")
 	public static void copyProjectDetailsForm(ProjectDetailsForm  projectDetailsForm,
 			ProjectDetails projectDetails)  {
-		
-		String str = NumberFormat.getNumberInstance(java.util.Locale.getDefault()).format(projectDetails.getPrice());
+
+		//System.out.println(" ********************   " + projectDetails.getProjectDetailsId());
+		//String str = NumberFormat.getNumberInstance(java.util.Locale.getDefault()).format(projectDetails.getPrice());
 		
 		try {
 			BeanUtils.copyProperties(projectDetailsForm, projectDetails);

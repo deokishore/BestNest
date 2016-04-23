@@ -36,7 +36,8 @@
 		<input id="cityName" name="cityForm.name" value="${projectSearchForm.cityForm.name}" type="hidden"/>
 		<input id="companyId"  name="companyForm.companyId" value="${projectSearchForm.companyForm.companyId}" type="hidden"/>
 		<input id="companyName" name="companyForm.companyName" value="${projectSearchForm.companyForm.companyName}" type="hidden"/>
-		<input id="propertyTypeId" name="propertyTypeId" value="${projectSearchForm.propertyTypeId}" type="hidden"/>		
+		<input id="propertyTypeId" name="propertyTypeId" value="${projectSearchForm.propertyTypeId}" type="hidden"/>
+				<input id="gridList" name="gridList" value="${projectSearchForm.gridList}" type="hidden"/>
 			
   		<div class="form-container" style="top:6px;">
         	<div class="form">
@@ -287,34 +288,45 @@
                         </h2>
                     </li>
                     <li>
-                       <!--
-                        <a href="${pageContext.request.contextPath}/projectSearchListPage.htm
-										?cityId=<%=request.getAttribute("cityId")%>
-										&companyId=<%=request.getAttribute("companyId")%>
-										&propertyType=<%=request.getAttribute("propertyType")%>
-										&cityName=<%=request.getAttribute("cityName")%>
-										&bedRoom=<%=request.getAttribute("bedRoom")%>
-										&minPrice=<%=request.getAttribute("minPrice")%>
-										&maxPrice=<%=request.getAttribute("maxPrice")%>">
-                            <img alt="List View" src="http://images.bestnest.in/list-icon1.png">
-                        </a>
-                        -->
 
-                        <a href="${pageContext.request.contextPath}/property-for-sale/project-list">
-                            <img alt="List View" src="http://images.bestnest.in/list-icon1.png">
-                        </a>
+                         <form:form  id="projectSearchForm" modelAttribute="projectSearchForm" action="/property-for-sale">
+                                <input id="minPrice" name="minPrice" value="${projectSearchForm.minPrice}" type="hidden"/>
+                                <input id="maxPrice" name="maxPrice" value="${projectSearchForm.maxPrice}" type="hidden"/>
+                                <input id="bedRoom" name="bedRoom"  value="${projectSearchForm.bedRoom}" type="hidden"/>
+                                <input id="possessionStatus" name="possessionStatus" value="${projectSearchForm.possessionStatus}" type="hidden"/>
+                                <input id="cityId" name="cityForm.cityId" value="${projectSearchForm.cityForm.cityId}" type="hidden"/>
+                                <input id="cityName" name="cityForm.name" value="${projectSearchForm.cityForm.name}" type="hidden"/>
+                                <input id="companyId"  name="companyForm.companyId" value="${projectSearchForm.companyForm.companyId}" type="hidden"/>
+                                <input id="companyName" name="companyForm.companyName" value="${projectSearchForm.companyForm.companyName}" type="hidden"/>
+                                <input id="propertyTypeId" name="propertyTypeId" value="${projectSearchForm.propertyTypeId}" type="hidden"/>
+                                <input id="gridList" name="gridList" value="List" type="hidden"/>
+
+                                <a href="#" onclick="$(this).closest('form').submit()">
+                                    <img alt="List View" src="http://images.bestnest.in/list-icon1.png">
+                                </a>
+                         </form:form>
+
                     </li>
                     <li>
-                        <a href="${pageContext.request.contextPath}/projectSearchGridPage.htm
-										?cityId=<%=request.getAttribute("cityId")%>
-										&companyId=<%=request.getAttribute("companyId")%>
-										&propertyType=<%=request.getAttribute("propertyType")%>
-										&cityName=<%=request.getAttribute("cityName")%>
-										&bedRoom=<%=request.getAttribute("bedRoom")%>
-										&minPrice=<%=request.getAttribute("minPrice")%>
-										&maxPrice=<%=request.getAttribute("maxPrice")%>" class="active">
-                            <img alt="Grid View" src="http://images.bestnest.in/grid-icon1.png">
-                        </a>
+
+                        <form:form  id="projectSearchForm" modelAttribute="projectSearchForm" action="/property-for-sale">
+
+                                <input id="minPrice" name="minPrice" value="${projectSearchForm.minPrice}" type="hidden"/>
+                                <input id="maxPrice" name="maxPrice" value="${projectSearchForm.maxPrice}" type="hidden"/>
+                                <input id="bedRoom" name="bedRoom"  value="${projectSearchForm.bedRoom}" type="hidden"/>
+                                <input id="possessionStatus" name="possessionStatus" value="${projectSearchForm.possessionStatus}" type="hidden"/>
+                                <input id="cityId" name="cityForm.cityId" value="${projectSearchForm.cityForm.cityId}" type="hidden"/>
+                                <input id="cityName" name="cityForm.name" value="${projectSearchForm.cityForm.name}" type="hidden"/>
+                                <input id="companyId"  name="companyForm.companyId" value="${projectSearchForm.companyForm.companyId}" type="hidden"/>
+                                <input id="companyName" name="companyForm.companyName" value="${projectSearchForm.companyForm.companyName}" type="hidden"/>
+                                <input id="propertyTypeId" name="propertyTypeId" value="${projectSearchForm.propertyTypeId}" type="hidden"/>
+                                <input id="gridList" name="gridList" value="Grid" type="hidden"/>
+
+                                <a href="#" onclick="$(this).closest('form').submit()" class="active">
+                                    <img alt="Grid View" src="http://images.bestnest.in/grid-icon1.png">
+                                </a>
+                        </form:form>
+
                     </li>
                     
                      <li>
@@ -462,26 +474,21 @@
 					</div>
 					
 					<div class="view-details view-link">
-					    <!--
-						<a href="/property-for-sale?projectId=${varProjectForm.projectId}
-										&projectDetailsId=${varProjectDetailsForm.projectDetailsId}
-										&cityId=<%=request.getAttribute("cityId")%>
-										&companyId=<%=request.getAttribute("companyId")%>
-										&propertyType=<%=request.getAttribute("propertyType")%>
-										&cityName=<%=request.getAttribute("cityName")%>
-										&bedRoom=<%=request.getAttribute("bedRoom")%>
-										&minPrice=<%=request.getAttribute("minPrice")%>
-										&maxPrice=<%=request.getAttribute("maxPrice")%>
-										&gridList=projectSearchGridPage.htm">
-							View Details <img src="http://images.bestnest.in/view-icon-png.png" alt="Details"
-							border="0" align="absmiddle" />
-						</a>
-						-->
+					     <form:form  id="projectSearchForm" modelAttribute="projectSearchForm" action="/property-for-sale/${varProjectForm.url}/">
+                            <input id="minPrice" name="minPrice" value="${projectSearchForm.minPrice}" type="hidden"/>
+                            <input id="maxPrice" name="maxPrice" value="${projectSearchForm.maxPrice}" type="hidden"/>
+                            <input id="bedRoom" name="bedRoom"  value="${projectSearchForm.bedRoom}" type="hidden"/>
+                            <input id="possessionStatus" name="possessionStatus" value="${projectSearchForm.possessionStatus}" type="hidden"/>
+                            <input id="cityId" name="cityForm.cityId" value="${projectSearchForm.cityForm.cityId}" type="hidden"/>
+                            <input id="cityName" name="cityForm.name" value="${projectSearchForm.cityForm.name}" type="hidden"/>
+                            <input id="companyId"  name="companyForm.companyId" value="${projectSearchForm.companyForm.companyId}" type="hidden"/>
+                            <input id="companyName" name="companyForm.companyName" value="${projectSearchForm.companyForm.companyName}" type="hidden"/>
+                            <input id="propertyTypeId" name="propertyTypeId" value="${projectSearchForm.propertyTypeId}" type="hidden"/>
+                            <input id="gridList" name="gridList" value="Grid" type="hidden"/>
 
-						<a href="/property-for-sale/${varProjectForm.url}/">
-                            View Details <img src="http://images.bestnest.in/view-icon-png.png" alt="Details"
-                            border="0" align="absmiddle" />
-                        </a>
+                            <a href="#" onclick="$(this).closest('form').submit()">View Details</a>
+                         </form:form>
+
 						<div class="clear"></div>
 					</div>
 					

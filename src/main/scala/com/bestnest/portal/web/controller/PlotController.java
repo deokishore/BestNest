@@ -6,6 +6,7 @@ import com.bestnest.portal.web.form.ProjectSearchForm;
 import com.bestnest.service.ProjectSearchService;
 import com.bestnest.util.Commercial;
 import com.bestnest.util.Constant;
+import com.bestnest.util.Residential;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -36,7 +37,13 @@ public class PlotController {
                                            HttpServletRequest request) {
 
         LOGGER.info("Plot Controller called :");
-        List<ProjectForm> projectFormList = new ArrayList<>();
+
+        LOGGER.info("Residential Controller called :" );
+        projectSearchForm.setPropertyTypeId("Plot");
+        List<ProjectForm> projectFormList = null;
+        CityForm cityForm = new CityForm();
+        projectSearchForm.setCityForm(cityForm);
+        projectFormList = projectSearchService.searchProjects(projectSearchForm);
         projectSearchForm.setProjectFormList(projectFormList);
         request.setAttribute("totalProjects", projectFormList.size());
         request.setAttribute("gridList", request.getParameter("gridList"));

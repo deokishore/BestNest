@@ -99,6 +99,7 @@
           <input id="maxPrice" name="maxPrice" type="hidden"/>
           <input id="bedRoom" name="bedRoom" type="hidden"/>
           <input id="propertyTypeId" name="propertyTypeId" type="hidden"/>
+          <input id="gridList" name="gridList" value="Grid" type="hidden"/>
           
     
       <div class="form-container">

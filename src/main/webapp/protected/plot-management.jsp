@@ -615,13 +615,14 @@ $(window).load(function() {
                                                         <tr valign="middle">
                                                         	<td valign="top" align="left" style="padding-left: 4px;                                                            padding-top: 4px; border-right:1px solid #ccc;">
                                     							<select onchange="chngFreqValue('Silver_h_stdfreq','Silver_freq',document.Silver_form.Silver_scheck,document.Silver_form.Silver_acheck,'inrSilver_stdcost_h','inrSilver_curcost_h','usdSilver','inrSilverlbl',61.45,'disctPctSilver','decutPCTSilver')" id="Silver_freq" name="Silver_freq" class="dropdown" data-settings='{"wrapperClass":"metro"}'>
-                                                            <option value="1">One Time in a Year</option>
-                                                            <option value="2">Two Times in a Year</option>
-                                                            <option value="3">Three Times in a Year</option>
-                                                            <option value="4" selected="selected">Four Times in a Year</option>
-                                                            <option value="6">Six Times in a Year</option>
-                                                            <option value="12">Twelve Times in a Year</option>
-                                                            </select>
+                                                            		<option value="1">One Time in a Year</option>
+                                                            		<option value="2">Two Times in a Year</option>
+                                                            		<option value="3">Three Times in a Year</option>
+                                                            		<option value="4" selected="selected">Four Times in a Year</option>
+                                                            		<option value="6">Six Times in a Year</option>
+                                                            		<option value="12">Twelve Times in a Year</option>
+                                                            	</select>
+
                                     						<!-- HIDDEN VARIABLE --> 
                                     						<input type="hidden" value="4" name="Silver_h_stdfreq" id=                                                           "Silver_h_stdfreq"> 																					                                   							<!-- HIDDEN VARIABLE -->
                                                             <div align="left" id="discount" style="margin-top:42px">

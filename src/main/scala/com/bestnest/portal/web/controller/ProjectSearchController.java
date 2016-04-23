@@ -66,6 +66,7 @@ public class ProjectSearchController {
 		request.setAttribute("bedRoom", projectSearchForm.getBedRoom());
 		request.setAttribute("minPrice", projectSearchForm.getMinPrice() == null ? 0 : projectSearchForm.getMinPrice());
 		request.setAttribute("maxPrice", projectSearchForm.getMaxPrice() == null ? 0 : projectSearchForm.getMaxPrice());
+		request.setAttribute("gridList", projectSearchForm.getGridList() == null ? "Grid" : projectSearchForm.getGridList());
 		
 		List<ProjectForm> projectFormList = null; 
 				
@@ -82,8 +83,14 @@ public class ProjectSearchController {
 		
 		request.setAttribute("startIndex", 0);
 		request.setAttribute("endIndex", 10);
-		
-		ModelAndView mv = new ModelAndView("projectGridSort","projectSearchForm",projectSearchForm);
+
+		ModelAndView mv = null;
+		if(projectSearchForm.getGridList() == null || projectSearchForm.getGridList().trim().equals("") || projectSearchForm.getGridList().equals("Grid") ){
+			mv = new ModelAndView("projectGridSort","projectSearchForm",projectSearchForm);
+		} else {
+			mv = new ModelAndView("projectListingSort","projectSearchForm",projectSearchForm);
+		}
+
 		return mv;
 	}
 
@@ -117,6 +124,7 @@ public class ProjectSearchController {
 		request.setAttribute("bedRoom", request.getParameter("bedRoom") == null ? 0 : request.getParameter("bedRoom"));
 		request.setAttribute("minPrice", request.getParameter("minPrice") == null ? 0 : request.getParameter("minPrice"));
 		request.setAttribute("maxPrice", request.getParameter("maxPrice") == null ? 0 : request.getParameter("maxPrice"));
+		request.setAttribute("gridList", projectSearchForm.getGridList() == null ? "Grid" : projectSearchForm.getGridList());
 		request.setAttribute("totalProjects", projectFormList.size());
 		
 		projectSearchForm.setProjectFormList(projectFormList);
@@ -155,6 +163,7 @@ public class ProjectSearchController {
 		request.setAttribute("bedRoom", request.getParameter("bedRoom") == null ? 0 : request.getParameter("bedRoom"));
 		request.setAttribute("minPrice", request.getParameter("minPrice") == null ? 0 : request.getParameter("minPrice"));
 		request.setAttribute("maxPrice", request.getParameter("maxPrice") == null ? 0 : request.getParameter("maxPrice"));
+		request.setAttribute("gridList", projectSearchForm.getGridList() == null ? "Grid" : projectSearchForm.getGridList());
 		request.setAttribute("totalProjects", projectFormList.size());
 		
 		
@@ -164,7 +173,7 @@ public class ProjectSearchController {
 		return mv;
 	}
 
-	@RequestMapping(value="{projectURL}/*", method=RequestMethod.GET)
+	@RequestMapping(value="{projectURL}/*", method=RequestMethod.POST)
 	public ModelAndView projectDetail(@PathVariable("projectURL") String projectURL,
 									  @ModelAttribute("projectSearchForm") ProjectSearchForm projectSearchForm,
 									  BindingResult result, final Model model, HttpServletRequest request) {
@@ -185,7 +194,7 @@ public class ProjectSearchController {
 		request.setAttribute("bedRoom", request.getParameter("bedRoom") == null ? 0 : request.getParameter("bedRoom"));
 		request.setAttribute("minPrice", request.getParameter("minPrice") == null ? 0 : request.getParameter("minPrice"));
 		request.setAttribute("maxPrice", request.getParameter("maxPrice") == null ? 0 : request.getParameter("maxPrice"));
-		request.setAttribute("gridList", request.getParameter("gridList"));
+		request.setAttribute("gridList", projectSearchForm.getGridList() == null ? "Grid" : projectSearchForm.getGridList());
 
 		model.addAttribute("clientInformationForm", new ClientInformationForm());
 

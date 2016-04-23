@@ -12,6 +12,8 @@ public class ProjectSearchForm {
 	private String minPrice;
 	private String maxPrice;
 	private int bedRoom;
+	private String gridList;
+
 	private List<ProjectForm> focusedProjectList;
 	
 	private int minPriceInt;
@@ -105,6 +107,14 @@ public class ProjectSearchForm {
 
 	public void setFocusedProjectList(List<ProjectForm> focusedProjectList) {
 		this.focusedProjectList = focusedProjectList;
+	}
+
+	public String getGridList() {
+		return gridList;
+	}
+
+	public void setGridList(String gridList) {
+		this.gridList = gridList;
 	}
 
 	public String getPossessionStatus() {

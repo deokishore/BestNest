@@ -421,8 +421,11 @@ public class ProjectSearchService {
 						if (projectDetails.getBedRooms() >= bedRoom) {
 							tmpProjectList2.add(projectForm);
 							break;
+						} else {
+							System.out.println(" " + projectForm.getProjectId());
 						}
 					}
+
 			}
 			return filterPrice(projectSearchForm, tmpProjectList2);
 
@@ -499,7 +502,7 @@ public class ProjectSearchService {
 		
 		for (ProjectForm projectForm : prjFormList) {
 			if (projectForm.getPropertyTypeForm().getPropertyTypeId() != null 
-					&& projectForm.getPropertyTypeForm().getPropertyTypeId().trim().equals(propertyTypeId)) {
+					&& projectForm.getPropertyTypeForm().getPropertyTypeId().trim().equals(propertyTypeId.trim())) {
 				tmpProjectList.add(projectForm);
 			}
 		}
