@@ -7,7 +7,7 @@
 		<div class="socialicn" style="float:left; width:120px;">
 		<div class="marginL10 marginT10" style="margin-bottom:10px;">
 			<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" data-pin-color="red" data-pin-height="28">
-				<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" alt=" pinterest Web Site Pin Button "/>
+				<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" alt="pinterest Web Site Pin Button"/>
 			</a>
 			<!-- Please call pinit.js only once per page -->
 			<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>

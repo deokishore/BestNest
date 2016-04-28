@@ -10,7 +10,7 @@
 <script src="/resources/js/bootstrap/bootstrap.min.js"></script>
 <script src="/resources/js/common.js"></script>
 
-
+<title>Real Estate Propery Blogs | BestNest Real Estate</title>
 
 <div id="header" class="navbar">
 	<nav class="navbar navbar-default navbar-static-top" role="navigation">

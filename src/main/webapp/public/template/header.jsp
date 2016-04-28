@@ -13,7 +13,7 @@
     <a class="toggleMenu" href="javascript:void(0);"><img src="http://images.bestnest.in/nav-icon.png" alt="Menu Items" border="0" /></a>
     <ul class="nav">
         <li><a href="/nriServices" class="deactive" title="NRI Services">NRI Services</a></li>
-        <li><a href="/posts" class="deactive" title="Contact Us">Blogger</a></li>
+        <li><a href="/posts" class="deactive" title="BestNest Blogs">Blogger</a></li>
         <li><a href="/delhiLZone" class="deactive" title="DDA L ZONE">DDA L Zone</a></li>
         <li><a href="/aboutUs" class="deactive" title="About Us">About Us</a></li>
         <li><a href="/contactUs" class="deactive" title="Contact Us">Contact Us</a></li>
