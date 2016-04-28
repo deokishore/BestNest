@@ -474,7 +474,7 @@
 					</div>
 					
 					<div class="view-details view-link">
-					     <form:form  id="projectSearchForm" modelAttribute="projectSearchForm" action="/property-for-sale/${varProjectForm.url}/">
+					     <form:form  method="get" id="projectSearchForm" modelAttribute="projectSearchForm" action="/property-for-sale/${varProjectForm.url}/">
                             <input id="minPrice" name="minPrice" value="${projectSearchForm.minPrice}" type="hidden"/>
                             <input id="maxPrice" name="maxPrice" value="${projectSearchForm.maxPrice}" type="hidden"/>
                             <input id="bedRoom" name="bedRoom"  value="${projectSearchForm.bedRoom}" type="hidden"/>

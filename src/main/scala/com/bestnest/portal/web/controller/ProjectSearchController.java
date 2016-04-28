@@ -173,7 +173,7 @@ public class ProjectSearchController {
 		return mv;
 	}
 
-	@RequestMapping(value="{projectURL}/*", method=RequestMethod.POST)
+	@RequestMapping(value="{projectURL}/*", method=RequestMethod.GET)
 	public ModelAndView projectDetail(@PathVariable("projectURL") String projectURL,
 									  @ModelAttribute("projectSearchForm") ProjectSearchForm projectSearchForm,
 									  BindingResult result, final Model model, HttpServletRequest request) {
