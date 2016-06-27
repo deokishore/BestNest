@@ -1259,7 +1259,8 @@
 
     <!-- NRI Services Start -->
     <definition name="nriServices" extends="master.page">
-        <put-attribute name="body" value="/protected/nri-services.jsp"/>
+        <put-attribute name="body" value="/protected/nriservice/nri-services.jsp"/>
+        <put-attribute name="footer" value=""/>
     </definition>
     <definition name="plotManagement" extends="master.page">
         <put-attribute name="body" value="/protected/plot-management.jsp"/>

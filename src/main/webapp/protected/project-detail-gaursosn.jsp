@@ -474,7 +474,7 @@ function nFormatter2(val) {
             </a> 
             <span>
                 <strong>Call Us:</strong> 
-                <a title="Call 91 9211170170 (IND)" href="tel:919211170170">91 9211170170</a>
+                <a title="Call 91 9631500252 (IND)" href="tel:919631500252">91 9631500252</a>
             </span>
             <span style="display: block; margin-left:34px;">
                 <strong>Email id:</strong> 

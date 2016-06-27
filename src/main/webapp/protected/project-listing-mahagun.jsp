@@ -706,7 +706,7 @@ function toggleDiv(divId) {
 				<div class="contactright">
 					<span style="display: block; margin-bottom: 5px;"> 
 						<img width="26" height="26" src="http://images.bestnest.in/micro-site/mahagun-group/phone_icon.png" alt="Call Us" style="vertical-align: middle"> 
-						<a title="Call BestNest Real Estate Services" style="font-size:22px!important;">+91-9211170170</a>
+						<a title="Call BestNest Real Estate Services" style="font-size:22px!important;">+91-9631500252</a>
 					</span> 
 					<span style="display: block; margin-top: 5px;"> 
 						<img width="26" height="26" src="http://images.bestnest.in/micro-site/mahagun-group/message-icon.png" alt="Email Us" style="vertical-align: middle">
@@ -907,7 +907,7 @@ function toggleDiv(divId) {
 		<div id="showtext" style="display: block; color: #ff0000"
 			class="calbg">
 			<div id="more">
-				<div style="color: rgb(255, 255, 255);" class="calbgpd">+91-9211170170</div>
+				<div style="color: rgb(255, 255, 255);" class="calbgpd">+91-9631500252</div>
 			</div>
 			<br>
 		</div>

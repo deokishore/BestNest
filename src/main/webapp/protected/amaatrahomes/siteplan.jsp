@@ -11,7 +11,7 @@
 <!-- Meta Keywords for Indexing -->
 <meta name="keywords" content="amaatra homes site plan,amaatra group projects,amaatra noida extension,amaatra homes residential project site plan,amaatra homes noida extension,site plan of 2/3 bhk flat,amaatra homes greater noida west, BestNest Real Estate, bestnest.in">
 <!-- End Meta Keywords for Indexing -->
-<meta name="Description" content="Get here details about amaatra homes site plan. For best deal call to our experts @ 9211170170 or fill up the enquiry form.">
+<meta name="Description" content="Get here details about amaatra homes site plan. For best deal call to our experts @ 9631500252 or fill up the enquiry form.">
 <!--Meta Robot.txt reference for Indexing -->
 <meta name="robots" content="index,follow" />
 <!--End Meta Robot.txt for Indexing -->
@@ -100,7 +100,7 @@ $('a > img').each(function(){
 				<p>
 					<span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
 				    <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png"> 
-				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9211170170 (IND)</span>
+				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9631500252 (IND)</span>
 				</p>
 				<p class="contactno" style="margin-top:5px; margin-left:47%">
 					<img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">

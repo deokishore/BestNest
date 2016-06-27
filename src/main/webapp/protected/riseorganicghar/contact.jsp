@@ -11,7 +11,7 @@
 <!-- Meta Keywords for Indexing -->
 <meta name="keywords" content="Rise Organic Ghar, Contact Rise Organic Ghar, 2bhk flat in NH-24 Ghaziabad,BestNest Real Estate"/>
 <!-- End Meta Keywords for Indexing -->
-<meta name="description" content="BESTNEST REAL ESTATE SERVICES PVT. LTD., D-77, Ground Floor, Sector 63, Noida,Call Us: +91-9211170170, 91 8800491841"/>
+<meta name="description" content="BESTNEST REAL ESTATE SERVICES PVT. LTD., D-77, Ground Floor, Sector 63, Noida,Call Us: +91-9631500252, 91 "/>
 <!--Meta Robot.txt reference for Indexing -->
 <meta name="robots" content="index,follow" />
 <!--End Meta Robot.txt for Indexing -->
@@ -100,7 +100,7 @@ $('a > img').each(function(){
 				<p>
 					<span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
 				    <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png"> 
-				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9211170170 (IND)</span>
+				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9631500252 (IND)</span>
 				</p>
 				<p class="contactno" style="margin-top:5px; margin-left:47%">
 					<img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">
@@ -189,7 +189,7 @@ $('a > img').each(function(){
                 <div class="padding10">
                 	<h4>BESTNEST REAL ESTATE SERVICES PVT. LTD.</h4>
                 	<p>D-77, Ground Floor, Sector 63, Noida</p>
-                	<p>Call Us: +91-9211170170(IND), +44 7561420709(UK)</p>
+                	<p>Call Us: +91-9631500252(IND), +44 7561420709(UK)</p>
                 </div>
             </div>
             <div class="contact-form">

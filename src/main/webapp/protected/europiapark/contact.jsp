@@ -11,7 +11,7 @@
 <!-- Meta Keywords for Indexing -->
 <meta name="keywords" content="Contact europia park, Contact europia homes projects,Contact europia park dwarka l zone,europia park residential project,europia park dwarka l zone, 2/3 bhk aparments in dwarka,Contact for 2/3 bhk at affordable price,Contact europia park dwarka l zone,BestNest Real Estate, bestnest.in"/>
 <!-- End Meta Keywords for Indexing -->
-<meta name="description" content="For any query regarding europia park please contact our number +919211170170, or mail US on our mail ID query@bestnest.in."/>
+<meta name="description" content="For any query regarding europia park please contact our number +919631500252, or mail US on our mail ID query@bestnest.in."/>
 <!--Meta Robot.txt reference for Indexing -->
 <meta name="robots" content="index,follow" />
 <!--End Meta Robot.txt for Indexing -->
@@ -100,7 +100,7 @@ $('a > img').each(function(){
 				<p>
 					<span class="contheading" style="font-size:18px; margin-top:10px;">For Booking &amp; More Details</span>
 				    <img width="32" height="32" alt="Call Us" style="vertical-align:middle" src="http://images.bestnest.in/micro-site/common/phone-icon.png"> 
-				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9211170170 (IND)</span>
+				    <span class="txtno" style="font-family:HelveticaNeueLTStd-Md; font-size:26px;">91 9631500252 (IND)</span>
 				</p>
 				<p class="contactno" style="margin-top:5px; margin-left:47%">
 					<img width="32" height="32" src="http://images.bestnest.in/micro-site/common/phone-icon.png" style="vertical-align:middle" alt="Call Us">
@@ -188,7 +188,7 @@ $('a > img').each(function(){
                 <div class="padding10">
                 	<h4>BESTNEST REAL ESTATE SERVICES PVT. LTD.</h4>
                 	<p>D-77, Ground Floor, Sector 63, Noida</p>
-                	<p>Call Us: +91-9211170170, 91 8800491841</p>
+                	<p>Call Us: +91-9631500252, 91 </p>
                 </div>
             </div>
             <div class="contact-form">

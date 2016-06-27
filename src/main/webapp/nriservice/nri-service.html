@@ -42,15 +42,6 @@
          </section>
 
 
-          <div ng-controller="CustomInputDemoCtrl as ctrl" layout="column" ng-cloak="" class="ex1" ng-app="MyApp">
-              <md-autocomplete md-selected-item="ctrl.selectedItem" md-search-text="ctrl.searchText"
-                                md-items="item in ctrl.querySearch(ctrl.searchText)"
-                                    md-item-text="item.name" placeholder="Search for a city">
-                  <span md-highlight-text="ctrl.searchText">{{item.name}} :: {{item.type}}</span>
-              </md-autocomplete>
-          </div>
-
-
           <div class="overview-layout-wrapper" id="vue_app">
 
 
@@ -190,8 +181,7 @@
                                  </div>
                                  <div class="plan-details-row">
                                     <div class="plan-detail-block">
-                                       <span class="caption">Package Discount </span>
-                                       <span class="threshold contacts">20%</span>
+                                       <rzslider rz-slider-model="slider_visible_bar.value" rz-slider-options="slider_visible_bar.options"></rzslider>
                                     </div>
 
                                     <div class="plan-detail-block">
@@ -328,72 +318,83 @@
                <p class="text-center">Need more options? Add-ons are available. Call <a href="tel:00919899890016">+91&nbsp;989&nbsp;989&nbsp;0006</a> for details.</p>
             </section>
 
-            <section class="total-form-container">
-               <div class="section-number-wrapper">
-                  <p class="section-number">Step 3</p>
-                  <h2>Request a quote</h2>
-               </div>
-               <div class="row">
-                  <div class="large-11 columns small-centered">
-                     <div class="quote-details-wrapper">
-                        <div class="plan-details-container">
-                           <div class="hdr-row">
-                              <p>{{ product_name }} plan</p>
-                              <p>{{ product_price }}/<span class="occurrence">month</span></p>
-                           </div>
-                           <div class="threshold-list">
-                              <p class="detail">Contacts: <span>{{ product_contacts }}</span></p>
-                              <p class="detail">Emails/month: <span>{{ product_emails }}</span></p>
-                              <p class="detail">Users: <span>{{ product_users }}</span></p>
-                           </div>
-                        </div>
-                        <div class="kickstart-details-container">
-                           <p class="txt-small disclaimer">All plans require</p>
-                           <div class="hdr-row">
-                              <p>Kickstart {{ kickstart_name }} package</p>
-                              <p>{{ kickstart_price }}</p>
-                           </div>
-                           <p>One time fee</p>
-                        </div>
-                        <div class="total-details-container">
-                           <h2>Total initial payment</h2>
-                           <h3 class="total-amount">{{ quote_display_total }}</h3>
-                           <p>Includes one-time Kickstart fee plus first month's payment.</p>
-                        </div>
-                     </div>
-                     <div class="quote-form-wrapper">
-                        <div class="pricing-form-container">
-                           <p class="hdr first-form">Finished customizing your quote?</p>
-                           <p class="first-form">Nice! We'll send you your quote, and give you a call to talk through the details.</p>
-
-
-
-
-                            <div ng-app='myApp' class="container">
-                                <div class="field">
-                                    <label ng-show="betterField" class="show-hide">Name</label>
-                                    <input  type="text" class="form-control" ng-model="betterField" placeholder="name"/>
-                                </div>
+             <section class="total-form-container">
+                <div class="section-number-wrapper">
+                   <p class="section-number">Step 3</p>
+                   <h2>Request a quote</h2>
+                </div>
+                <div class="row">
+                   <div class="large-11 columns small-centered">
+                      <div class="quote-details-wrapper">
+                         <div class="plan-details-container">
+                            <div class="hdr-row">
+                               <p>{{ product_name }} plan</p>
+                               <p>{{ product_price }}/<span class="occurrence">month</span></p>
                             </div>
+                            <div class="threshold-list">
+                               <p class="detail">Contacts: <span>{{ product_contacts }}</span></p>
+                               <p class="detail">Emails/month: <span>{{ product_emails }}</span></p>
+                               <p class="detail">Users: <span>{{ product_users }}</span></p>
+                            </div>
+                         </div>
+                         <div class="kickstart-details-container">
+                            <p class="txt-small disclaimer">All plans require</p>
+                            <div class="hdr-row">
+                               <p>Kickstart {{ kickstart_name }} package</p>
+                               <p>{{ kickstart_price }}</p>
+                            </div>
+                            <p>One time fee</p>
+                         </div>
+                         <div class="total-details-container">
+                            <h2>Total initial payment</h2>
+                            <h3 class="total-amount">{{ quote_display_total }}</h3>
+                            <p>Includes one-time Kickstart fee plus first month's payment.</p>
+                         </div>
+                      </div>
+                      <div class="quote-form-wrapper">
+                         <div class="pricing-form-container">
+                            <p class="hdr first-form">Finished customizing your quote?</p>
+                            <p class="first-form">Nice! We'll send you your quote, and give you a call to talk through the details.</p>
+                            <div class="row contact-wrap">
+                               <div data-wow-delay="600ms" data-wow-duration="1000ms" class="col-md-8 col-sm-6 wow fadeInDown">
+                                  <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
 
-
-
+                                     <div class="form-group">
+                                        <button id="btnSubmit" type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Buy Now</button>
+                                     </div>
+                                  </form>
+                               </div>
+                               <div class="col-md-4 col-sm-6 wow fadeInDown">
+                                  <div class="widget" style="margin-bottom:30px;">
+                                     <h4>Call Us</h4>
+                                     <p>
+                                        Phone Number: +44 7561 420 709
+                                     </p>
+                                  </div>
+                                  <div class="widget">
+                                     <h4>Write to Us</h4>
+                                     <p>
+                                        Email: <a href="mailto:sales@scconline.com">sales@scconline.com</a><br>
+                                     </p>
+                                  </div>
+                               </div>
+                            </div><!--/.row-->
 
                             <div class="afterPricingSubmit" style="display:none;">
-                              <p class='hdr'>Thank you. Your quote is on the way!</p>
-                              <p>Would you like to send this quote to anyone else? Don't worry, we won't send them additional emails, just this quote.</p>
-                              <form id="mktoForm_1688" class="row"></form>
-                           </div>
-                           <div class="afterPricingSubmitBoss" style="display:none;">
-                              <p class="hdr">Thank you, again!</p>
-                              <p>Be sure to check out the additional services Infusionsoft has to offer.</p>
-                              <a href="training.html" class="btn-secondary">Training and Events</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+                               <p class='hdr'>Thank you. Your quote is on the way!</p>
+                               <p>Would you like to send this quote to anyone else? Don't worry, we won't send them additional emails, just this quote.</p>
+                               <form id="mktoForm_1688" class="row"></form>
+                            </div>
+                            <div class="afterPricingSubmitBoss" style="display:none;">
+                               <p class="hdr">Thank you, again!</p>
+                               <p>Be sure to check out the additional services Infusionsoft has to offer.</p>
+                               <a href="training.html" class="btn-secondary">Training and Events</a>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </section>
          </div>
          <section class="blue-contact-container bkgd-blue">
             <div class="row">
@@ -574,19 +575,19 @@
 
 
       <!-- Auto Complete -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
-      <link rel='stylesheet prefetch' href='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.0.8/angular-material.css'>
-      <link rel='stylesheet prefetch' href='https://material.angularjs.org/1.0.8/docs.css'>
-      <link rel="stylesheet" href="css/style.css">
+      <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">-->
+      <!--<link rel='stylesheet prefetch' href='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.0.8/angular-material.css'>-->
+      <!--<link rel='stylesheet prefetch' href='https://material.angularjs.org/1.0.8/docs.css'>-->
+      <!--<link rel="stylesheet" href="css/style.css">-->
 
-      <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js'></script>
-      <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js'></script>
-      <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js'></script>
-      <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js'></script>
-      <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js'></script>
-      <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js'></script>
-      <script src='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.0.8/angular-material.js'></script>
-      <script src="js/index.js"></script>
+      <!--<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js'></script>-->
+      <!--<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js'></script>-->
+      <!--<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js'></script>-->
+      <!--<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js'></script>-->
+      <!--<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js'></script>-->
+      <!--<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js'></script>-->
+      <!--<script src='https://cdn.gitcdn.link/cdn/angular/bower-material/v1.0.8/angular-material.js'></script>-->
+      <!--<script src="js/index.js"></script>-->
       <!-- Auto Complete End -->
 
    </body>
