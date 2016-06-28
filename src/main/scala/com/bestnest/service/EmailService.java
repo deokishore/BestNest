@@ -36,7 +36,7 @@ public class EmailService {
 	@Autowired
 	private TemplateEngine templateEngine;
 	
-	private static List<String> clientInfoList = Arrays.asList("deokishore@yahoo.com", "ankit.prajapati@bestnest.in");
+	private static List<String> clientInfoList = Arrays.asList("deokishore@yahoo.com", "surjit.dewan@bestnest.in");
 
 	/*
 	 * Send HTML mail (simple)

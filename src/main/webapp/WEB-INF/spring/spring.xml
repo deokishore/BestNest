@@ -17,20 +17,6 @@
     <context:component-scan base-package="com.bestnest.blogger" />
     <context:component-scan base-package="com.bestnest.repository" />
 
-    <context:component-scan base-package="com.bestnest.wschat.config" />
-    <context:component-scan base-package="com.bestnest.wschat.domain" />
-    <context:component-scan base-package="com.bestnest.wschat.event" />
-    <context:component-scan base-package="com.bestnest.wschat.exception" />
-    <context:component-scan base-package="com.bestnest.wschat.util" />
-    <context:component-scan base-package="com.bestnest.wschat.org.springframework.boot.actuate.autoconfigure" />
-    <context:component-scan base-package="com.bestnest.wschat.org.springframework.boot.actuate.endpoint" />
-    <context:component-scan base-package="com.bestnest.wschat.org.springframework.boot.actuate.trace" />
-
-
-
-
-
-
 
     <!-- SpringMVC -->
     <import resource="spring-mvc.xml"/>

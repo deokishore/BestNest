@@ -32,8 +32,7 @@ public class LoginController {
 
 	
 	private static final String[] userArray = new String[] {
-			"deo.kishore@bestnest.in", "birendra.kumar@bestnest.com",
-			"ankit.prajapati@bestnest.in" };
+			"deo.kishore@bestnest.in","surjit.dewan@bestnest.in" };
 			
 	@RequestMapping(value = "/authenticate", method = RequestMethod.POST)
 	public ModelAndView authenticate(
@@ -67,13 +66,13 @@ public class LoginController {
 				return mv;
 			}
 
-			if (loginForm.getUserId().equals("ankit.prajapati@bestnest.in")
-					&& loginForm.getPassword().equals("bestNest2016")) {
-				ModelAndView mv = new ModelAndView("admin");
-				session.setAttribute("login", "success");
-				session.setAttribute("user", "ankit.prajapati@bestnest.in");
-				return mv;
-			}
+//			if (loginForm.getUserId().equals("ankit.prajapati@bestnest.in")
+//					&& loginForm.getPassword().equals("bestNest2016")) {
+//				ModelAndView mv = new ModelAndView("admin");
+//				session.setAttribute("login", "success");
+//				session.setAttribute("user", "ankit.prajapati@bestnest.in");
+//				return mv;
+//			}
 		}
 		
 		session.setAttribute("login", "fail");
